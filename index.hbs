@@ -1,0 +1,16 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div class="section no-pad-bot" id="tag-banner" class="{{post_class}}" >
+  <div class="container" >
+    <div class="row">
+      <div class="col s9">
+        {{> "loop"}}
+  	    {{pagination}}
+      </div>
+      <div class="col s3">
+        <a class="twitter-timeline" href="https://twitter.com/egee_irl" data-widget-id="695503001616658433">Tweets by @egee_irl</a>
+      </div>
+    </div>
+  </div>
+</div>
