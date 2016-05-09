@@ -418,13 +418,17 @@ define("egeeio/templates/contributors", ["exports"], function (exports) {
         dom.appendChild(el5, el6);
         var el6 = dom.createElement("h3");
         dom.setAttribute(el6, "class", "center-align");
-        var el7 = dom.createTextNode("The Linux Gamer");
+        var el7 = dom.createElement("a");
+        dom.setAttribute(el7, "href", "https://www.youtube.com/user/tuxreviews");
+        dom.setAttribute(el7, "class", "black-text");
+        var el8 = dom.createTextNode("The Linux Gamer");
+        dom.appendChild(el7, el8);
         dom.appendChild(el6, el7);
         dom.appendChild(el5, el6);
         var el6 = dom.createTextNode("\n          ");
         dom.appendChild(el5, el6);
         var el6 = dom.createElement("p");
-        var el7 = dom.createTextNode("\n            The Linux Gamer (TLG for short) runs a YouTube channel [link] dedicated to Linux gaming and humor. He's been a Linux user since nigh-on seven years and has participated in many open source communities since that time.\n          ");
+        var el7 = dom.createTextNode("\n            The Linux Gamer (TLG for short) runs a YouTube channel dedicated to Linux gaming and humor. He's been a Linux user since nigh-on seven years and has participated in many open source communities since that time.\n          ");
         dom.appendChild(el6, el7);
         dom.appendChild(el5, el6);
         var el6 = dom.createTextNode("\n          ");
@@ -532,7 +536,11 @@ define("egeeio/templates/contributors", ["exports"], function (exports) {
         dom.appendChild(el5, el6);
         var el6 = dom.createElement("h2");
         dom.setAttribute(el6, "class", "center-align");
-        var el7 = dom.createTextNode("GhostSquad57");
+        var el7 = dom.createElement("a");
+        dom.setAttribute(el7, "href", "https://www.youtube.com/user/GhostSquad57");
+        dom.setAttribute(el7, "class", "black-text");
+        var el8 = dom.createTextNode("GhostSquad57");
+        dom.appendChild(el7, el8);
         dom.appendChild(el6, el7);
         dom.appendChild(el5, el6);
         var el6 = dom.createTextNode("\n          ");
@@ -592,7 +600,11 @@ define("egeeio/templates/contributors", ["exports"], function (exports) {
         dom.appendChild(el5, el6);
         var el6 = dom.createElement("h3");
         dom.setAttribute(el6, "class", "center-align");
-        var el7 = dom.createTextNode("Egee");
+        var el7 = dom.createElement("a");
+        dom.setAttribute(el7, "href", "https://www.youtube.com/user/EtherealGaming1");
+        dom.setAttribute(el7, "class", "black-text");
+        var el8 = dom.createTextNode("Egee");
+        dom.appendChild(el7, el8);
         dom.appendChild(el6, el7);
         dom.appendChild(el5, el6);
         var el6 = dom.createTextNode("\n          ");
@@ -687,7 +699,7 @@ define("egeeio/templates/distros", ["exports"], function (exports) {
             "column": 0
           },
           "end": {
-            "line": 249,
+            "line": 246,
             "column": 0
           }
         },
@@ -898,12 +910,6 @@ define("egeeio/templates/distros", ["exports"], function (exports) {
         dom.appendChild(el5, el6);
         var el6 = dom.createElement("p");
         var el7 = dom.createTextNode("\n            Ubuntu, meaning ‘humanity towards others,’ is arguably the most popular and easy-to-use Linux distribution available today. The primary focus of Canonical (Ubuntu’s corporate sponsor) has been user friendliness with software utilities that take the hassle out of OS installation and package management.\n          ");
-        dom.appendChild(el6, el7);
-        dom.appendChild(el5, el6);
-        var el6 = dom.createTextNode("\n          ");
-        dom.appendChild(el5, el6);
-        var el6 = dom.createElement("p");
-        var el7 = dom.createTextNode("\n            Ubuntu features the Unity Desktop, which is ugly as sin and barely functional.\n          ");
         dom.appendChild(el6, el7);
         dom.appendChild(el5, el6);
         var el6 = dom.createTextNode("\n          ");
@@ -1782,7 +1788,7 @@ define("egeeio/templates/distros", ["exports"], function (exports) {
         dom.insertBoundary(fragment, 0);
         return morphs;
       },
-      statements: [["content", "parallax", ["loc", [null, [1, 0], [1, 12]]]], ["content", "outlet", ["loc", [null, [248, 0], [248, 10]]]]],
+      statements: [["content", "parallax", ["loc", [null, [1, 0], [1, 12]]]], ["content", "outlet", ["loc", [null, [245, 0], [245, 10]]]]],
       locals: [],
       templates: []
     };
@@ -2302,10 +2308,10 @@ define("egeeio/templates/footer", ["exports"], function (exports) {
         var el7 = dom.createTextNode(" atop an ");
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("a");
-        dom.setAttribute(el7, "class", "teal-text text-lighten-1");
-        dom.setAttribute(el7, "href", "https://www.opensuse.org/");
+        dom.setAttribute(el7, "class", "amber-text text-darken-4");
+        dom.setAttribute(el7, "href", "http://www.ubuntu.com/");
         var el8 = dom.createElement("b");
-        var el9 = dom.createTextNode("openSUSE Leap server");
+        var el9 = dom.createTextNode("Ubuntu 16.04 server");
         dom.appendChild(el8, el9);
         dom.appendChild(el7, el8);
         var el8 = dom.createTextNode(".");
@@ -3058,7 +3064,7 @@ define("egeeio/templates/index", ["exports"], function (exports) {
         var el7 = dom.createTextNode("\n            ");
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("p");
-        var el8 = dom.createTextNode("SteamOS is great for living room gaming. You can play your entire Steam library for the comfort of your couch. Think about it.");
+        var el8 = dom.createTextNode("SteamOS is great for living room gaming. You can play your entire Steam library for the comfort of your couch.");
         dom.appendChild(el7, el8);
         dom.appendChild(el6, el7);
         var el7 = dom.createTextNode("\n          ");
@@ -3091,7 +3097,7 @@ define("egeeio/templates/index", ["exports"], function (exports) {
         var el7 = dom.createTextNode("\n            ");
         dom.appendChild(el6, el7);
         var el7 = dom.createElement("p");
-        var el8 = dom.createTextNode("OpenSUSE is the community edition of SUSE Enterprise Linux. It's a bit more advanced and uses cutting edge administration tools like YaST and Zypper");
+        var el8 = dom.createTextNode("OpenSUSE is the community edition of SUSE Enterprise Linux. It's a bit more advanced and uses cutting edge administration tools like YaST and Zypper.");
         dom.appendChild(el7, el8);
         dom.appendChild(el6, el7);
         var el7 = dom.createTextNode("\n          ");
@@ -3180,7 +3186,7 @@ define("egeeio/templates/index", ["exports"], function (exports) {
         dom.appendChild(el5, el6);
         var el6 = dom.createElement("p");
         dom.setAttribute(el6, "class", "black-text");
-        var el7 = dom.createTextNode("\n            We actively maintain and moderate a few servers for games we play frequently. All game servers are hosted on a physical machine running openSUSE Leap 42.1 with a gigabit connection.\n          ");
+        var el7 = dom.createTextNode("\n            We actively maintain and moderate a few servers for games we play frequently. All game servers are hosted on a physical machine running Ubuntu 16.04 with a gigabit ethernet connection.\n          ");
         dom.appendChild(el6, el7);
         dom.appendChild(el5, el6);
         var el6 = dom.createTextNode("\n          ");
@@ -3393,7 +3399,7 @@ define("egeeio/templates/servers", ["exports"], function (exports) {
             "column": 0
           },
           "end": {
-            "line": 85,
+            "line": 88,
             "column": 0
           }
         },
@@ -3658,7 +3664,20 @@ define("egeeio/templates/servers", ["exports"], function (exports) {
         var el6 = dom.createTextNode("\n          ");
         dom.appendChild(el5, el6);
         var el6 = dom.createElement("p");
-        var el7 = dom.createTextNode("\n            Our Rust server is a vanilla server and can be found in the \"Community\" section of the server browser.\n          ");
+        var el7 = dom.createTextNode("\n            Our Rust server is a vanilla server and can be found in the \"Community\" section of the server browser and currently supports up to 10 players. It gets completely wiped (including BP's) roughly once a month.\n          ");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        var el6 = dom.createTextNode("\n          ");
+        dom.appendChild(el5, el6);
+        var el6 = dom.createElement("p");
+        var el7 = dom.createTextNode("\n            Expect to see Rust newbies on this server so don't expect any major PvP. You can view the game map ");
+        dom.appendChild(el6, el7);
+        var el7 = dom.createElement("a");
+        dom.setAttribute(el7, "href", "http://map.playrust.io/?Procedural%20Map_2400_985693974#Egee.io%20Rust%20Server%20%7C%20Powered%20By%20Ubuntu%2016.04%20(173.241.174.182%3A28015)");
+        var el8 = dom.createTextNode("here");
+        dom.appendChild(el7, el8);
+        dom.appendChild(el6, el7);
+        var el7 = dom.createTextNode(".\n          ");
         dom.appendChild(el6, el7);
         dom.appendChild(el5, el6);
         var el6 = dom.createTextNode("\n        ");
@@ -3718,7 +3737,7 @@ define("egeeio/templates/servers", ["exports"], function (exports) {
         dom.insertBoundary(fragment, 0);
         return morphs;
       },
-      statements: [["content", "parallax", ["loc", [null, [1, 0], [1, 12]]]], ["content", "outlet", ["loc", [null, [84, 0], [84, 10]]]]],
+      statements: [["content", "parallax", ["loc", [null, [1, 0], [1, 12]]]], ["content", "outlet", ["loc", [null, [87, 0], [87, 10]]]]],
       locals: [],
       templates: []
     };
@@ -3756,7 +3775,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("egeeio/app")["default"].create({"name":"egeeio","version":"0.0.0+3338be56"});
+  require("egeeio/app")["default"].create({"name":"egeeio","version":"0.0.0+de9eb091"});
 }
 
 /* jshint ignore:end */
