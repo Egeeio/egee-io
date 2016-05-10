@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('faq');
   this.route('distros');
   this.route('contributors');
+  this.route('not-found', { path: '/*path' });
 });
 
 export default Router;
