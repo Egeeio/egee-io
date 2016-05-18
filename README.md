@@ -2,8 +2,11 @@
 
 This README outlines the details of collaborating on this Ember app.
 
+<<<<<<< HEAD
 A short introduction should really go here. We'll get around to it eventually.
 
+=======
+>>>>>>> f561932f153aaa1f612698b9b015005d209aa75a
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -24,7 +27,11 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember serve`
+<<<<<<< HEAD
 * Visit the site at [http://localhost:4200](http://localhost:4200).
+=======
+* Visit the app at [http://localhost:4200](http://localhost:4200).
+>>>>>>> f561932f153aaa1f612698b9b015005d209aa75a
 
 ### Code Generators
 
