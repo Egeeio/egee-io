@@ -54,3 +54,7 @@ a {
 a:hover {
     color: #3f51b5;
 }
+
+footer.page-footer { 
+  margin-top: 0px; 
+}
