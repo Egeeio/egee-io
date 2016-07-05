@@ -1,8 +1,9 @@
 {
   "name": "egeeio",
-  "version": "1.5",
+  "version": "1.0.3",
   "description": "Egeeio the website",
   "private": true,
+  "author": "Brian Warren <brian@egee.io>",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -12,11 +13,13 @@
     "start": "ember server",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egee-irl/egeeio"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "Brian Warren",
   "license": "GPL v3",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
