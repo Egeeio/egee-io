@@ -1,9 +1,5 @@
 # Egeeio
 
-This README outlines the details of pushing bug fixes to the Egee.io website.
-
-=======
-
 ## Prerequisites
 
 You'll need the following packages installed:
