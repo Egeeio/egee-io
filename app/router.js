@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('distros');
   this.route('contributors');
   this.route('not-found', { path: '/*path' });
+  this.route('discord');
 });
 
 export default Router;
