@@ -1,5 +1,3 @@
-/* jshint node: true */
-
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'egeeio',
@@ -8,14 +6,12 @@ module.exports = function(environment) {
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
-        // Here you can enable experimental features on an ember canary build
-        // e.g. 'with-controller': true
+        // This is for experimental EmberJS features that we will never use
       }
     },
 
     APP: {
-      // Here you can pass flags/options to your application instance
-      // when it is created
+      // Optional flags/options that we will never use
     },
     sassOptions: {
       includePaths: ['bower_components/materialize/sass']
@@ -31,11 +27,9 @@ module.exports = function(environment) {
   }
 
   if (environment === 'test') {
-    // Testem prefers this...
     ENV.baseURL = '/';
     ENV.locationType = 'none';
 
-    // keep test console output quieter
     ENV.APP.LOG_ACTIVE_GENERATION = false;
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 

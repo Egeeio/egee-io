@@ -1,4 +1,5 @@
-/*jshint node:true*/
+// Tests are broken until further notice. Sorry :(
+
 module.exports = {
   "framework": "qunit",
   "test_page": "tests/index.html?hidepassed",
