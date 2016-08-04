@@ -11,12 +11,8 @@ module.exports = function(environment) {
     },
 
     APP: {
-      // Optional flags/options that we will never use
-    },
-    sassOptions: {
-      includePaths: ['bower_components/materialize/sass']
     }
-  };
+  }
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
