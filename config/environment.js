@@ -4,19 +4,10 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
-    EmberENV: {
-      FEATURES: {
-        // This is for experimental EmberJS features that we will never use
-      }
-    },
-
     APP: {
-      // Optional flags/options that we will never use
-    },
-    sassOptions: {
-      includePaths: ['bower_components/materialize/sass']
+      // This has to be here otherwise Ember will violently explode
     }
-  };
+  }
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
@@ -27,18 +18,22 @@ module.exports = function(environment) {
   }
 
   if (environment === 'test') {
-    ENV.baseURL = '/';
-    ENV.locationType = 'none';
+    ENV.baseURL = '/'
+    ENV.locationType = 'none'
 
-    ENV.APP.LOG_ACTIVE_GENERATION = false;
-    ENV.APP.LOG_VIEW_LOOKUPS = false;
+    ENV.APP.LOG_ACTIVE_GENERATION = false
+    ENV.APP.LOG_VIEW_LOOKUPS = false
 
-    ENV.APP.rootElement = '#ember-testing';
+    ENV.APP.rootElement = '#ember-testing'
   }
 
   if (environment === 'production') {
-
+    // ENV.APP.LOG_RESOLVER = true;
+    // ENV.APP.LOG_ACTIVE_GENERATION = true;
+    // ENV.APP.LOG_TRANSITIONS = true;
+    // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
+    // ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
-  return ENV;
-};
+  return ENV
+}
