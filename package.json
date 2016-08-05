@@ -1,6 +1,6 @@
 {
   "name": "egeeio",
-  "version": "0.0.5",
+  "version": "1.0.4",
   "description": "Egeeio the website",
   "private": true,
   "author": "Brian Warren <brian@egee.io>",
@@ -23,26 +23,23 @@
   "license": "GPL v3",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
-    "ember-ajax": "^2.0.1",
-    "ember-cli": "2.6.2",
+    "ember-ajax": "0.7.1",
+    "ember-cli": "2.4.3",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-dependency-checker": "^1.2.0",
     "ember-cli-htmlbars": "^1.0.3",
     "ember-cli-htmlbars-inline-precompile": "^0.3.1",
     "ember-cli-inject-live-reload": "^1.4.0",
-    "ember-cli-jshint": "^1.0.0",
     "ember-cli-qunit": "^1.4.0",
-    "ember-cli-release": "^0.2.9",
-    "ember-cli-sass": "5.4.0",
+    "ember-cli-release": "0.2.8",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
-    "ember-data": "^2.6.0",
+    "ember-data": "^2.4.2",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
-    "ember-paper": "1.0.0-alpha.3",
     "ember-resolver": "^2.0.3",
-    "ember-welcome-page": "^1.0.1",
-    "loader.js": "^4.0.1"
+    "loader.js": "^4.0.1",
+    "ember-cli-sitemap": "0.0.3"
   }
 }
