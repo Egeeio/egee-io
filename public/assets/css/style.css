@@ -6,6 +6,17 @@
  * Made By MaterializeCSS.com
  */
 
+ .mdl-layout-centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.background-div {
+    background-image: url('http://i.imgur.com/K3bzioD.jpg');
+    width:200px;
+    height:100px;
+}
+
 img.responsive-img {
   display: block;
   margin-right: auto;
