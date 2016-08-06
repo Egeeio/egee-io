@@ -6,66 +6,27 @@
  * Made By MaterializeCSS.com
  */
 
+p.eg-padded {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
  .mdl-layout-centered {
   align-items: center;
   justify-content: center;
 }
 
+div.mdl-grid.eg-container {
+  padding: 150px;
+}
+
 .background-div {
     background-image: url('http://i.imgur.com/K3bzioD.jpg');
-    width:200px;
-    height:100px;
+    width: 200px;
+    height: 100px;
 }
 
-img.responsive-img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
- .parallax-container {
-   height: 300px;
- }
-
-.icon-block {
-  padding: 0 15px;
-}
-
-ul.pagination {
-    margin: 0px 0px 40px;
-    float: right;
-    text-align: right;
-    width: 100%;
-}
-
-h2.card-title {
-	margin: 1.024rem 0px 1.024rem;
-	line-height:30px;
-}
-
-.prettyprint {
-	background: #ececec;
-	display: block;
-	padding: 15px 0;
-}
-
-html {
-  font-family: Open Sans, sans-serif;
-}
-
-.fa-circle:before {
-    content: "\f111";
-    font-size: 30px;
-}
-
-a {
-    color: #1976d2;
-}
-
-a:hover {
-    color: #3f51b5;
-}
-
-footer.page-footer { 
-  margin-top: 0px;
+div.my-frame {
+  width:350px;
+  height:475px;
 }
