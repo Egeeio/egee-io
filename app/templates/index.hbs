@@ -1,11 +1,16 @@
-<div class="mdl-layout mdl-layout-centered background-div">
-  <h1>Welcome To Egee.io</h1><br>
-  <h3>Play Without Windows</h3>
-</div>
 
-{{partial "partials/index/about"}}
-{{partial "partials/index/games"}}
-{{partial "partials/index/why"}}
-{{!-- {{partial "partials/index/switch"}}--}}
+<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+  <div class="page-content">{{partial "partials/index/about"}}</div>
+</section>
+<section class="mdl-layout__tab-panel" id="fixed-tab-2">
+  <div class="page-content">{{partial "partials/index/games"}}</div>
+</section>
+<section class="mdl-layout__tab-panel" id="fixed-tab-3">
+  <div class="page-content">{{partial "partials/index/why"}}</div>
+</section>
+
+
+
+<!-- {{partial "partials/index/switch"}}-->
 
 {{outlet}}
