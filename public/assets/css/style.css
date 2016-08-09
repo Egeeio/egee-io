@@ -6,6 +6,29 @@
  * Made By MaterializeCSS.com
  */
 
+ div.card-square {
+  width: 320px;
+  height: 320px;
+ }
+
+ div.mdl-card__title-minecraft {
+  color: #fff;
+  height: 176px;
+  background: url('../images/servers/minecraft.jpg') center / cover;
+}
+
+div.mdl-card__title-rust {
+  color: #fff;
+  height: 176px;
+  background: url('../images/servers/rust.jpg') center / cover;
+}
+
+div.mdl-card__title-gmod {
+  color: #fff;
+  height: 176px;
+  background: url('../images/servers/garrys.jpg') center / cover;
+}
+
 p.eg-padded {
   padding-left: 300px;
   padding-right: 300px;
@@ -30,3 +53,15 @@ div.my-frame {
   width:350px;
   height:475px;
 }
+
+/*.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../assets/images/servers/rust.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}*/

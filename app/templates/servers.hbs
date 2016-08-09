@@ -1,15 +1,50 @@
-<div class="parallax-container z-depth-1">
-  <div class="parallax">
-    <img src="assets/images/parallax/comets.jpg">
+{{partial "topbar"}}
+
+<div class="mdl-grid mdl-layout-centered">
+  <div class="mdl-cell mdl-cell--3-col">
+    <div class="card-square mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title-minecraft">
+      </div>
+      <div class="mdl-card__supporting-text">
+        <b>Minecraft 1.10 Vanilla</b>
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          Join
+        </a>
+      </div>
+    </div>
   </div>
-  <div class="container center-align white-text">
-    <h1>Want to play with us?</h1><br>
-    <h3 class="hide-on-small-only">Here's are the servers we run</h3>
+
+  <div class="mdl-cell mdl-cell--3-col">
+    <div class="card-square mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title-rust">
+      </div>
+      <div class="mdl-card__supporting-text">
+        <b>Rust</b> 
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          Join
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mdl-cell mdl-cell--3-col">
+    <div class="card-square mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title-gmod">
+      </div>
+      <div class="mdl-card__supporting-text">
+         <b>Garry's Mod</b>
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          Join
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 
-{{partial "partials/servers/topbar"}}
-{{partial "partials/servers/rust"}}
-{{partial "partials/servers/garrys"}}
-{{partial "partials/servers/minecraft"}}
 {{outlet}}
