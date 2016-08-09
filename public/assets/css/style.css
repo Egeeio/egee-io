@@ -6,32 +6,29 @@
  * Made By MaterializeCSS.com
  */
 
- div.card-square {
-  width: 320px;
-  height: 320px;
- }
-
- div.mdl-card__title-minecraft {
-  color: #fff;
-  height: 176px;
+.card-image.mdl-card {
+  width: 256px;
+  height: 256px;
   background: url('../images/servers/minecraft.jpg') center / cover;
 }
-
-div.mdl-card__title-rust {
-  color: #fff;
-  height: 176px;
-  background: url('../images/servers/rust.jpg') center / cover;
+.card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
 }
-
-div.mdl-card__title-gmod {
+.card-image__subtitle {
   color: #fff;
-  height: 176px;
-  background: url('../images/servers/garrys.jpg') center / cover;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 p.eg-padded {
   padding-left: 300px;
   padding-right: 300px;
+}
+
+.mdl-cell-center {
+  margin: 0 auto;
 }
 
  .mdl-layout-centered {
@@ -54,14 +51,14 @@ div.my-frame {
   height:475px;
 }
 
-/*.demo-card-wide.mdl-card {
+/*.card-wide.mdl-card {
   width: 512px;
 }
-.demo-card-wide > .mdl-card__title {
+.card-wide > .mdl-card__title {
   color: #fff;
   height: 176px;
   background: url('../assets/images/servers/rust.jpg') center / cover;
 }
-.demo-card-wide > .mdl-card__menu {
+.card-wide > .mdl-card__menu {
   color: #fff;
 }*/
