@@ -116,14 +116,43 @@ div.my-frame {
   height:475px;
 }
 
-/*.card-wide.mdl-card {
-  width: 512px;
+/*General Theme Stuff*/
+
+.mdl-card__title-text {
+  position: absolute;
+  left: 16px;
+  top: 16px;
 }
-.card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url('../assets/images/servers/rust.jpg') center / cover;
+
+.mdl-card__supporting-text {
+  color: #d5d5d5;
 }
-.card-wide > .mdl-card__menu {
-  color: #fff;
-}*/
+
+.mdl-card {
+  background-color: #363636;
+}
+
+.logo {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+.mdl-mini-footer {
+  color: #d5d5d5;
+  background-color: #222227;
+}
+
+.mdl-layout__header {
+  color: #d5d5d5;
+  background-color: #222227;
+}
+
+.mdl-layout__tab-bar {
+  color: #d5d5d5;
+  background-color: #222227;
+}
+
+main {
+  color: #d5d5d5;
+  background-color: #363636;
+}
