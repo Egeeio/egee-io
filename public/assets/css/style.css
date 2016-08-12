@@ -1,8 +1,5 @@
 /* Egee.io Stylesheet */
 
-
-
-
 /* Server & Game Cards */
 .card-image.mdl-card {
   width: 256px;
@@ -25,31 +22,59 @@ div.terraria_256 {
   background: url('../images/servers/terraria_256.jpg') center / cover;
 }
 
-
-
-
-
 div.persona {
   width: 512px;  
 }
 
-div.persona > .mdl-card__title {
+div.persona > .rice {
   color: #fff;
   height: 512px;
-  background: url('https://pbs.twimg.com/profile_images/615653366484471808/_2GrXEcw.jpg') center / cover;
+  background: url('https://cloud.githubusercontent.com/assets/19158892/17631180/d687beb4-6077-11e6-9f04-1128d5ce8230.jpg') center / cover;
+}
+
+div.persona > .monkey {
+  color: #fff;
+  height: 512px;
+  background: url('https://cloud.githubusercontent.com/assets/8009284/17630349/ec46af5c-608c-11e6-8865-fd4297314760.png') center / cover;
+}
+
+div.persona > .ghostsquad57 {
+  color: #fff;
+  height: 512px;
+  background: url('https://pbs.twimg.com/profile_images/459119006633316352/zgFndFBY.jpeg') center / cover;
+}
+
+div.persona > .omegapex {
+  color: #fff;
+  height: 512px;
+  background: url('https://avatars3.githubusercontent.com/u/20981411?v=3&s=460') center / cover;
 }
 
 div.game {
   width: 720px;
-  height: 400px; /* I have no idea why this works */
+  /*height: 350px;  I have no idea why this works */
 }
 
 div.game > .mdl-card__title {
   color: #fff;
-  height: 215px;
-  background: url('../images/servers/garrys.jpg') center / cover;
+  height: 300px;
 }
 
+div.game > .minecraft {
+  background: url('../images/servers/minecraft_720.jpg') center / cover;
+}
+
+div.game > .gmod {
+  background: url('../images/servers/gmod_720.jpg') center / cover;
+}
+
+div.game > .rust {
+  background: url('../images/servers/rust_720.jpg') center / cover;
+}
+
+div.game > .terraria {
+  background: url('../images/servers/terraria_720.jpg') center / cover;
+}
 
 .card-image > .mdl-card__actions {
   height: 52px;
