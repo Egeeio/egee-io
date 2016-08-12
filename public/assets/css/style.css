@@ -13,18 +13,18 @@ div.persona {
 div.persona > .mdl-card__title {
   color: #fff;
   height: 512px;
-  background: url('https://pbs.twimg.com/profile_images/459119006633316352/zgFndFBY.jpeg') center / cover;
+  background: url('https://pbs.twimg.com/profile_images/615653366484471808/_2GrXEcw.jpg') center / cover;
 }
 
 div.game {
-  width: 600px;
+  width: 720px;
   height: 400px; /* I have no idea why this works */
 }
 
 div.game > .mdl-card__title {
   color: #fff;
   height: 215px;
-  background: url('../images/servers/rust_full.jpg') center / cover;
+  background: url('../images/servers/garrys.jpg') center / cover;
 }
 
 
