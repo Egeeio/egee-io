@@ -1,10 +1,33 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+/* Egee.io Stylesheet */
+
+
+
+
+/* Server & Game Cards */
+.card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+}
+
+div.gmod_256 {
+  background: url('../images/servers/gmod_256.jpg') center / cover;
+}
+
+div.minecraft_256 {
+  background: url('../images/servers/minecraft_256.jpg') center / cover;
+}
+
+div.rust_256 {
+  background: url('../images/servers/rust_256.jpg') center / cover;
+}
+
+div.terraria_256 {
+  background: url('../images/servers/terraria_256.jpg') center / cover;
+}
+
+
+
+
 
 div.persona {
   width: 512px;  
@@ -28,22 +51,6 @@ div.game > .mdl-card__title {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-.card-image.mdl-card {
-  width: 256px;
-  height: 256px;
-  background: url('../images/servers/minecraft.jpg') center / cover;
-}
 .card-image > .mdl-card__actions {
   height: 52px;
   padding: 16px;
