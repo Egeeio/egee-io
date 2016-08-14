@@ -1,6 +1,11 @@
 /* Egee.io Stylesheet */
 
-/* Server & Game Cards */
+/* Cards */
+
+.card-welcome {
+  width: 1080px;  
+}
+
 .card-image.mdl-card {
   width: 256px;
   height: 256px;
@@ -50,14 +55,24 @@ div.persona > .omegapex {
   background: url('../images/personas/omega.png') center / cover;
 }
 
+div.persona > .egee {
+  color: black;
+  height: 512px;
+  background: url('../images/personas/egee.png') center / cover;
+}
+
 div.game {
-  width: 720px;
+  width: 1080px;
   /*height: 350px;  I have no idea why this works */
 }
 
 div.game > .mdl-card__title {
   color: #fff;
   height: 300px;
+}
+
+div.game > .egee_game {
+  background: url('../images/servers/ps.jpg') center / cover;
 }
 
 div.game > .minecraft {
@@ -141,6 +156,10 @@ body {
   text-decoration: none;
 }
 
+.mdl-layout__header-row {
+  padding-left: 20px;
+}
+
 .mdl-mini-footer {
   color: #d5d5d5;
   background-color: #222227;
@@ -156,7 +175,41 @@ body {
   background-color: #222227;
 }
 
+.mdl-card__title-text {
+  color: #d5d5d5;
+}
+
 main {
   color: #d5d5d5;
   background-color: #363636;
+}
+
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+
+.marginless-top {
+    margin-top: 0px;
+}
+
+.marginless-bottom {
+    margin-bottom: 0px;
+}
+
+.lato_light {
+  font-family: "Lato Light", "sans-serif";
+}
+
+.lato_thin {
+  font-family: "Lato Thin", "sans-serif";
+}
+
+.center-text {
+  text-align: center;
+}
+
+.card-annoucement {
+
+  text-align: center;
 }
