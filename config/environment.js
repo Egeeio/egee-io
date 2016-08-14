@@ -1,13 +1,13 @@
-module.exports = function(environment) {
-  var ENV = {
+module.exports = function (environment) {
+  const ENV = {
     modulePrefix: 'egeeio',
-    environment: environment,
+    environment,
     baseURL: '/',
     locationType: 'auto',
     APP: {
       // This has to be here otherwise Ember will violently explode
-    }
-  }
+    },
+  };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
@@ -18,13 +18,13 @@ module.exports = function(environment) {
   }
 
   if (environment === 'test') {
-    ENV.baseURL = '/'
-    ENV.locationType = 'none'
+    ENV.baseURL = '/';
+    ENV.locationType = 'none';
 
-    ENV.APP.LOG_ACTIVE_GENERATION = false
-    ENV.APP.LOG_VIEW_LOOKUPS = false
+    ENV.APP.LOG_ACTIVE_GENERATION = false;
+    ENV.APP.LOG_VIEW_LOOKUPS = false;
 
-    ENV.APP.rootElement = '#ember-testing'
+    ENV.APP.rootElement = '#ember-testing';
   }
 
   if (environment === 'production') {
@@ -35,5 +35,5 @@ module.exports = function(environment) {
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
-  return ENV
-}
+  return ENV;
+};
