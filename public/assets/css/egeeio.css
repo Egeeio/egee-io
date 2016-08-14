@@ -62,10 +62,7 @@ div.persona > .egee {
 }
 
 div.game {
-  /*max-width: 1080px;*/
   min-width: 328px;
-  /*height: auto;*/
-  /*width: 1080px;*/
 }
 
 div.game > .mdl-card__title {
