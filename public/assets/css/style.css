@@ -28,7 +28,8 @@ div.terraria_256 {
 }
 
 div.persona {
-  width: 512px;  
+  max-width: 512px;
+  min-width: 330px;
 }
 
 div.persona > .rice {
@@ -56,14 +57,15 @@ div.persona > .omegapex {
 }
 
 div.persona > .egee {
-  color: black;
   height: 512px;
   background: url('../images/personas/egee.png') center / cover;
 }
 
 div.game {
-  width: 1080px;
-  /*height: 350px;  I have no idea why this works */
+  /*max-width: 1080px;*/
+  min-width: 328px;
+  /*height: auto;*/
+  /*width: 1080px;*/
 }
 
 div.game > .mdl-card__title {
@@ -105,6 +107,10 @@ div.game > .terraria {
 p.eg-padded {
   padding-left: 300px;
   padding-right: 300px;
+}
+
+.card-link {
+  display: block;
 }
 
 .mdl-cell-center {
@@ -210,6 +216,5 @@ main {
 }
 
 .card-annoucement {
-
   text-align: center;
 }
