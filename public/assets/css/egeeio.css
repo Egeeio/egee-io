@@ -1,0 +1,225 @@
+/* Egee.io Stylesheet */
+
+/* Cards */
+
+.card-welcome {
+  width: 1080px;  
+}
+
+.card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+}
+
+div.gmod_256 {
+  background: url('../images/servers/gmod_256.jpg') center / cover;
+}
+
+div.minecraft_256 {
+  background: url('../images/servers/minecraft_256.jpg') center / cover;
+}
+
+div.rust_256 {
+  background: url('../images/servers/rust_256.jpg') center / cover;
+}
+
+div.terraria_256 {
+  background: url('../images/servers/terraria_256.jpg') center / cover;
+}
+
+div.persona {
+  max-width: 512px;
+  min-width: 330px;
+}
+
+div.persona > .rice {
+  color: #fff;
+  height: 512px;
+  background: url('../images/personas/rice.jpg') center / cover;
+}
+
+div.persona > .monkey {
+  color: #fff;
+  height: 512px;
+  background: url('../images/personas/monkey.png') center / cover;
+}
+
+div.persona > .ghostsquad57 {
+  color: #fff;
+  height: 512px;
+  background: url('../images/personas/ghost.jpeg') center / cover;
+}
+
+div.persona > .omegapex {
+  color: #fff;
+  height: 512px;
+  background: url('../images/personas/omega.png') center / cover;
+}
+
+div.persona > .egee {
+  height: 512px;
+  background: url('../images/personas/egee.png') center / cover;
+}
+
+div.game {
+  min-width: 328px;
+}
+
+div.game > .mdl-card__title {
+  color: #fff;
+  height: 300px;
+}
+
+div.game > .egee_game {
+  background: url('../images/servers/ps.jpg') center / cover;
+}
+
+div.game > .minecraft {
+  background: url('../images/servers/minecraft_720.jpg') center / cover;
+}
+
+div.game > .gmod {
+  background: url('../images/servers/gmod_720.jpg') center / cover;
+}
+
+div.game > .rust {
+  background: url('../images/servers/rust_720.jpg') center / cover;
+}
+
+div.game > .terraria {
+  background: url('../images/servers/terraria_720.jpg') center / cover;
+}
+
+.card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.card-image__subtitle {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+p.eg-padded {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.card-link {
+  display: block;
+}
+
+.mdl-cell-center {
+  margin: 0 auto;
+}
+
+ .mdl-layout-centered {
+  align-items: center;
+  justify-content: center;
+}
+
+div.mdl-grid.eg-container {
+  padding: 150px;
+}
+
+.background-div {
+    background-image: url('http://i.imgur.com/K3bzioD.jpg');
+    width: 200px;
+    height: 100px;
+}
+
+div.my-frame {
+  width:350px;
+  height:475px;
+}
+
+/*General Theme Stuff*/
+
+body {
+  font-family: "Lato", "sans-serif";
+}
+
+.mdl-card__title-text {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.mdl-card__supporting-text {
+  color: #d5d5d5;
+}
+
+.mdl-card {
+  background-color: #363636;
+}
+
+.logo {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+.mdl-layout__header-row {
+  padding-left: 20px;
+}
+
+.mdl-mini-footer {
+  color: #d5d5d5;
+  background-color: #222227;
+}
+
+.mdl-layout__header {
+  color: #d5d5d5;
+  background-color: #222227;
+}
+
+.mdl-layout__tab-bar {
+  color: #d5d5d5;
+  background-color: #222227;
+}
+
+.mdl-card__title-text {
+  color: #d5d5d5;
+}
+
+main {
+  color: #d5d5d5;
+  background-color: #363636;
+}
+
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+
+.marginless-top {
+    margin-top: 0px;
+}
+
+.marginless-bottom {
+    margin-bottom: 0px;
+}
+
+.lato_light {
+  font-family: "Lato Light", "sans-serif";
+}
+
+.lato_thin {
+  font-family: "Lato Thin", "sans-serif";
+}
+
+.lato_regular {
+  font-family: "Lato Regular", "sans-serif";
+}
+
+.center-text {
+  text-align: center;
+}
+
+.card-annoucement {
+  text-align: center;
+}
+
+.discord_margin {
+  margin-top: 36px;
+}

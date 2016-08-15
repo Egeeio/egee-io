@@ -1,11 +1,10 @@
 {
   "name": "egeeio",
-  "version": "1.0.4",
+  "version": "0.6.0",
   "description": "Egeeio the website",
   "private": true,
-  "author": "Brian Warren <brian@egee.io>",
+  "author": "Egee <brian@egee.io>",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -23,8 +22,7 @@
   "license": "GPL v3",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
-    "ember-ajax": "0.7.1",
-    "ember-cli": "2.4.3",
+    "ember-ajax": "0.7.1",    
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.6",
     "ember-cli-dependency-checker": "^1.2.0",
@@ -33,13 +31,23 @@
     "ember-cli-inject-live-reload": "^1.4.0",
     "ember-cli-qunit": "^1.4.0",
     "ember-cli-release": "0.2.8",
+    "ember-cli-sitemap": "0.0.3",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
     "ember-data": "^2.4.2",
     "ember-export-application-global": "^1.0.5",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.0.0",
+    "loader.js": "^4.0.1"
+  },
+  "dependencies": {
+    "ember": "^1.0.0-pre.2",
+    "ember-cli": "2.4.3",
     "ember-load-initializers": "^0.5.1",
-    "ember-resolver": "^2.0.3",
-    "loader.js": "^4.0.1",
-    "ember-cli-sitemap": "0.0.3"
+    "ember-qunit": "^0.4.20",
+    "ember-resolver": "^2.0.3"
   }
 }

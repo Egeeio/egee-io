@@ -1,17 +1,11 @@
-{{parallax}}
-<div class="parallax-container z-depth-1">
-  <div class="parallax">
-    <img src="assets/images/parallax/comets.jpg">
-  </div>
-  <div class="container center-align white-text">
-    <h1>Welcome To Egee.io</h1><br>
-    <h3>Play Without Windows</h3>
-  </div>
-</div>
-
-{{partial "partials/index/about"}}
-{{partial "partials/index/games"}}
-{{partial "partials/index/why"}}
-{{partial "partials/index/switch"}}
+<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+  <div class="page-content">{{partial "welcome"}}</div>
+</section>
+<section class="mdl-layout__tab-panel" id="fixed-tab-2">
+  <div class="page-content">{{partial "games"}}</div>
+</section>
+<section class="mdl-layout__tab-panel" id="fixed-tab-3">
+  <div class="page-content">{{partial "about"}}</div>
+</section>
 
 {{outlet}}

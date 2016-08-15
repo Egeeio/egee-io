@@ -2,16 +2,16 @@ import Ember from 'ember';
 import config from './config/environment';
 
 const Router = Ember.Router.extend({
-  location: config.locationType
+  location: config.locationType,
 });
 
-Router.map(function() {
-  this.route('servers');
-  this.route('faq');
-  this.route('distros');
-  this.route('contributors');
+Router.map(function () {
+  this.route('servers/minecraft', { path: '/minecraft' });
+  // this.route('minecraft');
+  this.route('servers/rust', { path: '/rust' });
+  this.route('servers/gmod', { path: '/gmod' });
+  this.route('servers/terraria', { path: '/terraria' });
   this.route('not-found', { path: '/*path' });
-  this.route('discord');
 });
 
 export default Router;
