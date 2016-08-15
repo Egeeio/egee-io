@@ -208,10 +208,18 @@ main {
   font-family: "Lato Thin", "sans-serif";
 }
 
+.lato_regular {
+  font-family: "Lato Regular", "sans-serif";
+}
+
 .center-text {
   text-align: center;
 }
 
 .card-annoucement {
   text-align: center;
+}
+
+.discord_margin {
+  margin-top: 36px;
 }
