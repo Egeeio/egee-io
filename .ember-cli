@@ -1,0 +1,5 @@
+{
+  "build": "production",
+  "port": 8080,
+  "live-reload": false
+}
