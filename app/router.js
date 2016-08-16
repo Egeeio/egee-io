@@ -7,10 +7,10 @@ const Router = Ember.Router.extend({
 
 Router.map(function () {
   this.route('servers/minecraft', { path: '/minecraft' });
-  // this.route('minecraft');
   this.route('servers/rust', { path: '/rust' });
   this.route('servers/gmod', { path: '/gmod' });
   this.route('servers/terraria', { path: '/terraria' });
+  this.route('bingo', { path: '/bingo' });
   this.route('not-found', { path: '/*path' });
 });
 
