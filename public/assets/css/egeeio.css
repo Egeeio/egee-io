@@ -134,6 +134,19 @@ div.my-frame {
   height:475px;
 }
 
+/*Egeeio Bingo*/
+.bingo_cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #2f2f2f;
+}
+
+.bingo_cell:hover {
+  background-color: #363636;
+}
+
 /*Font Stuff*/
 @font-face {
   font-family: 'Lato';
@@ -168,9 +181,6 @@ body {
 
 
 /*General Theme Stuff*/
-
-
-
 
 .mdl-card__title-text {
   position: absolute;
