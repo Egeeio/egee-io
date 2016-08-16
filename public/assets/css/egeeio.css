@@ -134,11 +134,43 @@ div.my-frame {
   height:475px;
 }
 
-/*General Theme Stuff*/
+/*Font Stuff*/
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato/Lato-Medium.woff');
+}
+
+@font-face {
+  font-family: 'Lato Light';
+  src: url('../fonts/lato/Lato-Light.woff');
+}
+
+@font-face {
+  font-family: 'Lato Thin';
+  src: url('../fonts/lato/Lato-Thin.woff');
+}
 
 body {
-  font-family: "Lato", "sans-serif";
+  font-family: 'Lato', 'sans-serif';
 }
+
+.lato_light {
+  font-family: 'Lato Light', 'sans-serif';
+}
+
+.lato_thin {
+  font-family: 'Lato Thin', 'sans-serif';
+}
+
+.lato_regular {
+  font-family: 'Lato Regular', 'sans-serif';
+}
+
+
+/*General Theme Stuff*/
+
+
+
 
 .mdl-card__title-text {
   position: absolute;
@@ -198,18 +230,6 @@ main {
 
 .marginless-bottom {
     margin-bottom: 0px;
-}
-
-.lato_light {
-  font-family: "Lato Light", "sans-serif";
-}
-
-.lato_thin {
-  font-family: "Lato Thin", "sans-serif";
-}
-
-.lato_regular {
-  font-family: "Lato Regular", "sans-serif";
 }
 
 .center-text {
