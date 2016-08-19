@@ -1,39 +1,191 @@
-<div class="mdl-grid">
-  <div class="mdl-cell mdl-cell--8-col off mdl-cell--4-offset">
-    <div class="mdl-grid">
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Ricebot becomes "sentient"</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Egee delegates responsibility</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">"Affine is fine"</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">In-joke that nobody understands</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Joke at Stallman's expense</div>
+<div class="board">				
+  <div class="row">
+    <div class="a one h-1 tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowa, colOne, horOne);"/>
+        <span></span>
+      </label>
+      Ricebot becomes 'sentinent'
     </div>
-    <div class="mdl-grid">
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">"Keith Here"</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Joke at Spatry's expense</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Someone uses the word "Triggered"</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Ghost mispronounces a word</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Jonn says something racist</div>
+    <div class="a two tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowa, colTwo, 0);"/>
+        <span></span>
+      </label>
+      Egee delegates responsibility
     </div>
-    <div class="mdl-grid">
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Admins retreat to Heaven</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">People mispronounce Rice's name</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col"><b>"Arch"(freespace)</b></div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Avalanche of Memes in #general</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Mods ban someone as a joke</div>
+    <div class="a three tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowa, colThree, 0);"/>
+        <span></span>
+      </label>
+      "Affine is fine"
     </div>
-    <div class="mdl-grid">
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">TLG shares pictures of himself in #general</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Ghost goes on a rant</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Egee says "Slinux"</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">"Ghost's a Cuban"</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">"Cup of Linux"</div>
+    <div class="a four tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowa, colFour, 0);"/>
+        <span></span>
+      </label>
+      In-joke that nobody understands
     </div>
-    <div class="mdl-grid">
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Rice is from "Van Nuys"</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">TLG's volume is too loud</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Joke about vaping</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">"I find that Affine is not fine"</div>
-      <div class="bingo_cell mdl-cell mdl-cell--1-col">Egee randomly leaves voice chat</div>
+    <div class="a five h-2 tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowa, colFive, horTwo);"/>
+        <span></span>
+      </label>
+      Joke at Stallman's expense
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="b one tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowb, colOne, 0);"/>
+        <span></span>
+      </label>
+      "Keith here"
+    </div>
+    <div class="b two h-1 tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowb, colTwo, horOne);"/>
+        <span></span>
+      </label>
+      Joke at Spatry's expense
+    </div>
+    <div class="b three tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowb, colThree, 0);"/>
+        <span></span>
+      </label>
+      Someone uses the word "Triggered"
+    </div>
+    <div class="b four h-2 tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowb, colFour, horTwo);"/>
+        <span></span>
+      </label>
+      Ghost mispronounces a word
+    </div>
+    <div class="b five tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowb, colFive, 0);"/>
+        <span></span>
+      </label>
+      Jonn says somthing racist
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="c one tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowc, colOne, 0);"/>
+        <span></span>
+      </label>
+      Admins retreat to Heaven
+    </div>
+    <div class="c two tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowc, colTwo, 0);"/>
+        <span></span>
+      </label>
+      People mispronounce Rice's name
+    </div>
+    <div class="free c 3 h-1 h-2 tile">
+      <label>
+        <input type="checkbox" class="checkbox" checked="checked" onClick="{{bingo-logic}}(this, rowc, colThree, center);"/>
+        <span></span>
+      </label>
+      "Arch"<br>(Free Space)
+    </div>
+    <div class="c four tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowc, colFour, 0);"/>
+        <span></span>
+      </label>
+      Avalanche of Memes in #general
+    </div>
+    <div class="c five tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowc, colFive, 0);"/>
+        <span></span>
+      </label>
+      Mods ban someone as a joke
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="d one tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowd, colOne, 0);"/>
+        <span></span>
+      </label>
+      TLG shares pictures of himself in #general
+    </div>
+    <div class="d two h-2 tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowd, colTwo, horTwo);"/>
+        <span></span>
+      </label>
+      GhostSquad goes on a rant
+    </div>
+    <div class="d three tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowd, colThree, 0);"/>
+        <span></span>
+      </label>
+      Egee says "Slinux"
+    </div>
+    <div class="d four h-1 tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowd, colFour, horOne);"/>
+        <span></span>
+      </label>
+      Ghost's a Cuban
+    </div>
+    <div class="d five tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowd, colFive, 0);"/>
+        <span></span>
+      </label>
+      "Cup of Linux"
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="e one h-2 tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowe, colOne, horTwo);"/>
+        <span></span>
+      </label>
+      Rice from "Van Nuys"
+    </div>
+    <div class="e two tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowe, colTwo, 0);"/>
+        <span></span>
+      </label>
+      TLG's volume's too loud
+    </div>
+    <div class="e three tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowe, colThree, 0);"/>
+        <span></span>
+      </label>
+      Joke about vaping
+    </div>
+    <div class="e four tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowe, colFour, 0);"/>
+        <span></span>
+      </label>
+      "I find that Affine is not fine"
+    </div>
+    <div class="e five h-1 tile">
+      <label>
+        <input type="checkbox" class="checkbox" onClick="{{bingo-logic}}(this, rowe, colFive, horOne);"/>
+        <span></span>
+      </label>
+      Egee just randomly leaves voice chat
     </div>
   </div>
 </div>

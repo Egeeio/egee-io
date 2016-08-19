@@ -253,3 +253,84 @@ main {
 .discord_margin {
   margin-top: 36px;
 }
+
+
+
+
+.log{
+	width: 560px;
+	margin: 20px auto;
+	background-color: #EEE;
+	padding: 20px;
+	border: solid 1px #DDD;
+}
+
+.log ul{
+	text-align: left;
+}
+
+.board{
+  text-align: center;
+	border-left: solid 1px #DDD;
+	border-top: solid 1px #DDD;
+	width: 855px;
+	margin: 0 auto;
+}
+
+.row{
+	display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.tile{
+	min-height: 150px;
+	min-width: 150px;	
+	max-height: 150px;
+	max-width: 150px;
+	background-color: #EEE;
+	transition: background-color 1s;
+	border-right: solid 1px #DDD;
+	border-bottom: solid 1px #DDD;
+	display: -webkit-flex;
+   display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	position: relative;
+}
+
+label input {
+	display: none;
+}
+label span {
+	height: 171px;
+	width: 171px;
+	border: none;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url('../images/bingo/box-blank.png');
+	background-position: center center;
+	background-size: 110%;
+	transition: background-size 1s;
+}
+[type=checkbox]:checked + span{
+	content: '\2714';
+	height: 171px;
+	width: 171px;	
+	background: url('../images/bingo/check.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -5px;
+	left: 0;
+}
+
+.win-tile{
+	background-color: #AADDFF;
+}
