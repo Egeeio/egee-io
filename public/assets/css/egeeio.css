@@ -260,7 +260,7 @@ main {
 .log{
 	width: 560px;
 	margin: 20px auto;
-	background-color: #EEE;
+	background-color: #222227;
 	padding: 20px;
 	border: solid 1px #DDD;
 }
@@ -291,7 +291,7 @@ main {
 	min-width: 150px;	
 	max-height: 150px;
 	max-width: 150px;
-	background-color: #EEE;
+	background-color: #222227;
 	transition: background-color 1s;
 	border-right: solid 1px #DDD;
 	border-bottom: solid 1px #DDD;
