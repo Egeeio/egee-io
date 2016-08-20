@@ -15,6 +15,18 @@ div.gmod_256 {
   background: url('../images/servers/gmod_256.jpg') center / cover;
 }
 
+div.quake_256 {
+  background: url('../images/servers/quake_256.jpg') center / cover;
+}
+
+div.minetest_256 {
+  background: url('../images/servers/minetest_256.jpg') center / cover;
+}
+
+div.zomboid_256 {
+  background: url('../images/servers/zomboid_256.png') center / cover;
+}
+
 div.minecraft_256 {
   background: url('../images/servers/minecraft_256.jpg') center / cover;
 }
