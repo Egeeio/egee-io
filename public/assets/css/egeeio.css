@@ -86,6 +86,14 @@ div.game > .egee_game {
   background: url('../images/servers/ps.jpg') center / cover;
 }
 
+div.game > .zomboid {
+  background: url('../images/servers/zomboid_720.png') center / cover;
+}
+
+div.game > .quake {
+  background: url('../images/servers/quake_720.jpg') center / cover;
+}
+
 div.game > .minecraft {
   background: url('../images/servers/minecraft_720.jpg') center / cover;
 }
