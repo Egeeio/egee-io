@@ -12,11 +12,11 @@ You'll need the following packages installed:
 ## Installation
 
 * `git clone https://github.com/egee-irl/egeeio.git` this repository
-* cd into the new directory
+*  cd into the new directory
 * `npm install`
 * `bower install`
 
 ## Running / Development
 
 * `ember serve`
-* Visit the site at [http://localhost:4200](http://localhost:4200)
+* Visit the site at [http://localhost:8080](http://localhost:8080)
