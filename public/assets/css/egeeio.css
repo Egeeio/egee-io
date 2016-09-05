@@ -68,6 +68,12 @@ div.persona > .omegapex {
   background: url('../images/personas/omega.png') center / cover;
 }
 
+div.persona > .sudo {
+  color: #fff;
+  height: 512px;
+  background: url('../images/personas/sudo.jpg') center / cover;
+}
+
 div.persona > .egee {
   height: 512px;
   background: url('../images/personas/egee.png') center / cover;
@@ -96,6 +102,10 @@ div.game > .quake {
 
 div.game > .minecraft {
   background: url('../images/servers/minecraft_720.jpg') center / cover;
+}
+
+div.game > .minetest {
+  background: url('../images/servers/minetest_720.jpg') center / cover;
 }
 
 div.game > .gmod {
@@ -162,7 +172,7 @@ div.my-frame {
 
 @font-face {
   font-family: 'Lato Light';
-  src: url('../fonts/lato/Lato-Light.woff');
+  src: url('https://drive.google.com/open?id=0B50HNPzY6ircTU1TVk0wNlQxRjg');
 }
 
 @font-face {

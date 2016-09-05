@@ -6,6 +6,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function () {
+  this.route('servers/minetest', { path: '/minetest' });
   this.route('servers/quake', { path: '/quake' });
   this.route('servers/zomboid', { path: '/zomboid' });
   this.route('servers/minecraft', { path: '/minecraft' });
