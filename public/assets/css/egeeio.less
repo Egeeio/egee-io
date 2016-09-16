@@ -1,97 +1,129 @@
 /* Egee.io Stylesheet */
+
+@square-card-size: 256px;
+@persona-height: 512px;
+@persona-background: white;
+
 /* Cards */
+
 .card-welcome {
-  width: 1080px;
+  width: 1080px;  
 }
+
 .card-image.mdl-card {
-  width: 256px;
-  height: 256px;
+  width: @square-card-size;
+  height: @square-card-size;
 }
+
 div.gmod_256 {
   background: url('../images/servers/gmod_256.jpg') center / cover;
 }
+
 div.quake_256 {
   background: url('../images/servers/quake_256.jpg') center / cover;
 }
+
 div.minetest_256 {
   background: url('../images/servers/minetest_256.jpg') center / cover;
 }
+
 div.zomboid_256 {
   background: url('../images/servers/zomboid_256.png') center / cover;
 }
+
 div.minecraft_256 {
   background: url('../images/servers/minecraft_256.jpg') center / cover;
 }
+
 div.rust_256 {
   background: url('../images/servers/rust_256.jpg') center / cover;
 }
+
 div.terraria_256 {
   background: url('../images/servers/terraria_256.jpg') center / cover;
 }
+
 div.persona {
   max-width: 512px;
   min-width: 330px;
 }
+
 div.persona > .rice {
-  color: white;
-  height: 512px;
+  color: @persona-background;
+  height: @persona-height;
   background: url('../images/personas/rice.jpg') center / cover;
 }
+
 div.persona > .monkey {
-  color: white;
-  height: 512px;
+  color: @persona-background;
+  height: @persona-height;
   background: url('../images/personas/monkey.png') center / cover;
 }
+
 div.persona > .ghostsquad57 {
-  color: white;
-  height: 512px;
+  color: @persona-background;
+  height: @persona-height;
   background: url('../images/personas/ghost.jpeg') center / cover;
 }
+
 div.persona > .omegapex {
-  color: white;
-  height: 512px;
+  color: @persona-background;
+  height: @persona-height;
   background: url('../images/personas/omega.png') center / cover;
 }
+
 div.persona > .sudo {
-  color: white;
-  height: 512px;
+  color: @persona-background;
+  height: @persona-height;
   background: url('../images/personas/sudo.jpg') center / cover;
 }
+
 div.persona > .egee {
-  height: 512px;
+  height: @persona-height;
   background: url('../images/personas/egee.png') center / cover;
 }
+
 div.game {
   min-width: 328px;
 }
+
 div.game > .mdl-card__title {
   color: #fff;
   height: 300px;
 }
+
 div.game > .egee_game {
   background: url('../images/servers/ps.jpg') center / cover;
 }
+
 div.game > .zomboid {
   background: url('../images/servers/zomboid_720.png') center / cover;
 }
+
 div.game > .quake {
   background: url('../images/servers/quake_720.jpg') center / cover;
 }
+
 div.game > .minecraft {
   background: url('../images/servers/minecraft_720.jpg') center / cover;
 }
+
 div.game > .minetest {
   background: url('../images/servers/minetest_720.jpg') center / cover;
 }
+
 div.game > .gmod {
   background: url('../images/servers/gmod_720.jpg') center / cover;
 }
+
 div.game > .rust {
   background: url('../images/servers/rust_720.jpg') center / cover;
 }
+
 div.game > .terraria {
   background: url('../images/servers/terraria_720.jpg') center / cover;
 }
+
 .card-image > .mdl-card__actions {
   height: 52px;
   padding: 16px;
@@ -102,187 +134,226 @@ div.game > .terraria {
   font-size: 14px;
   font-weight: 500;
 }
+
 p.eg-padded {
   padding-left: 300px;
   padding-right: 300px;
 }
+
 .card-link {
   display: block;
 }
+
 .mdl-cell-center {
   margin: 0 auto;
 }
-.mdl-layout-centered {
+
+ .mdl-layout-centered {
   align-items: center;
   justify-content: center;
 }
+
 div.mdl-grid.eg-container {
   padding: 150px;
 }
+
 .background-div {
-  background-image: url('http://i.imgur.com/K3bzioD.jpg');
-  width: 200px;
-  height: 100px;
+    background-image: url('http://i.imgur.com/K3bzioD.jpg');
+    width: 200px;
+    height: 100px;
 }
+
 div.my-frame {
-  width: 350px;
-  height: 475px;
+  width:350px;
+  height:475px;
 }
+
 /*Font Stuff*/
 @font-face {
   font-family: 'Lato';
   src: url('../fonts/lato/Lato-Medium.woff');
 }
+
 @font-face {
   font-family: 'Lato Light';
   src: url('../fonts/lato/Lato-Light.woff');
 }
+
 @font-face {
   font-family: 'Lato Thin';
   src: url('../fonts/lato/Lato-Thin.woff');
 }
+
 body {
   font-family: 'Lato', 'sans-serif';
 }
+
 .lato_light {
   font-family: 'Lato Light', 'sans-serif';
 }
+
 .lato_thin {
   font-family: 'Lato Thin', 'sans-serif';
 }
+
 .lato_regular {
   font-family: 'Lato Regular', 'sans-serif';
 }
+
+
 /*General Theme Stuff*/
+
 .mdl-card__title-text {
   position: absolute;
   left: 16px;
   top: 16px;
 }
+
 .mdl-card__supporting-text {
   color: #d5d5d5;
 }
+
 .mdl-card {
   background-color: #363636;
 }
+
 .logo {
   color: #d5d5d5;
   text-decoration: none;
 }
+
 .mdl-card__title-text {
   color: #d5d5d5;
 }
+
 main {
   color: #d5d5d5;
   background-color: #363636;
 }
+
 .copyleft {
-  display: inline-block;
+  display:inline-block;
   transform: rotate(180deg);
 }
+
 .marginless-top {
-  margin-top: 0px;
+    margin-top: 0px;
 }
+
 .marginless-bottom {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
+
 .center-text {
   text-align: center;
 }
+
 .card-annoucement {
   text-align: center;
 }
+
 .discord_margin {
   margin-top: 36px;
 }
+
 /*Header & Footer*/
 .mdl-layout__header-row {
   height: 48px;
   padding-left: 20px;
 }
+
 .mdl-layout__header {
   color: #d5d5d5;
   background-color: #222227;
 }
+
 .mdl-layout__tab-bar {
   color: #d5d5d5;
   background-color: #222227;
 }
+
 .mdl-mini-footer {
   color: #d5d5d5;
   background-color: #222227;
   padding-top: 18px;
   padding-bottom: 18px;
 }
+
 /*Xondak's Bingo Stuff*/
-.log {
-  width: 560px;
-  margin: 20px auto;
-  background-color: #222227;
-  padding: 20px;
-  border: solid 1px #DDD;
+.log{
+	width: 560px;
+	margin: 20px auto;
+	background-color: #222227;
+	padding: 20px;
+	border: solid 1px #DDD;
 }
-.log ul {
-  text-align: left;
+
+.log ul{
+	text-align: left;
 }
-.board {
+
+.board{
   text-align: center;
-  border-left: solid 1px #DDD;
-  border-top: solid 1px #DDD;
-  width: 855px;
-  margin: 0 auto;
+	border-left: solid 1px #DDD;
+	border-top: solid 1px #DDD;
+	width: 855px;
+	margin: 0 auto;
 }
-.row {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+
+.row{
+	display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
-.tile {
-  min-height: 150px;
-  min-width: 150px;
-  max-height: 150px;
-  max-width: 150px;
-  background-color: #222227;
-  transition: background-color 1s;
-  border-right: solid 1px #DDD;
-  border-bottom: solid 1px #DDD;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  position: relative;
+
+.tile{
+	min-height: 150px;
+	min-width: 150px;	
+	max-height: 150px;
+	max-width: 150px;
+	background-color: #222227;
+	transition: background-color 1s;
+	border-right: solid 1px #DDD;
+	border-bottom: solid 1px #DDD;
+	display: -webkit-flex;
+   display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	position: relative;
 }
+
 label input {
-  display: none;
+	display: none;
 }
 label span {
-  height: 171px;
-  width: 171px;
-  border: none;
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url('../images/bingo/box-blank.png');
-  background-position: center center;
-  background-size: 110%;
-  transition: background-size 1s;
+	height: 171px;
+	width: 171px;
+	border: none;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url('../images/bingo/box-blank.png');
+	background-position: center center;
+	background-size: 110%;
+	transition: background-size 1s;
 }
-[type=checkbox]:checked + span {
-  content: '\2714';
-  height: 171px;
-  width: 171px;
-  background: url('../images/bingo/check.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: -5px;
-  left: 0;
+[type=checkbox]:checked + span{
+	content: '\2714';
+	height: 171px;
+	width: 171px;	
+	background: url('../images/bingo/check.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -5px;
+	left: 0;
 }
-.win-tile {
-  background-color: #AADDFF;
+
+.win-tile{
+	background-color: #AADDFF;
 }
