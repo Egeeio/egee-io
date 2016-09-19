@@ -1,3 +1,5 @@
+// This is the Ember router. If you want to add a new route for a server, follow the pattern below.
+// Documentation for the Ember router can be found here - https://guides.emberjs.com/v2.5.0/routing/
 import Ember from 'ember';
 import config from './config/environment';
 
