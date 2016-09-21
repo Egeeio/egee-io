@@ -8,14 +8,14 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function () {
-  this.route('servers/minetest', { path: '/minetest' });
-  this.route('servers/quake', { path: '/quake' });
-  this.route('servers/quake2', { path: '/quake2' });
-  this.route('servers/zomboid', { path: '/zomboid' });
-  this.route('servers/minecraft', { path: '/minecraft' });
-  this.route('servers/rust', { path: '/rust' });
-  this.route('servers/gmod', { path: '/gmod' });
-  this.route('servers/terraria', { path: '/terraria' });
+  this.route('partials/games-tab/servers/minetest/index', { path: '/minetest' });
+  this.route('partials/games-tab/servers/quakeworld/index', { path: '/quake' });
+  this.route('partials/games-tab/servers/quake2/index', { path: '/quake2' });
+  this.route('partials/games-tab/servers/zomboid/index', { path: '/zomboid' });
+  this.route('partials/games-tab/servers/minecraft/index', { path: '/minecraft' });
+  this.route('partials/games-tab/servers/rust/index', { path: '/rust' });
+  this.route('partials/games-tab/servers/gmod/index', { path: '/gmod' });
+  this.route('partials/games-tab/servers/terraria/index', { path: '/terraria' });
   this.route('bingo', { path: '/bingo' });
   this.route('not-found', { path: '/*path' });
 });
