@@ -10,8 +10,8 @@
 div.gmod_256 {
   background: url('../images/servers/gmod_256.jpg') center / cover;
 }
-div.quake_256 {
-  background: url('../images/servers/quake_256.jpg') center / cover;
+div.quakeworld_256 {
+  background: url('../images/servers/quakeworld_256.jpg') center / cover;
 }
 div.quake2_256 {
   background: url('../images/servers/quake2_256.jpg') center / cover;
@@ -77,8 +77,8 @@ div.game > .egee_game {
 div.game > .zomboid {
   background: url('../images/servers/zomboid_720.png') center / cover;
 }
-div.game > .quake {
-  background: url('../images/servers/quake_720.jpg') center / cover;
+div.game > .quakeworld {
+  background: url('../images/servers/quakeworld_720.jpg') center / cover;
 }
 div.game > .quake2 {
   background: url('../images/servers/quake2_720.jpg') center / cover;

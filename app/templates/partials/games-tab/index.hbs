@@ -2,18 +2,17 @@
 <hr>
 <div class="mdl-grid">{{partial "partials/games-tab/header-official"}}</div>
 <div class="mdl-grid">
-  {{partial "partials/games-tab/servers/minecraft/square"}}
-  <!-- {{partial "partials/games/squares/rust"}}-->
-  {{partial "partials/games-tab/servers/gmod/square"}}
-  {{partial "partials/games-tab/servers/terraria/square"}}
+  {{square-game game="minecraft"}}
+  {{square-game game="gmod"}}
+  {{square-game game="terraria"}}
 </div>
 <hr>
 <div class="mdl-grid">{{partial "partials/games-tab/header-community"}}</div>
 <div class="mdl-grid">
-  {{partial "partials/games-tab/servers/quakeworld/square"}}
-  {{partial "partials/games-tab/servers/quake2/square"}}
-  {{partial "partials/games-tab/servers/zomboid/square"}}
-  {{partial "partials/games-tab/servers/minetest/square"}}
+  {{square-game game="quakeworld"}}
+  {{square-game game="quake2"}}
+  {{square-game game="zomboid"}}
+  {{square-game game="minetest"}}
 </div>
 
 {{outlet}}

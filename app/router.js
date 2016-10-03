@@ -9,7 +9,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function () {
   this.route('partials/games-tab/servers/minetest/index', { path: '/minetest' });
-  this.route('partials/games-tab/servers/quakeworld/index', { path: '/quake' });
+  this.route('partials/games-tab/servers/quakeworld/index', { path: '/quakeworld' });
   this.route('partials/games-tab/servers/quake2/index', { path: '/quake2' });
   this.route('partials/games-tab/servers/zomboid/index', { path: '/zomboid' });
   this.route('partials/games-tab/servers/minecraft/index', { path: '/minecraft' });
