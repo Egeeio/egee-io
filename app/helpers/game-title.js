@@ -18,7 +18,7 @@ export function gameTitle(title) {
     case 'zomboid':
       return Ember.String.htmlSafe('Project Zomboid');
     default:
-      return 'something bad';
+      return 'Game Title is missing from game-title.js file';
   }
 }
 
