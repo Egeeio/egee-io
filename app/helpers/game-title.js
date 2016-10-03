@@ -10,7 +10,7 @@ export function gameTitle(title) {
     case 'terraria':
       return Ember.String.htmlSafe('Terraria');
     case 'minetest':
-      return Ember.String.htmlSafe('Mine Test');
+      return Ember.String.htmlSafe('Minetest');
     case 'quakeworld':
       return Ember.String.htmlSafe('Quake World');
     case 'quake2':
