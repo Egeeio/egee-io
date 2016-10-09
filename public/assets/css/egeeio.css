@@ -54,7 +54,7 @@
   color: #e0e0e0;
 }
 .slider .slides li.active {
-  z-index: 2;
+  z-index: 999;
 }
 .slider .indicators {
   position: absolute;
@@ -78,7 +78,15 @@
 .slider .indicators .indicator-item.active {
   background-color: #3f51b5;
 }
-/* Egee.io Stylesheet */
+/* Modal Dialog
+========================================================================== */
+.mdl-dialog {
+  width: 512px;
+}
+.paddingless {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 /* Square Cards
 ========================================================================== */
 .card-image.mdl-card {
@@ -130,12 +138,34 @@ div.teal_256 {
 div.sudo_256 {
   background: url('../images/personas/sudo/sudo_256.jpg') center / cover;
 }
-.card-welcome {
-  width: 1080px;
-}
+/* Persona Stuff
+========================================================================== */
 div.persona {
   max-width: 512px;
   min-width: 330px;
+}
+div.egee_512 {
+  background: url('../images/personas/egee/egee_512.jpg') center / cover;
+}
+div.monkey_512 {
+  color: white;
+  height: 512px;
+  background: url('../images/personas/monkey/monkey_512.jpg') center / cover;
+}
+div.ghost_512 {
+  background: url('../images/personas/ghost/ghost_512.jpg') center / cover;
+}
+div.omega_512 {
+  background: url('../images/personas/omega/omega_512.jpg') center / cover;
+}
+div.rice_512 {
+  background: url('../images/personas/rice/rice_512.jpg') center / cover;
+}
+div.teal_512 {
+  background: url('../images/personas/teal/teal_512.jpg') center / cover;
+}
+div.sudo_512 {
+  background: url('../images/personas/sudo/sudo_512.jpg') center / cover;
 }
 div.persona > .rice {
   color: white;
@@ -200,6 +230,9 @@ div.game > .rust {
 div.game > .terraria {
   background: url('../images/games/terraria_720.jpg') center / cover;
 }
+.card-welcome {
+  width: 1080px;
+}
 .card-image > .mdl-card__actions {
   height: 52px;
   padding: 16px;
@@ -225,17 +258,17 @@ p.eg-padded {
 .mdl-cell-center {
   margin: 0 auto;
 }
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .mdl-layout-centered {
   align-items: center;
   justify-content: center;
 }
 div.mdl-grid.eg-container {
   padding: 150px;
-}
-.background-div {
-  background-image: url('http://i.imgur.com/K3bzioD.jpg');
-  width: 200px;
-  height: 100px;
 }
 div.my-frame {
   width: 350px;
@@ -288,6 +321,7 @@ body {
 main {
   color: #d5d5d5;
   background-color: #363636;
+  z-index: 1;
 }
 .copyleft {
   display: inline-block;

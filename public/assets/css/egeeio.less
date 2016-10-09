@@ -64,7 +64,7 @@
 }
 
 .slider .slides li.active {
-  z-index: 2;
+  z-index: 999;
 }
 
 .slider .indicators {
@@ -93,11 +93,17 @@
 }
 
 
-/* Egee.io Stylesheet */
+/* Modal Dialog
+========================================================================== */
+.mdl-dialog {
+  width: 512px;
+}
 
+.paddingless {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 
-@persona-height: 512px;
-@persona-background: white;
 
 /* Square Cards
 ========================================================================== */
@@ -140,7 +146,6 @@ div.terraria_256 {
   background: url('../images/games/terraria_256.jpg') center / cover;
 }
 
-
 div.egee_256 {
   background: url('../images/personas/egee/egee_256.jpg') center / cover;
 }
@@ -170,17 +175,53 @@ div.sudo_256 {
 }
 
 
-
-
-
-.card-welcome {
-  width: 1080px;  
-}
+/* Persona Stuff
+========================================================================== */
+@persona-height: 512px;
+@persona-background: white;
 
 div.persona {
   max-width: 512px;
   min-width: 330px;
 }
+
+div.egee_512 {
+  background: url('../images/personas/egee/egee_512.jpg') center / cover;
+}
+
+div.monkey_512 {
+  color: @persona-background;
+  height: @persona-height;
+  background: url('../images/personas/monkey/monkey_512.jpg') center / cover;
+}
+
+div.ghost_512 {
+  background: url('../images/personas/ghost/ghost_512.jpg') center / cover;
+}
+
+div.omega_512 {
+  background: url('../images/personas/omega/omega_512.jpg') center / cover;
+}
+
+div.rice_512 {
+  background: url('../images/personas/rice/rice_512.jpg') center / cover;
+}
+
+div.teal_512 {
+  background: url('../images/personas/teal/teal_512.jpg') center / cover;
+}
+
+div.sudo_512 {
+  background: url('../images/personas/sudo/sudo_512.jpg') center / cover;
+}
+
+
+
+
+
+
+
+
 
 div.persona > .rice {
   color: @persona-background;
@@ -262,6 +303,10 @@ div.game > .terraria {
   background: url('../images/games/terraria_720.jpg') center / cover;
 }
 
+.card-welcome {
+  width: 1080px;  
+}
+
 .card-image > .mdl-card__actions {
   height: 52px;
   padding: 16px;
@@ -291,6 +336,12 @@ p.eg-padded {
   margin: 0 auto;
 }
 
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
  .mdl-layout-centered {
   align-items: center;
   justify-content: center;
@@ -298,12 +349,6 @@ p.eg-padded {
 
 div.mdl-grid.eg-container {
   padding: 150px;
-}
-
-.background-div {
-    background-image: url('http://i.imgur.com/K3bzioD.jpg');
-    width: 200px;
-    height: 100px;
 }
 
 div.my-frame {
@@ -372,10 +417,11 @@ body {
 main {
   color: #d5d5d5;
   background-color: #363636;
+  z-index: 1;
 }
 
 .copyleft {
-  display:inline-block;
+  display: inline-block;
   transform: rotate(180deg);
 }
 
@@ -421,6 +467,10 @@ main {
   padding-top: 18px;
   padding-bottom: 18px;
 }
+
+
+
+
 
 /*Xondak's Bingo Stuff*/
 .log{
