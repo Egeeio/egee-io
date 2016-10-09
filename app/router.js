@@ -8,14 +8,6 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function () {
-  this.route('partials/community-tab/personas/egee/index', { path: '/community/egee' });
-  this.route('partials/community-tab/personas/monkey/index', { path: '/community/monkey' });
-  this.route('partials/community-tab/personas/ghost/index', { path: '/community/ghost' });
-  this.route('partials/community-tab/personas/omega/index', { path: '/community/omega' });
-  this.route('partials/community-tab/personas/rice/index', { path: '/community/rice' });
-  this.route('partials/community-tab/personas/teal/index', { path: '/community/teal' });
-  this.route('partials/community-tab/personas/sudo/index', { path: '/community/sudo' });
-
   this.route('partials/games-tab/servers/minetest/index', { path: '/games/minetest' });
   this.route('partials/games-tab/servers/quakeworld/index', { path: '/games/quakeworld' });
   this.route('partials/games-tab/servers/quake2/index', { path: '/games/quake2' });
