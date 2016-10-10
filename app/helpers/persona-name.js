@@ -12,7 +12,7 @@ export function personaName(name) {
     case 'omega':
       return Ember.String.htmlSafe('Omegapex');
     case 'rice':
-      return Ember.String.htmlSafe('Arroz (rice)');
+      return Ember.String.htmlSafe('Arroz (Rice)');
     case 'teal':
       return Ember.String.htmlSafe('Teal1500');
     case 'sudo':
