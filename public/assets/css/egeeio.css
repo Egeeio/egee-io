@@ -1,3 +1,10 @@
+/* Site Theme & Variables
+========================================================================== */
+main {
+  color: #d5d5d5;
+  background-color: #363636;
+  z-index: 1;
+}
 /* Slideshow Component
 ========================================================================== */
 .slider {
@@ -114,12 +121,43 @@
   opacity: 1;
   visibility: visible;
 }
-/* Square Cards
+/* Cards & Overrides
 ========================================================================== */
 .card-image.mdl-card {
   width: 256px;
   height: 256px;
 }
+.card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.card-image__subtitle {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-image__subtitle_sudo {
+  color: #363636;
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-link {
+  display: block;
+}
+.mdl-card__title-text {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.mdl-card__supporting-text {
+  color: #d5d5d5;
+}
+.mdl-card {
+  background-color: #363636;
+}
+/* Game Squares
+========================================================================== */
 div.gmod_256 {
   background: url('../images/games/gmod_256.jpg') center / cover;
 }
@@ -144,6 +182,8 @@ div.rust_256 {
 div.terraria_256 {
   background: url('../images/games/terraria_256.jpg') center / cover;
 }
+/* Persona Squares
+========================================================================== */
 div.egee_256 {
   background: url('../images/personas/egee/egee_256.jpg') center / cover;
 }
@@ -171,143 +211,8 @@ div.zawaken_256 {
 div.linux_256 {
   background: url('../images/personas/linux/linux_256.jpg') center / cover;
 }
-/* Persona Stuff
+/* Font Styles
 ========================================================================== */
-div.persona {
-  max-width: 512px;
-  min-width: 330px;
-}
-div.egee_512 {
-  background: url('../images/personas/egee/egee_512.jpg') center / cover;
-}
-div.monkey_512 {
-  color: white;
-  height: 512px;
-  background: url('../images/personas/monkey/monkey_512.jpg') center / cover;
-}
-div.ghost_512 {
-  background: url('../images/personas/ghost/ghost_512.jpg') center / cover;
-}
-div.omega_512 {
-  background: url('../images/personas/omega/omega_512.jpg') center / cover;
-}
-div.rice_512 {
-  background: url('../images/personas/rice/rice_512.jpg') center / cover;
-}
-div.teal_512 {
-  background: url('../images/personas/teal/teal_512.jpg') center / cover;
-}
-div.sudo_512 {
-  background: url('../images/personas/sudo/sudo_512.jpg') center / cover;
-}
-div.persona > .rice {
-  color: white;
-  height: 512px;
-  background: url('../images/personas/rice.jpg') center / cover;
-}
-div.persona > .monkey {
-  color: white;
-  height: 512px;
-  background: url('../images/personas/monkey.png') center / cover;
-}
-div.persona > .ghostsquad57 {
-  color: white;
-  height: 512px;
-  background: url('../images/personas/ghost.jpeg') center / cover;
-}
-div.persona > .omegapex {
-  color: white;
-  height: 512px;
-  background: url('../images/personas/omega.png') center / cover;
-}
-div.persona > .sudo {
-  color: white;
-  height: 512px;
-  background: url('../images/personas/sudo.jpg') center / cover;
-}
-div.persona > .egee {
-  height: 512px;
-  background: url('../images/personas/egee.png') center / cover;
-}
-div.game {
-  min-width: 328px;
-}
-div.game > .mdl-card__title {
-  color: #fff;
-  height: 300px;
-}
-div.game > .egee_game {
-  background: url('../images/games/ps.jpg') center / cover;
-}
-div.game > .zomboid {
-  background: url('../images/games/zomboid_720.png') center / cover;
-}
-div.game > .quakeworld {
-  background: url('../images/games/quakeworld_720.jpg') center / cover;
-}
-div.game > .quake2 {
-  background: url('../images/games/quake2_720.jpg') center / cover;
-}
-div.minecraft {
-  background: url('../images/games/minecraft_720.jpg') center / cover;
-}
-div.game > .minetest {
-  background: url('../images/games/minetest_720.jpg') center / cover;
-}
-div.game > .gmod {
-  background: url('../images/games/gmod_720.jpg') center / cover;
-}
-div.game > .rust {
-  background: url('../images/games/rust_720.jpg') center / cover;
-}
-div.game > .terraria {
-  background: url('../images/games/terraria_720.jpg') center / cover;
-}
-.card-welcome {
-  width: 1080px;
-}
-.card-image > .mdl-card__actions {
-  height: 52px;
-  padding: 16px;
-  background: rgba(0, 0, 0, 0.2);
-}
-.card-image__subtitle {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-}
-.card-image__subtitle_sudo {
-  color: #363636;
-  font-size: 14px;
-  font-weight: 500;
-}
-p.eg-padded {
-  padding-left: 300px;
-  padding-right: 300px;
-}
-.card-link {
-  display: block;
-}
-.mdl-cell-center {
-  margin: 0 auto;
-}
-.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.mdl-layout-centered {
-  align-items: center;
-  justify-content: center;
-}
-div.mdl-grid.eg-container {
-  padding: 150px;
-}
-div.my-frame {
-  width: 350px;
-  height: 475px;
-}
-/*Font Stuff*/
 @font-face {
   font-family: 'Lato';
   src: url('../fonts/lato/Lato-Medium.woff');
@@ -332,17 +237,23 @@ body {
 .lato_regular {
   font-family: 'Lato Regular', 'sans-serif';
 }
-/*General Theme Stuff*/
-.mdl-card__title-text {
-  position: absolute;
-  left: 16px;
-  top: 16px;
+/* Miscellaneous Helpers & Overrides
+========================================================================== */
+p.eg-padded {
+  padding-left: 300px;
+  padding-right: 300px;
 }
-.mdl-card__supporting-text {
-  color: #d5d5d5;
+.mdl-cell-center {
+  margin: 0 auto;
 }
-.mdl-card {
-  background-color: #363636;
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mdl-layout-centered {
+  align-items: center;
+  justify-content: center;
 }
 .logo {
   color: #d5d5d5;
@@ -350,11 +261,6 @@ body {
 }
 .mdl-card__title-text {
   color: #d5d5d5;
-}
-main {
-  color: #d5d5d5;
-  background-color: #363636;
-  z-index: 1;
 }
 .copyleft {
   display: inline-block;
@@ -375,7 +281,8 @@ main {
 .discord_margin {
   margin-top: 36px;
 }
-/*Header & Footer*/
+/* Header & Footer Overrides
+========================================================================== */
 .mdl-layout__header-row {
   height: 48px;
   padding-left: 20px;
