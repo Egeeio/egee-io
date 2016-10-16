@@ -87,6 +87,22 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+.modal {
+  background: white;
+  position: absolute;
+  width: 512px;
+  z-index: 15;
+  top: 18%;
+  left: 36%;
+  color: black;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+.trigger:focus + .modal {
+  opacity: 1;
+  visibility: visible;
+}
 /* Square Cards
 ========================================================================== */
 .card-image.mdl-card {
