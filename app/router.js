@@ -16,7 +16,6 @@ Router.map(function () {
   this.route('partials/games-tab/servers/rust/index', { path: '/games/rust' });
   this.route('partials/games-tab/servers/gmod/index', { path: '/games/gmod' });
   this.route('partials/games-tab/servers/terraria/index', { path: '/games/terraria' });
-  this.route('bingo', { path: '/bingo' });
   this.route('not-found', { path: '/*path' });
 });
 
