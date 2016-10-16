@@ -165,6 +165,12 @@ div.teal_256 {
 div.sudo_256 {
   background: url('../images/personas/sudo/sudo_256.jpg') center / cover;
 }
+div.zawaken_256 {
+  background: url('../images/personas/zawaken/zawaken_256.jpg') center / cover;
+}
+div.linux_256 {
+  background: url('../images/personas/linux/linux_256.jpg') center / cover;
+}
 /* Persona Stuff
 ========================================================================== */
 div.persona {
