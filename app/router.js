@@ -8,10 +8,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function () {
-  this.route('partials/games-tab/servers/minetest/index', { path: '/games/minetest' });
-  this.route('partials/games-tab/servers/quakeworld/index', { path: '/games/quakeworld' });
-  this.route('partials/games-tab/servers/quake2/index', { path: '/games/quake2' });
-  this.route('partials/games-tab/servers/zomboid/index', { path: '/games/zomboid' });
+  this.route('partials/games-tab/servers/minecraft-modded/index', { path: '/games/minecraft-modded' });
   this.route('partials/games-tab/servers/minecraft/index', { path: '/games/minecraft' });
   this.route('partials/games-tab/servers/rust/index', { path: '/games/rust' });
   this.route('partials/games-tab/servers/gmod/index', { path: '/games/gmod' });
