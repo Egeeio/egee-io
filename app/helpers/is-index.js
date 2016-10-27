@@ -1,6 +1,6 @@
-import Ember from 'ember';
+import Ember from 'ember'
 
-export function isIndex() {
+export function isIndex () {
   if (window.location.pathname === '/') {
     return Ember.String.htmlSafe(
       `<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
@@ -8,8 +8,8 @@ export function isIndex() {
         <a href="#fixed-tab-2" class="mdl-layout__tab">Games</a>
         <a href="#fixed-tab-3" class="mdl-layout__tab">Community</a>
         <a href="#fixed-tab-4" class="mdl-layout__tab">About</a>
-      </div>`);
+      </div>`)
   }
 }
 
-export default Ember.Helper.helper(isIndex);
+export default Ember.Helper.helper(isIndex)
