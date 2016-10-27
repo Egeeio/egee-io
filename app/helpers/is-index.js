@@ -6,8 +6,7 @@ export function isIndex () {
       `<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
         <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Welcome</a>
         <a href="#fixed-tab-2" class="mdl-layout__tab">Games</a>
-        <a href="#fixed-tab-3" class="mdl-layout__tab">Community</a>
-        <a href="#fixed-tab-4" class="mdl-layout__tab">About</a>
+        <a href="#fixed-tab-3" class="mdl-layout__tab">About</a>
       </div>`)
   }
 }
