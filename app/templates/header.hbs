@@ -1,8 +1,18 @@
-<header class="mdl-layout__header">
-  <div class="mdl-layout__header-row">
-    <span href="#" class="mdl-layout-title">
-      <a class="logo" href="#">Egee.io</a>
-    </span>
+{{navigation}}
+
+<nav class="cyan darken z-depth-2">
+  <div class="container nav-wrapper">
+    <a class="brand-logo" href="#"><b>Egee</b>.io</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="distros"><b>Linux</b></a></li>
+      <li><a href="faq"><b>Faq</b></a></li>
+      <li><a href="servers"><b>Servers</b></a></li>
+    </ul>
+    <ul id="slide-out" class="side-nav">
+      <li><a href="distros"><b>Linux</b></a></li>
+      <li><a href="faq"><b>Faq</b></a></li>
+      <li><a href="servers"><b>Servers</b></a></li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
   </div>
-  {{is-index}}
-</header>
+</nav>

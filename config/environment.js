@@ -1,12 +1,21 @@
-module.exports = function (environment) {
-  const ENV = {
+module.exports = function(environment) {
+  var ENV = {
     modulePrefix: 'egeeio',
-    environment,
+    environment: environment,
     baseURL: '/',
     locationType: 'auto',
-    APP: {
-      // This has to be here otherwise Ember will violently explode
+    EmberENV: {
+      FEATURES: {
+        // This is for experimental EmberJS features that we will never use
+      }
     },
+
+    APP: {
+      // Optional flags/options that we will never use
+    },
+    sassOptions: {
+      includePaths: ['bower_components/materialize/sass']
+    }
   };
 
   if (environment === 'development') {
@@ -28,11 +37,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.APP.LOG_RESOLVER = false;
-    ENV.APP.LOG_ACTIVE_GENERATION = false;
-    ENV.APP.LOG_TRANSITIONS = false;
-    ENV.APP.LOG_TRANSITIONS_INTERNAL = false;
-    ENV.APP.LOG_VIEW_LOOKUPS = false;
+
   }
 
   return ENV;

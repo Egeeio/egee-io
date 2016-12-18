@@ -1,11 +1,17 @@
-<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
-  <div class="page-content">{{partial "partials/welcome-tab/index"}}</div>
-</section>
-<section class="mdl-layout__tab-panel" id="fixed-tab-2">
-  <div class="page-content">{{partial "partials/games-tab/index"}}</div>
-</section>
-<section class="mdl-layout__tab-panel" id="fixed-tab-3">
-  <div class="page-content">{{partial "partials/about-tab/index"}}</div>
-</section>
+{{parallax}}
+<div class="parallax-container z-depth-1">
+  <div class="parallax">
+    <img src="assets/images/parallax/background.png">
+  </div>
+  <div class="container center-align white-text">
+    <h1>Welcome To Egee.io</h1><br>
+    <h3>Be Different. Play Together.</h3>
+  </div>
+</div>
+
+{{partial "partials/index/about"}}
+{{partial "partials/index/games"}}
+{{partial "partials/index/why"}}
+{{partial "partials/index/switch"}}
 
 {{outlet}}
