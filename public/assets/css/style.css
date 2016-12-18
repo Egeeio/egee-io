@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+ .toolbar {
+   background: #212121;
+ }
+
 img.responsive-img {
   display: block;
   margin-right: auto;
@@ -88,4 +92,16 @@ body {
 
 .lato_regular {
   font-family: 'Lato Regular', 'sans-serif';
+}
+
+.title-margin {
+  margin-top: 75px;
+}
+
+.marginless-top {
+    margin-top: 0px;
+}
+
+.marginless-bottom {
+    margin-bottom: 0px;
 }
