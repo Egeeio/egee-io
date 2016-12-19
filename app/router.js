@@ -6,12 +6,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('servers');
-  this.route('faq');
-  this.route('distros');
-  this.route('contributors');
   this.route('not-found', { path: '/*path' });
-  this.route('discord');
 });
 
 export default Router;
