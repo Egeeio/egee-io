@@ -5,6 +5,14 @@
  *
  * Made By MaterializeCSS.com
  */
+ 
+ footer {
+   padding-top: 8px;
+ }
+
+ .margin_bottom {
+   margin-bottom: 0px;
+ }
 
  .toolbar {
    background: #212121;
