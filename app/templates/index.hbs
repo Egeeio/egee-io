@@ -1,4 +1,5 @@
 {{parallax}}
+{{modal}}
 <div class="parallax-container z-depth-1">
   <div class="parallax">
     <img src="assets/images/parallax/background.jpg">
@@ -62,7 +63,9 @@
         </p>
         <div class="col m4">
           <div class="icon-block">
-            <img class="responsive-img" src="assets/images/games/minecraft_square.jpg">
+            <a class="modal-trigger" href="#modal1">
+              <img class="responsive-img" src="assets/images/games/minecraft_square.jpg">
+            </a>
             <h5 class="center">Minecraft</h5>
             <p>
               The Egee.io Minecraft server is an un-modded server running version 1.10 and can support up to 20 concurrent players.
@@ -71,7 +74,9 @@
         </div>
         <div class="col m4">
           <div class="icon-block">
-            <img class="responsive-img" src="assets/images/games/terraria_256.jpg">
+            <a class="modal-trigger" href="#modal2">
+              <img class="responsive-img" src="assets/images/games/terraria_256.jpg">
+            </a>
             <h5 class="center">Terraria</h5>
             <p>
               Our Terraria server runs vanilla (un-modded) server version 1.3.1.
@@ -80,7 +85,9 @@
         </div>
         <div class="col m4">
           <div class="icon-block">
-            <img class="responsive-img" src="assets/images/games/gmod_256.jpg">
+            <a class="modal-trigger" href="#modal3">
+              <img class="responsive-img" src="assets/images/games/gmod_256.jpg">
+            </a>
             <h5 class="center">Garry's Mod</h5>
             <p>
               Our GarrysMod server is typically used for game nights and live streams.
@@ -89,6 +96,27 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<div id="modal1" class="modal bottom-sheet">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <p>A bunch of text</p>
+  </div>
+</div>
+
+<div id="modal2" class="modal bottom-sheet">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <p>A bunch of text</p>
+  </div>
+</div>
+
+<div id="modal3" class="modal bottom-sheet">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <p>A bunch of text</p>
   </div>
 </div>
 
