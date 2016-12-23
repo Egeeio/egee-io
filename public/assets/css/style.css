@@ -5,6 +5,11 @@
  *
  * Made By MaterializeCSS.com
  */
+
+ .test {
+   display: flex;
+   justify-content: center
+ }
  
  footer {
    padding-top: 8px;
@@ -50,9 +55,9 @@ h2.card-title {
 	padding: 15px 0;
 }
 
-html {
+/*html {
   font-family: Open Sans, sans-serif;
-}
+}*/
 
 .fa-circle:before {
     content: "\f111";
