@@ -5,6 +5,10 @@
  *
  * Made By MaterializeCSS.com
  */
+
+ .row {
+   margin-bottom: 0px;
+ }
  
  footer {
    padding-top: 8px;
