@@ -6,6 +6,15 @@
  * Made By MaterializeCSS.com
  */
 
+.gameServerTitle {
+  margin-top: 0px;
+  margin-bottom: 17px;
+}
+
+.gameServerTitle2 {
+  margin-bottom: 5px;
+}
+
  p {
    color: #212121;
  }
