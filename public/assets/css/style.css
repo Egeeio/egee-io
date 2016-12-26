@@ -6,6 +6,30 @@
  * Made By MaterializeCSS.com
  */
 
+ p {
+   color: #212121;
+ }
+
+h1 {
+  color: #eeeeee;
+}
+
+ h2 {
+   color: #424242;
+ }
+
+ /*h3 {
+   color: #eeeeee;
+ }*/
+
+ h5 {
+   color: #424242;
+ }
+
+ .page-footer {
+   padding-bottom: 10px;
+ }
+
  .row {
    margin-bottom: 0px;
  }
