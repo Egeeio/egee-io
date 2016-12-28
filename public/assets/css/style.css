@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+ .material-icons {
+   margin-left: 5px;
+   margin-right: 5px;
+ }
+
 .gameServerTitle {
   margin-top: 0px;
   margin-bottom: 17px;
