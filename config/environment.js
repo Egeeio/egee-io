@@ -5,26 +5,14 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
-      FEATURES: {
-        // This is for experimental EmberJS features that we will never use
-      }
+      EXTEND_PROTOTYPES: false,
+      FEATURES: { }
     },
 
-    APP: {
-      // Optional flags/options that we will never use
-    },
-    sassOptions: {
-      includePaths: ['bower_components/materialize/sass']
-    }
+    APP: { }
   };
 
-  if (environment === 'development') {
-    // ENV.APP.LOG_RESOLVER = true;
-    // ENV.APP.LOG_ACTIVE_GENERATION = true;
-    // ENV.APP.LOG_TRANSITIONS = true;
-    // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
-    // ENV.APP.LOG_VIEW_LOOKUPS = true;
-  }
+  if (environment === 'development') { }
 
   if (environment === 'test') {
     ENV.baseURL = '/';
@@ -36,9 +24,6 @@ module.exports = function(environment) {
     ENV.APP.rootElement = '#ember-testing';
   }
 
-  if (environment === 'production') {
-
-  }
-
+  if (environment === 'production') { }
   return ENV;
 };
