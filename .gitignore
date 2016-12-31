@@ -1,8 +1,0 @@
-bower_components/
-dist/
-node_modules/
-tmp/
-.vscode
-.directory
-.eslintrc.json
-jsconfig.json
