@@ -1,0 +1,123 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.material-icons {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.gameServerTitle {
+  margin-top: 0px;
+  margin-bottom: 17px;
+}
+.gameServerTitle2 {
+  margin-bottom: 5px;
+}
+p {
+  color: #212121;
+}
+h1 {
+  color: #eeeeee;
+}
+h2 {
+  color: #424242;
+}
+/*h3 {
+   color: #eeeeee;
+ }*/
+h5 {
+  color: #424242;
+}
+.page-footer {
+  padding-bottom: 10px;
+}
+.row {
+  margin-bottom: 0px;
+}
+footer {
+  padding-top: 8px;
+}
+.margin_bottom {
+  margin-bottom: 0px;
+}
+.toolbar {
+  background: #212121;
+}
+img.responsive-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.parallax-container {
+  height: 600px;
+}
+.icon-block {
+  padding: 0 15px;
+}
+ul.pagination {
+  margin: 0px 0px 40px;
+  float: right;
+  text-align: right;
+  width: 100%;
+}
+h2.card-title {
+  margin: 1.024rem 0px 1.024rem;
+  line-height: 30px;
+}
+.prettyprint {
+  background: #ececec;
+  display: block;
+  padding: 15px 0;
+}
+/*html {
+  font-family: Open Sans, sans-serif;
+}*/
+.fa-circle:before {
+  content: "\f111";
+  font-size: 30px;
+}
+a {
+  color: #1976d2;
+}
+a:hover {
+  color: #3f51b5;
+}
+footer.page-footer {
+  margin-top: 0px;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/lato/Lato-Medium.woff');
+}
+@font-face {
+  font-family: 'Lato Light';
+  src: url('fonts/lato/Lato-Light.woff');
+}
+@font-face {
+  font-family: 'Lato Thin';
+  src: url('fonts/lato/Lato-Thin.woff');
+}
+body {
+  font-family: 'Lato', 'sans-serif';
+}
+.lato_light {
+  font-family: 'Lato Light', 'sans-serif';
+}
+.lato_thin {
+  font-family: 'Lato Thin', 'sans-serif';
+}
+.lato_regular {
+  font-family: 'Lato Regular', 'sans-serif';
+}
+.title-margin {
+  margin-top: 75px;
+}
+.marginless-top {
+  margin-top: 0px;
+}
+.marginless-bottom {
+  margin-bottom: 0px;
+}
