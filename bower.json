@@ -1,4 +1,4 @@
-{
+{ 
   "name": "egeeio",
   "dependencies": {
     "ember": "~2.4.3",
