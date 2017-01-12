@@ -1,4 +1,4 @@
-module.exports = function(environment) {
+module.exports = (environment) => {
   var ENV = {
     modulePrefix: 'egeeio',
     environment: environment,
