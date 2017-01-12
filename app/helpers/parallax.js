@@ -1,7 +1,7 @@
 import Ember from 'ember'
 
 export function parallax () {
-  $(document).ready(function() {
+  $(document).ready(() => {
     $('.parallax').parallax()
   })
 }
