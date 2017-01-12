@@ -1,7 +1,7 @@
 {
   "name": "egeeio",
-  "version": "2.9.0",
-  "description": "Egeeio the website",
+  "version": "3.0.0",
+  "description": "Egee.io the website",
   "private": true,
   "author": "Egee <brian@egee.io>",
   "directories": {
@@ -17,7 +17,7 @@
     "url": "https://github.com/egee-irl/egeeio"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 6.9.0"
   },
   "license": "CC-BY-NC-ND-4.0",
   "devDependencies": {

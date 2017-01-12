@@ -1,9 +1,9 @@
-import Ember from 'ember';
+import Ember from 'ember'
 
-export function carousel() {
-  $(document).ready(function(){
-    $('.carousel').carousel();
-  });
+export function carousel () {
+  $(document).ready(() => {
+    $('.carousel').carousel()
+  })
 }
 
-export default Ember.Helper.helper(carousel);
+export default Ember.Helper.helper(carousel)

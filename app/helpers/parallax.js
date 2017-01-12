@@ -1,9 +1,9 @@
-import Ember from 'ember';
+import Ember from 'ember'
 
-export function parallax() {
-  $(document).ready(function(){
-    $('.parallax').parallax();
-  });
+export function parallax () {
+  $(document).ready(() => {
+    $('.parallax').parallax()
+  })
 }
 
-export default Ember.Helper.helper(parallax);
+export default Ember.Helper.helper(parallax)

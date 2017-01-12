@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/egee-irl/egeeio.svg?branch=master)](https://travis-ci.org/egee-irl/egeeio)
+
 # Egee.io
 This is the repository for the official [Egee.io](egee.io) website, authored by Egee and built from contributions & feedback from the [Egee.io community](https://discord.gg/tVyBHAU).
 
@@ -9,10 +11,11 @@ If you are more _technically_ inclined, feel free to peruse the codebase and cre
 # Site Structure
 The Egee.io website is an EmberJS app and as such follows a very specific convention and file/folder structure. At the top level, the only two folders that are important to contributors are the **App** and **Public** folders.
 
-* **App** is where the actual website lives
-  * **Helpers** where some of the JavaScript for fancy features like the NavBar and Dialogs live
+* **app** is where the actual website lives
+  * **helpers** where some of the JavaScript for fancy features like the NavBar and Dialogs live
+  * **styles** where the CSS & LESS lives
   * **Templates** where the components, pages, and views that comprise the website live
-* **Public** is where assets for the website lives
+* **public** is where assets for the website lives
 
 If you see a typo or other issue that manifests itself in a view on the site, you will probably find it in the **App** > **Templates** folder structure. If it is JavaScript related, the **Helpers** folder is where you'll want to look.
 
