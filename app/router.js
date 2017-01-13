@@ -5,7 +5,7 @@ const Router = Ember.Router.extend({
   location: config.locationType
 })
 
-Router.map(() => {
+Router.map(function () {
   this.route('not-found', { path: '/*path' })
 })
 
