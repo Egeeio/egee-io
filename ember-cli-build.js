@@ -1,12 +1,12 @@
 /* global require, module */
-var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var EmberApp = require('ember-cli/lib/broccoli/ember-app')
 
-module.exports = function(defaults) {
+module.exports = (defaults) => {
   var app = new EmberApp(defaults, {
     'ember-cli-qunit': {
-      useLintTree: false,
+      useLintTree: false
     }
-  });
+  })
 
-  return app.toTree();
-};
+  return app.toTree()
+}
