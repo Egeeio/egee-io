@@ -1,8 +1,8 @@
 {{parallax}}
 {{modal}}
-<div class="parallax-container z-depth-1">
+<div class="parallax-container">
   <div class="parallax">
-    <img src="assets/images/background.jpg">
+    <img src="assets/images/background2.jpg">
   </div>
   <div class="container center-align white-text title-margin">
     <h1 class="lato_light marginless-bottom">Egee.io</h1><br>
@@ -10,22 +10,22 @@
   </div>
 </div>
 
-<div class="grey lighten-5">
+<div class="eg-blue-black">
 	<div class="container ">
 		<div class="section">
 			<div class="row valign-wrapper">
 				<div class="col m6">
           <h3 class="lato_light center-align">Gaming For Everyone</h3>
 					<p>
-						Egee.io is an open gaming community that eschews the dichotomy and hostility between different gaming platforms.
-					</p>
-					<p>
-						Here at Egee.io, everyone is welcome to game and discuss any platform they like. From Linux and Windows, to PlayStation and Xbox,
-            our community strives to be free of the hostility that is often seen when discussing gaming platforms.
+						Egee.io is a super-casual gaming community where everyone is welcome to game on whatever platform they like.
+            Many members of the Egee.io community are not just gamers, but also artists and content producers and frequently collaborate with other members on creative endevours. 
+          </p>
+          <p>
+            We occasionaly have impromptu game nights and host regularly planned monthly events on our own public game servers so everyone can enjoy the community.
 					</p>
           <p>
-            If you&#39;d like to join our community <a href="https://discord.gg/tVyBHAU">Discord server</a> or game servers, be sure to check out the 
-            <b><a class="modal-trigger" href="#modal0">rules</a></b> first!
+            Joining our community is simple! - Check out our <a href="https://discord.gg/tVyBHAU">Discord server</a> or game servers and be sure to check out the 
+            <a class="modal-trigger" href="#modal0">rules</a>!
 					</p>
         </div>
         <div class="col m6 hide-on-small-only">
@@ -36,7 +36,7 @@
   </div>
 </div>
 
-<div class="blue-grey lighten-4">
+<div class="black">
   <div class="container">
     <div class="section">
       <div class="row valign-wrapper">
@@ -46,14 +46,14 @@
           </div>
         </div>
         <div class="col m6">
-          <h3 class="center lato_light">Powered By Open Source</h3>
-          <p>
+          <h3 class="center lato_light white-text">Powered By Open Source</h3>
+          <p class="white-text">
             From top to bottom, Egee.io is proudly powered by open source technologies.
           </p>
-          <p>
+          <p class="white-text">
             The OS platform of choice is Ubuntu and each game server run locally inside of LXC containers, and are provisioned by <a href="https://gameservermanagers.com/">Linux Game Server Manager</a>.
           </p>
-          <p>
+          <p class="white-text">
             The Egee.io website is written in EmberJS with a tiny bit of JQuery, and is served on Nginx. You can read more about the software stack at <a href="https://github.com/egee-irl/egeeio">GitHub</a>.
           </p>
         </div>
@@ -62,46 +62,45 @@
   </div>
 </div>
 
-<div class="grey lighten-5">
+<div class="eg-blue-black">
   <div class="container">
     <div class="section">
-      <div class="row center">
+      <div class="row">
         <h3 class="center gameServerTitle2 lato_light">Game Servers</h3>
-        <p class="gameServerTitle">
+        <div class="row">
+          <div class="col s6 offset-s3">
+            <p class="gameServerTitle5">
+              Egee.io uses Linux containers to host game servers which makes it quick and easy to host new game servers on demand.
+              Most of our servers are ephemeral but we do maintain a small number of persistent game servers.
+            </p>
+          </div>
+        </div>
+        <p class="gameServerTitle center">
           <sub>click on a server tile for details</sub> 
         </p>
                
         <div class="col m4">
           <div class="icon-block">
             <a class="modal-trigger" href="#modal1">
-              <img class="responsive-img" src="assets/images/games/minecraft_square.jpg">
+              <img class="responsive-img" src="assets/images/games/minecraft-256.jpg">
             </a>
             <h5 class="center">Minecraft</h5>
-            <p>
-              Minecraft server runs <a href="https://www.spigotmc.org/">Spigot</a> (no client-side mods) with CoreProtect and can support up to 20 players.
-            </p>
           </div>
         </div>
         <div class="col m4">
           <div class="icon-block">
             <a class="modal-trigger" href="#modal3">
-              <img class="responsive-img" src="assets/images/games/gmod_256.jpg">
+              <img class="responsive-img" src="assets/images/games/gmod-256.jpg">
             </a>
             <h5 class="center">Garry's Mod</h5>
-            <p>
-              Garry's Mod Server is heavily modded and runs <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=776121544">this collection</a>.
-            </p>
           </div>
         </div>
         <div class="col m4">
           <div class="icon-block">
             <a class="modal-trigger" href="#modal4">
-              <img class="responsive-img" src="assets/images/games/starbound_256.jpg">
+              <img class="responsive-img" src="assets/images/games/rust-256.jpg">
             </a>
-            <h5 class="center">Starbound</h5>
-            <p>
-              A regular Starbound server with a 14 player, 6 party cap.
-            </p>
+            <h5 class="center">Rust</h5>
           </div>
         </div>
       </div>
@@ -144,13 +143,19 @@
 
 <div id="modal1" class="modal bottom-sheet">
   <div class="modal-content">
-    <h4>Minecraft</h4>
+    <h4>The Official Egee.io Low-Pop Minecraft Server!</h4>
     <p>
-      The Minecraft server a survival server with PvP enabled, however mob griefing is disabled so buildings are free from creeper explosions! 
+      Our Minecraft server a low-pop survival server with mob griefing is disabled (buildings are free from creeper explosions!). 
       The server runs on Spigot (a fork of Bukkit) which helps with logging and griefer protection.
     </p>
     <p>
-      Connecting to the Egee.io Minecraft server is simple:<br>
+      Server rules are simple:<br>
+      1. Don't grief.<br>
+      2. Don't steal.<br>
+      3. Don't be an asshat.
+    </p>
+    <p>
+      How to connect to the Minecraft server:<br>
       &#8226; Fire up Minecraft<br>
       &#8226; From the main menu, click "Multiplayer"<br>
       &#8226; From the "Play Multiplayer" screen, click <u>either</u> "Direct Connect", or "Add server"<br>
@@ -164,19 +169,12 @@
 
 <div id="modal3" class="modal bottom-sheet">
   <div class="modal-content">
-    <h4>Garry's Mod</h4>
+    <h4>The Maniacal Egee.io Garry's Mod Server!</h4>
     <p>
-      The Gmod server is wiped regularly and is always publically accessable. It's heavily modded but we typically play Prop Hunt or Guess Who game modes.
-      Since the server runs alot of mods, you should subscribe to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=695623518">this</a> GMod collection before joining.
+      The Gmod server is heavily modded and wiped regularly. Unless there is a community event happening, the default game mode is Sandbox.
     </p>
     <p>
-      The Gmod server supports the following game modes:<br>
-      &#8226; Sandbox<br>
-      &#8226; Prop Hunt<br>
-      &#8226; Guess Who<br>
-      &#8226; Trouble In Terrorist Town<br>
-      &#8226; Murder<br>
-      &#8226; Stop It Slender<br>
+      Since the server runs alot of mods, you should subscribe to <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=695623518">this</a> GMod collection before joining.
     </p>
     <p>
       You can connect to the Gmod server by using the Gmod server browser or:<br>
@@ -190,16 +188,21 @@
 
 <div id="modal4" class="modal bottom-sheet">
   <div class="modal-content">
-    <h4>Starbound</h4>
+    <h4>The Merciless Egee.io Rust Server</h4>
     <p>
-      Our Starbound server is a regular un-modded Starbound server with support for 14 concurrent players and 6 parties.
+      Our Rust server is a vanilla (un-modded) low-pop Rust server. Since it's a low-population server, most of the denizens are friendly and play to build, explore, and generally hangout.
     </p>
     <p>
-      You can connect to the Starbound server by:<br>
-      &#8226; Start Starbound<br>
-      &#8226; From the main menu, click "Join Game"<br>
-      &#8226; Select or create your character<br>
-      &#8226; Enter <i>egee.io</i> for the Server Address, and click Join Server<br>
+      But don't get to upset if you wake up in-game to find out you were murdered by your <i>friend</i>. This is Rust after all.
+    </p>
+    <p>
+      You can connect to the Rust server:<br>
+      &#8226; Start Rust<br>
+      &#8226; From the main menu, click the "Play Game" icon<br>
+      &#8226; Click the "Community" section and look for <i>The Merciless Egee.io Rust Server</i>.<br>
+    </p>
+    <p>
+      It helps to have a map of the server. You can find one <a href="https://t.co/vayOsMydOT">here</a>.
     </p>
   </div>
 </div>

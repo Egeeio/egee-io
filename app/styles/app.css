@@ -13,26 +13,42 @@
   margin-top: 0px;
   margin-bottom: 17px;
 }
+.gameServerTitle5 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
 .gameServerTitle2 {
   margin-bottom: 0px;
 }
 .gameServerTitle2 {
   margin-bottom: 5px;
 }
+.modal-content {
+  background-color: #14191E;
+}
+.eg-hard-gray {
+  background-color: #14191E;
+}
+.eg-blue-black {
+  background-color: #030811;
+}
 p {
-  color: #212121;
+  color: #eeeeee;
 }
 h1 {
   color: #eeeeee;
 }
 h2 {
-  color: #424242;
+  color: #eeeeee;
 }
-/*h3 {
-   color: #eeeeee;
- }*/
+h3 {
+  color: #eeeeee;
+}
+h4 {
+  color: #eeeeee;
+}
 h5 {
-  color: #424242;
+  color: #eeeeee;
 }
 .page-footer {
   padding-bottom: 10px;
@@ -55,7 +71,7 @@ img.responsive-img {
   margin-left: auto;
 }
 .parallax-container {
-  height: 600px;
+  height: 400px;
 }
 .icon-block {
   padding: 0 15px;
@@ -83,10 +99,10 @@ h2.card-title {
   font-size: 30px;
 }
 a {
-  color: #1976d2;
+  color: #822ff7;
 }
 a:hover {
-  color: #3f51b5;
+  text-decoration: underline;
 }
 footer.page-footer {
   margin-top: 0px;
