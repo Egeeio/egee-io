@@ -1,27 +1,26 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-.material-icons {
-  margin-left: 5px;
-  margin-right: 5px;
+/*====================
+  Egee.io Stylesheet
+ =====================*/
+/*====================
+  Color Overrides
+ =====================*/
+p {
+  color: white;
 }
-.gameServerTitle {
-  margin-top: 0px;
-  margin-bottom: 17px;
+h1 {
+  color: white;
 }
-.gameServerTitle5 {
-  margin-top: 5px;
-  margin-bottom: 0px;
+h2 {
+  color: white;
 }
-.gameServerTitle2 {
-  margin-bottom: 0px;
+h3 {
+  color: white;
 }
-.gameServerTitle2 {
-  margin-bottom: 5px;
+h4 {
+  color: white;
+}
+h5 {
+  color: white;
 }
 .modal-content {
   background-color: #14191E;
@@ -32,38 +31,50 @@
 .eg-blue-black {
   background-color: #030811;
 }
-p {
-  color: #eeeeee;
+a {
+  color: #822ff7;
 }
-h1 {
-  color: #eeeeee;
+a:hover {
+  text-decoration: underline;
 }
-h2 {
-  color: #eeeeee;
+/*====================
+  Font Overrides
+ =====================*/
+html {
+  font-family: Raleway, sans-serif;
 }
-h3 {
-  color: #eeeeee;
+.light {
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 300;
 }
-h4 {
-  color: #eeeeee;
+.thin {
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 200;
 }
-h5 {
-  color: #eeeeee;
+/*====================
+  Miscellaneous Helpers
+ =====================*/
+.material-icons {
+  margin-left: 5px;
+  margin-right: 5px;
 }
-.page-footer {
+.server-subscript {
+  margin-top: 0px;
+  margin-bottom: 17px;
+}
+.server-paragraph {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.server-header {
+  margin-bottom: 5px;
+}
+footer.page-footer {
+  margin-top: 0px;
   padding-bottom: 10px;
 }
 .row {
   margin-bottom: 0px;
-}
-footer {
-  padding-top: 8px;
-}
-.margin_bottom {
-  margin-bottom: 0px;
-}
-.toolbar {
-  background: #212121;
 }
 img.responsive-img {
   display: block;
@@ -75,61 +86,6 @@ img.responsive-img {
 }
 .icon-block {
   padding: 0 15px;
-}
-ul.pagination {
-  margin: 0px 0px 40px;
-  float: right;
-  text-align: right;
-  width: 100%;
-}
-h2.card-title {
-  margin: 1.024rem 0px 1.024rem;
-  line-height: 30px;
-}
-.prettyprint {
-  background: #ececec;
-  display: block;
-  padding: 15px 0;
-}
-/*html {
-  font-family: Open Sans, sans-serif;
-}*/
-.fa-circle:before {
-  content: "\f111";
-  font-size: 30px;
-}
-a {
-  color: #822ff7;
-}
-a:hover {
-  text-decoration: underline;
-}
-footer.page-footer {
-  margin-top: 0px;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('fonts/lato/Lato-Medium.woff');
-}
-@font-face {
-  font-family: 'Lato Light';
-  src: url('fonts/lato/Lato-Light.woff');
-}
-@font-face {
-  font-family: 'Lato Thin';
-  src: url('fonts/lato/Lato-Thin.woff');
-}
-body {
-  font-family: 'Lato', 'sans-serif';
-}
-.lato_light {
-  font-family: 'Lato Light', 'sans-serif';
-}
-.lato_thin {
-  font-family: 'Lato Thin', 'sans-serif';
-}
-.lato_regular {
-  font-family: 'Lato Regular', 'sans-serif';
 }
 .title-margin {
   margin-top: 75px;
