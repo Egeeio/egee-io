@@ -42,6 +42,7 @@ a:hover {
  =====================*/
 html {
   font-family: 'Lato';
+  background-color: #030811;
 }
 .light {
   font-family: 'Lato Light';
@@ -60,8 +61,8 @@ iframe {
   margin-right: 5px;
 }
 .server-subscript {
-  margin-top: 0px;
-  margin-bottom: 17px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 .server-paragraph {
   margin-top: 5px;
