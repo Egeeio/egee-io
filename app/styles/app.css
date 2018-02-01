@@ -40,18 +40,33 @@ a:hover {
 /*====================
   Font Overrides
  =====================*/
+
+/* font-family: 'Lato', sans-serif; */
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-Regular.ttf');
+}
+  
+@font-face {
+  font-family: 'Lato Light';
+  src: url('fonts/Lato-Light.ttf');
+}
+  
+@font-face {
+  font-family: 'Lato Thin';
+  src: url('fonts/Lato-Hairline.ttf');
+}
+
 html {
   font-family: 'Lato';
   background-color: #030811;
-  src: url('https://fonts.googleapis.com/css?family=Lato:400');
 }
 .light {
   font-family: 'Lato Light';
-  src: url('https://fonts.googleapis.com/css?family=Lato:300');
 }
 .thin {
   font-family: 'Lato Thin';
-  src: url('https://fonts.googleapis.com/css?family=Lato:100');
 }
 /*====================
   Miscellaneous Helpers
