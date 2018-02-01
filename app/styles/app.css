@@ -43,12 +43,15 @@ a:hover {
 html {
   font-family: 'Lato';
   background-color: #030811;
+  src: url('https://fonts.googleapis.com/css?family=Lato:400');
 }
 .light {
   font-family: 'Lato Light';
+  src: url('https://fonts.googleapis.com/css?family=Lato:300');
 }
 .thin {
   font-family: 'Lato Thin';
+  src: url('https://fonts.googleapis.com/css?family=Lato:100');
 }
 /*====================
   Miscellaneous Helpers
