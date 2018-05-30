@@ -1,0 +1,12 @@
+version: "2.3"
+services:
+  egeeio:
+    # volumes:
+    #   - type: bind
+    #     source: ./nginx.conf
+    #     target: /etc/nginx/nginx.conf:Z
+    build:
+      context: .
+    ports:
+      - "80:80"
+      - "443:443"

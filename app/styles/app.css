@@ -40,16 +40,33 @@ a:hover {
 /*====================
   Font Overrides
  =====================*/
+
+/* font-family: 'Lato', sans-serif; */
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-Regular.ttf');
+}
+  
+@font-face {
+  font-family: 'Lato Light';
+  src: url('fonts/Lato-Light.ttf');
+}
+  
+@font-face {
+  font-family: 'Lato Thin';
+  src: url('fonts/Lato-Hairline.ttf');
+}
+
 html {
-  font-family: Raleway, sans-serif;
+  font-family: 'Lato';
+  background-color: #030811;
 }
 .light {
-  font-family: 'Raleway', 'sans-serif';
-  font-weight: 300;
+  font-family: 'Lato Light';
 }
 .thin {
-  font-family: 'Raleway', 'sans-serif';
-  font-weight: 200;
+  font-family: 'Lato Thin';
 }
 /*====================
   Miscellaneous Helpers
@@ -62,8 +79,8 @@ iframe {
   margin-right: 5px;
 }
 .server-subscript {
-  margin-top: 0px;
-  margin-bottom: 17px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 .server-paragraph {
   margin-top: 5px;
