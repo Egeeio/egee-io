@@ -68,3 +68,10 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
+
+.idea/.idea.egeeio-website/.idea/workspace.xml
+.idea/.idea.egeeio-website/riderModule.iml
+.idea/.idea.egeeio-website/.idea/contentModel.xml
+.idea/.idea.egeeio-website/.idea/indexLayout.xml
+.idea/.idea.egeeio-website/.idea/modules.xml
+.idea/.idea.egeeio-website/.idea/vcs.xml
