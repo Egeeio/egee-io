@@ -1,0 +1,7 @@
+version: "2.3"
+services:
+  egeeio:
+    build:
+      context: .
+    ports:
+      - "80:8000"
