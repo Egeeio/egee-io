@@ -1,4 +1,70 @@
+#############
+# Web Stuff #
+#############
 bower_components/
 dist/
 node_modules/
 tmp/
+
+####################
+# Compiled Sources #
+####################
+*.com
+*.class
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.suo
+*FileListAbsolute.txt
+
+####################
+# Unwanted Dll's   #
+####################
+!/packages/*/lib/*.dll
+!/packages/*/lib/*/*.dll
+!*CommonReferences/*.dll
+
+###############
+# Directories #
+###############
+./.idea/* # Comment this out if you want your Rider prefs checked in
+.vscode/
+bin/
+obj/
+TestResults/
+
+###################
+# Web publish log #
+###################
+
+*.Publish.xml
+######################
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+########################
+# OS & generated files #
+########################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+[Bb]in
+[Oo]bj
+[Tt]est[Rr]esults
+*.suo
+*.user
+*.[Cc]ache
+*[Rr]esharper*
+packages
+NuGet.exe
+_[Ss]cripts
+*.exe
+*.dll
+*.nupkg
+*.ncrunchsolution
+*.dot[Cc]over
