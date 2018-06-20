@@ -61,10 +61,7 @@
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="images" t="Include">
-            <e p="banner1.svg" t="Include" />
-            <e p="banner2.svg" t="Include" />
-            <e p="banner3.svg" t="Include" />
-            <e p="banner4.svg" t="Include" />
+            <e p="opensource.png" t="Include" />
           </e>
           <e p="js" t="Include">
             <e p="site.js" t="Include" />
