@@ -18,18 +18,22 @@
 </head>
 <body>
 <nav>
-    <div class="siimple-navbar">
+    <div class="siimple-navbar siimple-navbar--purple siimple-navbar--fluid">
         <div class="siimple-layout--left">
             <a class="siimple-navbar-title">Egee.io</a>
         </div>
         <div class="siimple-layout--right">
-            <a class="siimple-navbar-link">Home</a>
+            <a class="siimple-navbar-link">About</a>
+            <a class="siimple-navbar-link" href="https://medium.com/&#64;egee_irl">Blog</a>
             <a class="siimple-navbar-link">Servers</a>
+            <a class="siimple-navbar-link" href="http://www.youtube.com/c/BriansprojectsNetEG">Videos</a>
         </div>
     </div>
 </nav>
 @RenderBody()
-
+<div class="siimple-footer siimple-footer--teal siimple-footer--fluid" align="center">
+    Made with love and siimple
+</div>
 
 <environment include="Development">
     <script src="~/js/site.js" asp-append-version="true"></script>
