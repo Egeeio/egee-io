@@ -5,6 +5,10 @@
     background-color: #030811;
 }
 
+p {
+    color: #ebf2fa;
+}
+
 .siimple-jumbotron.siimple-jumbotron--fluid {
     text-align: center;
 }
