@@ -4,40 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - website</title>
-
-    <!-- <environment include="Development"> -->
-        <link rel="stylesheet" href="~/lib/siimple/dist/siimple.min.css" />
-        <link rel="stylesheet" href="~/css/site.css"/>
-    <!-- </environment> -->
-    <!-- <environment exclude="Development">
-        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-    </environment> -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bulma/css/bulma.css"/>
+    <link rel="stylesheet" href="~/css/site.css"/>
 </head>
 <body>
-<nav>
-    <div class="siimple-navbar eg-blue-black siimple-navbar--fluid">
-        <div class="siimple-layout--left">
-            <a class="siimple-navbar-title">Egee.io</a>
-        </div>
-        <div class="siimple-layout--right">
-            <a class="siimple-navbar-link">About</a>
-            <a class="siimple-navbar-link" href="https://medium.com/&#64;egee_irl">Blog</a>
-            <a class="siimple-navbar-link">Servers</a>
-            <a class="siimple-navbar-link" href="http://www.youtube.com/c/BriansprojectsNetEG">Videos</a>
-        </div>
+<nav class="navbar eg-blue-black" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item has-text-white-bis" href="https://egee.io">Egee.io</a>
+    </div>
+    <div class="navbar-end">
+        <a class="navbar-item has-text-white-bis" href="#">About</a>
+        <a class="navbar-item has-text-white-bis" href="#">Blog</a>
+        <a class="navbar-item has-text-white-bis" href="#">Servers</a>
+        <a class="navbar-item has-text-white-bis" href="#">Videos</a>
     </div>
 </nav>
 @RenderBody()
-<div class="siimple-footer eg-blue-black siimple-footer--small" align="center">
-    Made with love and siimple
-</div>
+<footer class="footer has-background-black">
+    <div class="content has-text-centered">
+        <p>
+            Basically, yeah.
+        </p>
+    </div>
+</footer>
 
-<!-- <environment include="Development"> -->
-    <script src="~/js/site.js" asp-append-version="true"></script>
-<!-- </environment> -->
-<!-- <environment exclude="Development">
-    <script src="~/js/site.min.js" asp-append-version="true"></script>
-</environment> -->
+<script src="~/js/site.js" asp-append-version="true"></script>
 
 @RenderSection("Scripts", required: false)
 </body>
