@@ -1,8 +1,17 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .eg-hard-gray {
     background-color: #14191E;
 }
 .eg-blue-black {
     background-color: #030811;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
 }
 
 p {
@@ -33,6 +42,16 @@ p {
     background-color: #030811;
 }
 
-.siimple-btn.siimple-btn--purple {
+.eg-btn-purple {
+    border-width: 0px;
     background-color: #822ff7;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    
 }
