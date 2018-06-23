@@ -6,11 +6,12 @@
     <title>@ViewData["Title"] - website</title>
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <link rel="stylesheet" href="~/lib/bulma/css/bulma.css"/>
     <link rel="stylesheet" href="~/css/site.css"/>
 </head>
 <body>
-<nav class="navbar eg-blue-black" role="navigation" aria-label="main navigation">
+<nav class="navbar eg-blue-black is-transparent" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item has-text-white-bis" href="https://egee.io">Egee.io</a>
     </div>
@@ -22,11 +23,41 @@
     </div>
 </nav>
 @RenderBody()
-<footer class="footer has-background-black">
-    <div class="content has-text-centered">
-        <p>
-            Basically, yeah.
-        </p>
+<footer class="footer eg-blue-black">
+    <div class="columns">
+        <div class="column">
+            <h1 class="subtitle has-text-white-ter">Help Egee.io Grow!</h1>
+            <p>
+                We hope you have enjoyed Egee.io 
+                and if you feel like it has helped you out 
+                and want to support us you can by 
+                donating or backing us on Patreon! 
+                Any amount would helps and is greatly appreciated.
+            </p><br>
+            <button class="button eg-btn-purple has-text-white-bis">Support Us</button>
+        </div>
+        <div class="column">
+            <h1 class="subtitle has-text-white-ter">Chat With Us!</h1>
+            <p>
+                We have a Discord server where we hang out 
+                and coordinate events. If you want to participate 
+                in the events and discussion, feel free to join in!
+            </p><br>
+            <button class="button eg-btn-purple has-text-white-bis">Join Our Discord</button>
+        </div>
+        <div class="column">
+            <h1 class="subtitle has-text-white-ter">Connect</h1>
+            <figure>
+                <script src="https://apis.google.com/js/platform.js"></script>
+                <div class="g-ytsubscribe" data-channelid="UCXa6sE6cKXcQ97vI0Emn1XA" data-layout="default" data-theme="dark" data-count="default"></div>
+            </figure>
+            <figure>
+                <a href="https://twitter.com/egee_irl?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow &commat;egee_irl</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </figure>
+            <figure>
+                <a class="github-button" href="https://github.com/egee-irl" data-size="large" aria-label="Follow &commat;egee-irl on GitHub">Follow &commat;egee-irl</a>
+            </figure>
+        </div>
     </div>
 </footer>
 
