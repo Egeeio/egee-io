@@ -2,6 +2,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/*a.navbar-item:hover {*/
+    /*background-color: #030811;*/
+/*}*/
+
+.navbar-item {
+    font-weight: bold;
+}
+
 .eg-hard-gray {
     background-color: #14191E;
 }
