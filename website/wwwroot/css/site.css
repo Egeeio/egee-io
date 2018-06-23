@@ -2,9 +2,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/*a.navbar-item:hover {*/
-    /*background-color: #030811;*/
-/*}*/
+.section.is-small {
+    padding-top: 1rem;
+}
 
 .eg-title {
     margin-bottom: 0.5rem;
@@ -12,7 +12,6 @@ body {
     font-weight: 400;
     line-height: 1.125;
 }
-
 
 .navbar-item {
     font-weight: bold;
