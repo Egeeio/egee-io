@@ -2,6 +2,37 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    background-color: #030811;
+}
+
+.image.is-256x256 {
+    height: 256px;
+    width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.has-background-real-black {
+    background-color: black;
+}
+
+.centered {
+    text-align: center;
+}
+
+.card-subtitle {
+    font-size: 1.25rem;
+}
+
+.card-rules {
+    font-size: 0.8rem;
+}
+
+a.navbar-item:hover {
+    background-color: #030811;
+}
+
 .section.is-small {
     padding-top: 1rem;
 }
@@ -20,6 +51,7 @@ body {
 .eg-hard-gray {
     background-color: #14191E;
 }
+
 .eg-blue-black {
     background-color: #030811;
 }
@@ -31,35 +63,6 @@ body {
 
 p {
     color: #ebf2fa;
-}
-
-.siimple-jumbotron.siimple-jumbotron--fluid {
-    text-align: center;
-}
-
-.siimple-navbar-title {
-    color: #ebf2fa;
-}
-
-.siimple-navbar-link {
-    color: #ebf2fa;
-}
-
-.siimple-jumbotron-title {
-    color: #ebf2fa;
-}
-
-.siimple-jumbotron-subtitle {
-    color: #ebf2fa;
-}
-
-.siimple-jumbotron.siimple-jumbotron--fluid {
-    background-color: #030811;
-}
-
-.eg-btn-purple {
-    border-width: 0px;
-    background-color: #822ff7;
 }
 
 .title {
