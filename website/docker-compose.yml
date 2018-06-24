@@ -1,7 +1,8 @@
 version: "2.3"
 services:
   egeeio:
+    restart: always
     build:
       context: .
     ports:
-      - "80:8000"
+      - "8000:80"
