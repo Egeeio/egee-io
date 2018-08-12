@@ -1,7 +1,0 @@
-{
-  "name": "asp.net",
-  "private": true,
-  "dependencies": {
-    "bulma": "^0.7.1"
-  }
-}
