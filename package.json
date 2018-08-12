@@ -9,11 +9,15 @@
   },
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
-    "meteor-node-stubs": "^0.4.1"
+    "@types/react": "^16.4.9",
+    "@types/react-dom": "^16.0.7",
+    "meteor-node-stubs": "^0.4.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   },
   "meteor": {
     "mainModule": {
-      "client": "client/main.ts",
+      "client": "client/index.tsx",
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
