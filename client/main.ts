@@ -10,12 +10,12 @@ Template.hello.onCreated(function helloOnCreated() {
 
 Template.hello.helpers({
   counter() {
-    return Template.instance().counter.get();
+    // return Template.instance().counter.get();
   },
 });
 
 Template.hello.events({
-  'click button'(event, instance) {
+  'click button'(event: any, instance: any) {
     // increment the counter when button is clicked
     instance.counter.set(instance.counter.get() + 1);
   },

@@ -13,12 +13,13 @@
   },
   "meteor": {
     "mainModule": {
-      "client": "client/main.js",
+      "client": "client/main.ts",
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
   },
   "devDependencies": {
-    "@types/meteor": "^1.4.16"
+    "@types/meteor": "^1.4.16",
+    "tslint": "^5.11.0"
   }
 }
