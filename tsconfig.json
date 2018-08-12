@@ -6,6 +6,7 @@
       "noImplicitAny": true,
       "moduleResolution": "node",
       "sourceMap": true,
+      "jsx": "preserve",
       "paths": {
           "*": [
               "node_modules/*",
