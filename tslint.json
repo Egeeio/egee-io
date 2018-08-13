@@ -1,5 +1,7 @@
 {
+    "extends": ["tslint:latest", "tslint-react"],
     "rules": {
+        "jsx-wrap-multiline": false,
         "class-name": true,
         "comment-format": [
             true,
