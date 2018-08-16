@@ -1,9 +1,9 @@
-import * as React from 'react'
+import * as React from "react";
 
 export default class HelloWorld extends React.Component {
-  render () {
+  public render() {
     return (
       <h1>Hello World</h1>
-    )
+    );
   }
 }
