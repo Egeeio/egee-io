@@ -6,7 +6,7 @@
       "noImplicitAny": true,
       "moduleResolution": "node",
       "sourceMap": true,
-      "jsx": "preserve",
+      "jsx": "react",
       "paths": {
           "*": [
               "node_modules/*",
@@ -16,7 +16,8 @@
   },
   "include": [
       "client/*",
-      "server/*"
+      "server/*",
+      "imports/ui/*"
   ],
   "exclude": [
     "node_modules",

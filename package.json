@@ -1,5 +1,5 @@
 {
-  "name": "egeeio",
+  "name": "bootstrap",
   "private": true,
   "scripts": {
     "start": "meteor run",
@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
-    "@types/react": "^16.4.9",
+    "@types/meteor": "^1.4.16",
+    "@types/react": "^16.4.11",
     "@types/react-dom": "^16.0.7",
     "meteor-node-stubs": "^0.4.1",
     "react": "^16.4.2",
@@ -17,13 +18,10 @@
   },
   "meteor": {
     "mainModule": {
-      "client": "client/index.tsx",
+      "client": "client/main.tsx",
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
   },
-  "devDependencies": {
-    "@types/meteor": "^1.4.16",
-    "tslint": "^5.11.0"
-  }
+  "devDependencies": {}
 }
