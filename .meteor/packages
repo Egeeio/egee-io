@@ -14,3 +14,4 @@ shell-server@0.3.1            # Server-side component of the `meteor shell` comm
 webapp@1.6.0                  # Serves a Meteor app over HTTP
 server-render@0.3.1           # Support for server-side rendering
 barbatus:typescript
+less
