@@ -1,0 +1,29 @@
+{
+  "builders" : [{
+    "type": "docker",
+    "image": "danlynn/ember-cli:2.10.1",
+    "commit": "true",
+    "changes": [
+      "CMD [\"ember\", \"/serve\"]"
+    ]
+  }],
+  "provisioners": [{
+    "type": "file",
+    "source": "suzy.tar.gz",
+    "destination": "/suzy.tar.gz"
+  },
+  {
+    "type": "shell",
+    "inline": ["tar -zxf suzy.tar.gz", "npm install --production", "bower install"]    
+  }],
+  "post-processors": [
+    [
+      {
+        "type": "docker-tag",
+        "repository": "540854239492.dkr.ecr.us-west-2.amazonaws.com/eg-repo",
+        "tag": "latest"
+      },
+      "docker-push"
+    ]
+  ]
+}
