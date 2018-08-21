@@ -9,12 +9,12 @@
   }],
   "provisioners": [{
     "type": "file",
-    "source": "suzy.tar.gz",
-    "destination": "/suzy.tar.gz"
+    "source": "egeeio.tar.gz",
+    "destination": "/egeeio.tar.gz"
   },
   {
     "type": "shell",
-    "inline": ["tar -zxf suzy.tar.gz", "npm install --production", "bower install"]    
+    "inline": ["tar -zxf egeeio.tar.gz", "npm install --production", "bower install"]    
   }],
   "post-processors": [
     [
