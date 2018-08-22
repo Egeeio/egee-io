@@ -3,5 +3,6 @@ services: docker
 language: node_js
 node_js: "6.9.2"
 install:
-  - ./post-build/package.sh
+  - pwd && ls
+  - tar -czf egeeio.tar.gz .
   - ./post-build/packer.sh  
