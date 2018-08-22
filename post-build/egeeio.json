@@ -1,10 +1,10 @@
 {
   "builders" : [{
     "type": "docker",
-    "image": "danlynn/ember-cli:2.10.1",
+    "image": "node:8",
     "commit": "true",
     "changes": [
-      "CMD [\"ember\", \"/serve\"]"
+      "CMD [\"npm\", \"start\"]"
     ]
   }],
   "provisioners": [{
@@ -14,13 +14,13 @@
   },
   {
     "type": "shell",
-    "inline": ["tar -zxf egeeio.tar.gz", "npm install --production", "bower install"]    
+    "inline": ["tar -zxf egeeio.tar.gz", "npm install"]    
   }],
   "post-processors": [
     [
       {
         "type": "docker-tag",
-        "repository": "540854239492.dkr.ecr.us-west-2.amazonaws.com/eg-repo",
+        "repository": "540854239492.dkr.ecr.us-west-2.amazonaws.com/eg-website",
         "tag": "latest"
       },
       "docker-push"

@@ -9,17 +9,9 @@
   },
   "scripts": {
     "build": "ember build",
-    "start": "ember server",
+    "start": "./node_modules/.bin/ember server --environment=production",
     "test": "ember test"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/egee-irl/egeeio"
-  },
-  "engines": {
-    "node": ">= 6.9.0"
-  },
-  "license": "CC-BY-NC-ND-4.0",
   "devDependencies": {
     "broccoli-asset-rev": "2.5.0",
     "ember-cli-app-version": "2.0.1",
