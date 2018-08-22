@@ -4,13 +4,9 @@
   "description": "Egee.io the website",
   "private": true,
   "author": "Egee <brian@egee.io>",
-  "directories": {
-    "test": "tests"
-  },
   "scripts": {
     "build": "ember build",
-    "start": "./node_modules/.bin/ember server --live-reload=false",
-    "test": "ember test"
+    "start": "./node_modules/.bin/ember server --live-reload=false"
   },
   "devDependencies": {
     "broccoli-asset-rev": "2.5.0",

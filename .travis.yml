@@ -1,7 +1,7 @@
 sudo: required
 services: docker
 language: node_js
-node_js: "6.9.2"
+node_js: "8"
 install:
   - tar -czf egeeio.tar.gz *
   - ./post-build/packer.sh  
