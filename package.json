@@ -8,7 +8,11 @@
     "build": "ember build",
     "start": "./node_modules/.bin/ember server --live-reload=false"
   },
-  "devDependencies": {
+  "dependencies": {
+    "ember": "1.0.0-pre.2",
+    "ember-cli": "2.10.0",
+    "ember-load-initializers": "0.6.3",
+    "ember-resolver": "2.1.0",
     "broccoli-asset-rev": "2.5.0",
     "ember-cli-app-version": "2.0.1",
     "ember-cli-babel": "5.2.1",
@@ -25,14 +29,7 @@
     "eslint-config-standard": "6.2.1",
     "eslint-plugin-promise": "3.4.0",
     "eslint-plugin-standard": "2.0.1",
-    "loader.js": "4.1.0"
-  },
-  "dependencies": {
-    "ember": "1.0.0-pre.2",
-    "ember-cli": "2.10.0",
-    "ember-load-initializers": "0.6.3",
-    "ember-qunit": "1.0.0",
-    "ember-resolver": "2.1.0",
+    "loader.js": "4.1.0",
     "portscanner": "^2.1.1"
   }
 }
