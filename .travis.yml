@@ -2,6 +2,10 @@ sudo: required
 services: docker
 language: node_js
 node_js: "8"
-install:
-  - tar -czf egeeio.tar.gz *
-  - ./post-build/packer.sh  
+script: tar -czf egeeio.tar.gz *
+deploy:
+  - provider: script
+    script: ./post-build/packer.sh
+    skip_cleanup: true
+    on:
+      tags: true
