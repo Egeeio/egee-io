@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "ember build",
-    "start": "./node_modules/.bin/ember server --environment=production",
+    "start": "./node_modules/.bin/ember server --live-reload=false",
     "test": "ember test"
   },
   "devDependencies": {
