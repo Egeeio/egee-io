@@ -4,5 +4,5 @@ language: node_js
 node_js: "6.9.2"
 install:
   - cd .. && tar -czf egeeio.tar.gz egeeio-website && mv egeeio.tar.gz egeeio-website
-  - cd egeeio-website
+  - cd egeeio-website && ls
   - ./post-build/packer.sh  
