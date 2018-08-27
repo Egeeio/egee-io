@@ -1,23 +1,17 @@
 import * as React from "react";
+import "./app.less";
+import Footer from "./footer";
+import IndexHero from "./indexHero";
+import NavBar from "./nav";
 
 export default class HelloWorld extends React.Component {
   public render() {
     return (
-      <section className="hero eg-blue-black is-large">
-        <div className="hero-body">
-          <div className="container">
-            <h1 className="title has-text-white-bis">
-              Egee.io
-            </h1>
-            <h2 className="subtitle has-text-white-bis">
-              Be different. Play together.
-            </h2>
-            <form>
-              <button className="button is-white is-outlined" formAction="/Servers">Our Servers</button>
-            </form>
-          </div>
-        </div>
-      </section>
+      <body>
+        <NavBar/>
+        <IndexHero/>
+        <Footer/>
+      </body>
     );
   }
 }
