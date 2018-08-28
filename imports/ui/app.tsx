@@ -4,7 +4,7 @@ import { Route, Router } from "react-router";
 import Footer from "./footer";
 import Index from "./index/index";
 import NavBar from "./nav";
-import Servers from "./servers/hero";
+import Servers from "./servers/servers";
 
 import "./app.less";
 
