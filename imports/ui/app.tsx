@@ -2,9 +2,9 @@ import createBrowserHistory from "history/createBrowserHistory";
 import * as React from "react";
 import { Route, Router } from "react-router";
 import Footer from "./footer";
-import Index from "./index";
+import Index from "./index/index";
 import NavBar from "./nav";
-import Servers from "./servers";
+import Servers from "./servers/hero";
 
 import "./app.less";
 

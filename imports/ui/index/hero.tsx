@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export default class IndexHero extends React.Component {
+export default class Hero extends React.Component {
   public render() {
     return (
       <section className="hero eg-blue-black is-large">
