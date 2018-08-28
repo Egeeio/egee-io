@@ -1,17 +1,26 @@
+import createBrowserHistory from "history/createBrowserHistory";
 import * as React from "react";
-import "./app.less";
+import { Route, Router } from "react-router";
 import Footer from "./footer";
-import IndexHero from "./indexHero";
-import IndexOSection from "./indexOSection";
+import Index from "./index";
 import NavBar from "./nav";
+import Servers from "./servers";
+
+import "./app.less";
+
+const browserHistory = createBrowserHistory();
 
 export default class HelloWorld extends React.Component {
   public render() {
     return (
       <div>
         <NavBar/>
-        <IndexHero/>
-        <IndexOSection/>
+        <Router history={browserHistory}>
+          <switch>
+            <Route exact={true} path="/" component={Index}/>
+            <Route exact={true} path="/servers" component={Servers}/>
+          </switch>
+        </Router>
         <Footer/>
       </div>
     );
