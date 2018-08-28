@@ -17,7 +17,8 @@
   "include": [
       "client/*",
       "server/*",
-      "imports/ui/*"
+      "imports/ui/*",
+      "umports/ui/*/*"
   ],
   "exclude": [
     "node_modules",
