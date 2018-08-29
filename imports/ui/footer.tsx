@@ -31,14 +31,17 @@ export default class Footer extends React.Component {
             </div>
             <div className="column">
               <h1 className="subtitle has-text-white-ter">Connect</h1>
-              <figure>
-                <div className="g-ytsubscribe" data-channelid="UCXa6sE6cKXcQ97vI0Emn1XA" data-layout="default" data-theme="dark" data-count="default"/>
+              <figure className="footer-button-padding">
+                <button className="button is-white is-outlined" formAction="">
+                YouTube<i className="fa-padding fab fa-youtube"/></button>
               </figure>
-              <figure>
-                <a href="https://twitter.com/egee_irl?ref_src=twsrc%5Etfw" className="twitter-follow-button" data-size="large" data-show-count="false">Follow &commat;egee_irl</a><script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+              <figure className="footer-button-padding">
+                <button className="button is-white is-outlined" formAction="">
+                Twitter<i className="fa-padding fab fa-twitter"/></button>
               </figure>
-              <figure>
-                <a className="github-button" href="https://github.com/egee-irl" data-size="large" aria-label="Follow &commat;egee-irl on GitHub">Follow &commat;egee-irl</a>
+              <figure className="footer-button-padding">
+                <button className="button is-white is-outlined" formAction="">
+                GitHub<i className="fa-padding fab fa-github-alt"/></button>
               </figure>
             </div>
           </div>
