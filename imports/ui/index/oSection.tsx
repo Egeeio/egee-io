@@ -23,7 +23,7 @@ export default class OSection extends React.Component {
               </p><br/>
               <p>
                 If you'd like to learn more about our infrastructure and software stack,
-                you can find us on <a href="https://github.com/Egeeio">GitHub</a>
+                you can find us on <a href="https://github.com/Egeeio">GitHub </a>
                 or read and learn more about us <a href="/about">here</a>.
               </p>
             </div>
