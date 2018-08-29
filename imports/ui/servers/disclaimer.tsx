@@ -25,7 +25,8 @@ export default class Disclaimer extends React.Component {
             If you have issues connecting to one of our servers, or you would like to see a new server added,
             message an admin on our <a href="https://discord.gg/tVyBHAU">Discord server</a> or create an issue on our GitHub repo.
           </p><br/>
-          <a className="github-button" href="https://github.com/egeeio/gsc-meta/issues" data-icon="octicon-issue-opened"data-size="large" aria-label="Issue egeeio/gsc-meta on GitHub">Issue</a>
+            <button className="button is-warning is-outlined" formAction="https://github.com/egeeio/gsc-meta/issues">
+            Issues<i className="fa-padding fab fa-github-alt"/></button>
         </div>
       </section>
     );
