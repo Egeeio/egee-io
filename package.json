@@ -1,42 +1,33 @@
 {
-  "name": "egeeio-website",
+  "name": "gatsby-starter-default",
   "private": true,
+  "version": "1.0.0",
+  "author": "Egee <brian@egee.io>",
   "scripts": {
-    "start": "meteor run",
-    "rebuild": "npm run clean-npm && npm run lint-ts",
-    "clean-npm": "rm -rf node_modules && meteor npm install",
-    "lint-ts": "node_modules/.bin/tslint -c tslint.json -p tsconfig.json",
-    "test": "meteor test --once --driver-package meteortesting:mocha",
-    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
-    "visualize": "meteor --production --extra-packages bundle-visualizer"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@babel/runtime": "7.0.0-beta.55",
-    "history": "^4.7.2",
-    "meteor-node-stubs": "^0.4.1",
+    "gatsby": "next",
+    "gatsby-plugin-manifest": "next",
+    "gatsby-plugin-offline": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-typescript": "next",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-router": "^4.3.1",
-    "typescript": "^3.0.1"
-  },
-  "meteor": {
-    "mainModule": {
-      "client": "client/main.tsx",
-      "server": "server/main.js"
-    },
-    "testModule": "tests/main.js"
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "@types/chai": "^4.1.4",
-    "@types/meteor": "^1.4.16",
-    "@types/mocha": "^5.2.5",
+    "prettier": "^1.14.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
     "@types/node": "^10.7.1",
     "@types/react": "^16.4.11",
     "@types/react-dom": "^16.0.7",
     "@types/react-router": "^4.0.30",
-    "@types/sinon": "^5.0.1",
-    "ts-node": "^7.0.1",
-    "tslint": "^5.11.0",
-    "tslint-react": "^3.6.0"
+    "@types/react-helmet": "^5.0.7"
   }
 }
