@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Egee.io",
+    title: "Egee.io | Be different. Play Together",
   },
   plugins: [
     "gatsby-plugin-typescript",
