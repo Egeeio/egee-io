@@ -2,7 +2,7 @@
 // It serves as reference code when creating a new component
 
 import * as React from "react";
-import opensource0 from "../../images/opensource0.png";
+import opensource from "../../images/opensource.png";
 
 export default class OsSection extends React.Component {
   public render() {
@@ -12,7 +12,7 @@ export default class OsSection extends React.Component {
           <div className="columns">
             <div className="column">
               <figure className="image is-256x256">
-                <img src={ opensource0 } alt="Open Source image logo thing"/>
+                <img src={ opensource } alt="Open Source image logo thing"/>
               </figure>
             </div>
             <div className="column">
