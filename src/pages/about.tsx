@@ -43,7 +43,7 @@ const SecondPage = () => (
         </p>
       </div>
     </section>
-    <section className="section has-background-real-black">
+    {/* <section className="section has-background-real-black">
       <div className="container">
         <h2 className="eg-title has-text-white-bis">
           Egee.io Software
@@ -60,7 +60,7 @@ const SecondPage = () => (
           on the Egee.io organization GitHub.
         </p>
       </div>
-    </section>
+    </section> */}
     <section className="section has-background-real-black">
       <div className="container">
         <h2 className="eg-title has-text-white-bis">
