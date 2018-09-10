@@ -13,8 +13,6 @@
   "dependencies": {
     "bulma": "^0.7.1",
     "gatsby": "next",
-    "gatsby-plugin-manifest": "next",
-    "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-typescript": "next",
     "react": "^16.4.2",
