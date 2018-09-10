@@ -1,26 +1,10 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Egee.io - The Website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+[![CircleCI](https://circleci.com/gh/Egeeio/egeeio-website.svg?style=svg)](https://circleci.com/gh/Egeeio/egeeio-website)
+[![Maintainability](https://api.codeclimate.com/v1/badges/41e988c2573482c41f02/maintainability)](https://codeclimate.com/github/Egeeio/egeeio-website/maintainability)
 
-## Install
+This repository is where all of the front-end code for the [Egee.io](egee.io) website lives.
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+## Tech Stack
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+The Egee.io website is a simple [Gatsby](https://www.gatsbyjs.org/) site built with React + TypeScript & CSS.  Everything is bundled with Webpack and served up as static files & assets via an Nginx server.
