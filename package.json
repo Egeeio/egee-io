@@ -7,6 +7,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "clean": "cd public && rm -rf * && touch .gitkeep",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
