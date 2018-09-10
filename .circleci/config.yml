@@ -2,8 +2,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: aripalo/gatsby-docker
+      - image: node:8.11
     steps:
       - checkout
-      - run: gatsby build
+      - run: npm install
+      - run: npm run build
       #- run: gatsby test
