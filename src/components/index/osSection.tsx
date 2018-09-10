@@ -20,7 +20,7 @@ export default class OsSection extends React.Component {
               <p>
                 Egee.io is self-hosted &amp; powered by open source technologies.
                 We don't use any cloud providers or hosting platforms.
-                This allows us to control of our software choices and remain committed to open source software.
+                This allows us to control of our software choices and remain committed to Open Source software.
               </p><br/>
               <p>
                 If you'd like to learn more about our infrastructure and software stack,
