@@ -6,7 +6,7 @@ import { StaticQuery, graphql } from "gatsby";
 import Footer from "./footer";
 import Header from "./header";
 import "bulma/css/bulma.css";
-import "./layout.css";
+import "./site.css";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -24,7 +24,7 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: "description", content: "A Gaming Community" },
+            { name: "description", content: "A Alternative PC Gaming Community" },
             { name: "keywords", content: "linux, gaming" },
           ]}
         >
