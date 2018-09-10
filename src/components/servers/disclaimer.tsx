@@ -1,6 +1,3 @@
-// This class functionally does nothing
-// It serves as reference code when creating a new component
-
 import * as React from "react";
 
 export default class Disclaimer extends React.Component {
@@ -25,8 +22,13 @@ export default class Disclaimer extends React.Component {
             If you have issues connecting to one of our servers, or you would like to see a new server added,
             message an admin on our <a href="https://discord.gg/tVyBHAU">Discord server</a> or create an issue on our GitHub repo.
           </p><br/>
-            <button className="button is-warning is-outlined" formAction="https://github.com/egeeio/gsc-meta/issues">
-            Issues<i className="fa-padding fab fa-github-alt"/></button>
+            <a href="https://github.com/egeeio/gsc-meta/issues">
+              <button
+                className="button is-warning is-outlined">
+                Issues <i className="fa-padding fab fa-github-alt"/>
+              </button>
+            </a>
+
         </div>
       </section>
     );
