@@ -3,6 +3,7 @@ import * as PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 
+import favicon from '../images/favicon.ico';
 import Footer from "./footer";
 import Header from "./header";
 import "bulma/css/bulma.css";
@@ -22,15 +23,18 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Helmet
-          title={data.site.siteMetadata.title}
           meta={[
-            { name: "description", content: "A Alternative PC Gaming Community" },
+            { name: "description", content: "An Alternative PC Gaming Community" },
             { name: "keywords", content: "linux, gaming" },
+            { name: "charset", content: "utf-8"}
           ]}
         >
           <html lang="en" />
+          <title>{data.site.siteMetadata.title}</title>
+          <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet"/>
+          <link href={favicon} rel="icon" type="image/x-icon"/>
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header/>
         <div>
           {children}
         </div>
