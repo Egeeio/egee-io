@@ -10,7 +10,8 @@
   },
   "include": [
         "src/pages/*",
-        "src/components/*"
+        "src/components/*",
+        "gatsby-config.tsx"
   ],
   "exclude": [
     "node_modules"
