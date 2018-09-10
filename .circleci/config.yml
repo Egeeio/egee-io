@@ -2,8 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: microsoft/dotnet:sdk
+      - image: gatsbyjs/gatsby:latest
     steps:
       - checkout
-      - run: dotnet build
-      #- run: dotnet test
+      - run: gatsby build
+      #- run: gatsby test
