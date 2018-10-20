@@ -11,7 +11,7 @@ export default class OSection extends React.Component {
           <div className="columns">
             <div className="column">
               <figure className="image is-256x256">
-                <img src="/images/opensource0.png" alt="Open Source image logo thing"/>
+                <img src="/images/opensource.png" alt="Open Source image logo thing"/>
               </figure>
             </div>
             <div className="column">
