@@ -10,7 +10,7 @@ export default class Hero extends React.Component {
               Egee.io
             </h1>
             <h2 className="subtitle has-text-white-bis">
-              Be different. Play together.
+              Be Different. Play Together.
             </h2>
             <form>
               <button className="button is-white is-outlined" formAction="/Servers">Our Servers</button>
