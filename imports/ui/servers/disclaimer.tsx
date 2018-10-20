@@ -26,7 +26,7 @@ export default class Disclaimer extends React.Component {
             message an admin on our <a href="https://discord.gg/tVyBHAU">Discord server</a> or create an issue on our GitHub repo.
           </p><br/>
             <button className="button is-warning is-outlined" formAction="https://github.com/egeeio/gsc-meta/issues">
-            Issues<i className="fa-padding fab fa-github-alt"/></button>
+            Issues<i className="fa-padding"/></button>
         </div>
       </section>
     );
