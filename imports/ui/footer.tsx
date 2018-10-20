@@ -33,15 +33,15 @@ export default class Footer extends React.Component {
               <h1 className="subtitle has-text-white-ter">Connect</h1>
               <figure className="footer-button-padding">
                 <button className="button is-white is-outlined" formAction="https://www.youtube.com/channel/UCXa6sE6cKXcQ97vI0Emn1XA">
-                YouTube<i className="fa-padding fab fa-youtube"/></button>
+                YouTube<i className="fa-padding"/></button>
               </figure>
               <figure className="footer-button-padding">
                 <button className="button is-white is-outlined" formAction="https://twitter.com/egee_irl">
-                Twitter<i className="fa-padding fab fa-twitter"/></button>
+                Twitter<i className="fa-padding"/></button>
               </figure>
               <figure className="footer-button-padding">
                 <button className="button is-white is-outlined" formAction="https://github.com/egee-irl">
-                GitHub<i className="fa-padding fab fa-github-alt"/></button>
+                GitHub<i className="fa-padding"/></button>
               </figure>
             </div>
           </div>
