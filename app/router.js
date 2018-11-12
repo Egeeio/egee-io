@@ -8,6 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('servers');
+  this.route('join');
 });
 
 export default Router;
