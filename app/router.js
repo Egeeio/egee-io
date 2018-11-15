@@ -9,6 +9,7 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('servers');
   this.route('join');
+  this.route('secretsanta');
 });
 
 export default Router;
