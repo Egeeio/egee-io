@@ -1,4 +1,4 @@
-# egeeio [![Discord](https://discordapp.com/api/guilds/183740337976508416/widget.png?style=shield)](https://discord.gg/X7WchSF)
+# egeeio [![Discord](https://discordapp.com/api/guilds/183740337976508416/widget.png?style=shield)](https://discord.gg/EMbcgR8)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
