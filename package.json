@@ -1,11 +1,11 @@
 {
   "name": "egeeio",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "Small description for egeeio goes here",
+  "description": "The official Egee.io website. Or something.",
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "Egee & Fiends",
   "directories": {
     "doc": "doc",
     "test": "tests"
