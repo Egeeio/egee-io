@@ -6,10 +6,11 @@ const Router = EmberRouter.extend({
   rootURL: config.rootURL
 });
 
-Router.map(function() {
+Router.map(function () {
   this.route('servers');
   this.route('join');
   this.route('secretsanta');
+  this.route('404', { path: '/*path' });
 });
 
 export default Router;
