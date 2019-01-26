@@ -5,4 +5,8 @@ task :run do
   system('bundle exec middleman')
 end
 
+task :build do
+  system('bundle exec middleman build')
+end
+
 task default: :run
