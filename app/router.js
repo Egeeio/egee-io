@@ -1,13 +1,16 @@
-import Ember from 'ember'
-import config from './config/environment'
+import EmberRouter from '@ember/routing/router';
+import config from './config/environment';
 
-const Router = Ember.Router.extend({
-  location: config.locationType
-})
+const Router = EmberRouter.extend({
+  location: config.locationType,
+  rootURL: config.rootURL
+});
 
 Router.map(function () {
-  this.route('not-found', { path: '/*path' })
-  this.route('servers')
-})
+  this.route('servers');
+  this.route('join');
+  this.route('secretsanta');
+  this.route('404', { path: '/*path' });
+});
 
-export default Router
+export default Router;

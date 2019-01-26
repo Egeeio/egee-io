@@ -1,118 +1,90 @@
-/*====================
-  Egee.io Stylesheet
- =====================*/
-/*====================
-  Color Overrides
- =====================*/
-p {
-  color: white;
-}
-h1 {
-  color: white;
-}
-h2 {
-  color: white;
-}
-h3 {
-  color: white;
-}
-h4 {
-  color: white;
-}
-h5 {
-  color: white;
-}
-.modal-content {
-  background-color: #14191E;
-}
-.eg-hard-gray {
-  background-color: #14191E;
-}
-.eg-blue-black {
-  background-color: #030811;
-}
-a {
-  color: #822ff7;
-}
-a:hover {
-  text-decoration: underline;
-}
-/*====================
-  Font Overrides
- =====================*/
-
-/* font-family: 'Lato', sans-serif; */
-
-@font-face {
-  font-family: 'Lato';
-  src: url('fonts/Lato-Regular.ttf');
-}
-  
-@font-face {
-  font-family: 'Lato Light';
-  src: url('fonts/Lato-Light.ttf');
-}
-  
-@font-face {
-  font-family: 'Lato Thin';
-  src: url('fonts/Lato-Hairline.ttf');
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
-  font-family: 'Lato';
   background-color: #030811;
 }
-.light {
-  font-family: 'Lato Light';
+
+.fa-padding {
+  padding-left: 4px;
 }
-.thin {
-  font-family: 'Lato Thin';
+
+.fa-twitter {
+  color: #1da1f3;
 }
-/*====================
-  Miscellaneous Helpers
- =====================*/
-iframe {
-  padding-left: 50px;
+
+.fa-youtube {
+  color: #f00;
 }
-.material-icons {
-  margin-left: 5px;
-  margin-right: 5px;
+
+.footer-button-padding {
+  padding: 3px;
 }
-.server-subscript {
-  margin-top: 10px;
-  margin-bottom: 100px;
-}
-.server-paragraph {
-  margin-top: 5px;
-  margin-bottom: 0px;
-}
-.server-header {
-  margin-bottom: 5px;
-}
-footer.page-footer {
-  margin-top: 0px;
-  padding-bottom: 10px;
-}
-.row {
-  margin-bottom: 0px;
-}
-img.responsive-img {
-  display: block;
-  margin-right: auto;
+
+.image.is-256x256 {
+  height: 256px;
+  width: 256px;
   margin-left: auto;
+  margin-right: auto;
 }
-.parallax-container {
-  height: 400px;
+
+.has-background-real-black {
+  background-color: black;
 }
-.icon-block {
-  padding: 0 15px;
+
+.centered {
+  text-align: center;
 }
-.title-margin {
-  margin-top: 75px;
+
+.card-subtitle {
+  font-size: 1.25rem;
 }
-.marginless-top {
-  margin-top: 0px;
+
+.card-rules {
+  font-size: 0.8rem;
 }
-.marginless-bottom {
-  margin-bottom: 0px;
+
+a.navbar-item:hover {
+  background-color: #030811;
+}
+
+.section.is-small {
+  padding-top: 1rem;
+}
+
+.eg-title {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.125;
+}
+
+.navbar-item {
+  font-weight: bold;
+}
+
+.eg-hard-gray {
+  background-color: #14191e;
+}
+
+.eg-blue-black {
+  background-color: #030811;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+p {
+  color: #ebf2fa;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 2rem;
 }
