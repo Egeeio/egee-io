@@ -24,7 +24,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.3)
-    ffi (1.9.23)
+    ffi (1.10.0)
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -82,7 +82,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.12.1)
     public_suffix (3.0.2)
-    rack (2.0.5)
+    rack (2.0.6)
     rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
@@ -102,8 +102,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi (>= 1.9.24)
   middleman (~> 4.2.1)
   middleman-autoprefixer (~> 2.7)
+  rack (>= 2.0.6)
   rake (~> 12.3.2)
 
 BUNDLED WITH
