@@ -1,32 +1,25 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EmberQuickstart</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Egee.io | Be Different. Play Together!</title>
-  <meta name="description" content="An inclusive gaming community for everyone">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{content-for "head"}}
 
-  {{content-for "head"}}
-  <link rel="icon" sizes="16x16 32x32" href="assets/favicon.ico?v=2">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
-  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/egeeio.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/ember-quickstart.css">
 
-  {{content-for "head-footer"}}
-</head>
+    {{content-for "head-footer"}}
+  </head>
+  <body>
+    {{content-for "body"}}
 
-<body>
-  {{content-for "body"}}
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/ember-quickstart.js"></script>
 
-  <script src="{{rootURL}}assets/vendor.js"></script>
-  <script src="{{rootURL}}assets/egeeio.js"></script>
-
-  {{content-for "body-footer"}}
-</body>
-
+    {{content-for "body-footer"}}
+  </body>
 </html>

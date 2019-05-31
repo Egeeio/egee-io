@@ -1,11 +1,11 @@
 {
-  "name": "egee.io-website",
-  "version": "1.0.0",
+  "name": "ember-quickstart",
+  "version": "0.0.0",
   "private": true,
-  "description": "The Ember app for Egee.io, the public-facing website",
+  "description": "Small description for ember-quickstart goes here",
   "repository": "",
   "license": "MIT",
-  "author": "The Egee.io crew",
+  "author": "",
   "directories": {
     "doc": "doc",
     "test": "tests"
