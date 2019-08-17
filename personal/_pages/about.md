@@ -1,8 +1,8 @@
 ---
 title: About me
 subtitle: Egee.io.
-description: Egee.io is the perfect.
-featured_image: /images/demo/about.jpg
+description: Egee just chills.
+featured_image: /images/about.jpg
 ---
 
 Basically mega yeet
