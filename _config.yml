@@ -4,9 +4,6 @@ collections:
   pages:
     output: true
     permalink: /:name
-  posts:
-    output: true
-    permalink: /blog/:slug
   projects:
     output: true
     permalink: /project/:slug
