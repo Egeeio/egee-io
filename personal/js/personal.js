@@ -1,6 +1,6 @@
 //
 //
-// Personal JS
+// Egee.io JS
 //
 //
 
