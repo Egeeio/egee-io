@@ -1,3 +1,0 @@
-# egeeio-website
-
-yeet
