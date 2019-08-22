@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Egee.io
-  favicon_image: /images/favicon.png
+  favicon_image: /images/favicon.ico
 
 header_settings:
   logo_image: 
@@ -32,8 +32,8 @@ social_settings:
   github_url: 'https://github.com/Egeeio'
 
 color_settings:
-  background_color: '#030811'
-  background_alt_color: '#f4f5f6'
+  background_color: '#273359'
+  background_alt_color: '#9e4e19'
   text_dark_color: '#ffffff'
   text_medium_color: '#ffffff'
   text_light_color: '#ffffff'
@@ -108,10 +108,10 @@ font_settings:
   p:
     small_size: 18
     medium_size: 20
-    large_size: 22
+    large_size: 22 # TODO: https://github.com/Egeeio/gsd-cli/issues/13
     weight: 400
     letter_spacing: 0
-    line_height: 1.6
+    line_height: 1.5
   blockquote:
     small_size: 25
     medium_size: 35
