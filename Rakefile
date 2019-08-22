@@ -5,6 +5,7 @@ task :serve do
 end
 
 task :build do
+  sh "bundle exec jekyll clean"
   sh "bundle exec jekyll build"
 end
 
