@@ -9,11 +9,11 @@ header_settings:
 menu_settings:
   menu_items:
     - title: 'About'
-      url: '/about/'
+      url: '/about'
     - title: 'Community'
-      url: 'https://medium.com/@egee_irl'
+      url: '/community'
     - title: 'Games'
-      url: 'https://medium.com/@egee_irl'
+      url: '/games'
 
 footer_settings:
   footer_tagline: Be different. Play together.
@@ -36,16 +36,14 @@ social_settings:
   github_url: 'https://github.com/Egeeio'
 
 color_settings:
-  background_color: '#242424'
-  background_alt_color: '#f5f5f5'
+  background_color: '#121212'
+  background_alt_color: '#dbdbdb'
   text_dark_color: '#ffffff'
   text_medium_color: '#ffffff'
   text_light_color: '#ffffff'
-  accent_color: '#3498db'
+  accent_color: '#9e4e19'
   border_color: '#dddddd'
   hero_background_color: '#14191E'
-  # hero_background_color: '#4f637a'
-  # hero_background_color: '#110C03'
   hero_text_color: '#ffffff'
   error_color: '#D64541'
 
