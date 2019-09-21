@@ -8,7 +8,11 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Blog'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Community'
+      url: 'https://medium.com/@egee_irl'
+    - title: 'Games'
       url: 'https://medium.com/@egee_irl'
 
 footer_settings:
@@ -32,8 +36,8 @@ social_settings:
   github_url: 'https://github.com/Egeeio'
 
 color_settings:
-  background_color: '#273359'
-  background_alt_color: '#9e4e19'
+  background_color: '#242424'
+  background_alt_color: '#f5f5f5'
   text_dark_color: '#ffffff'
   text_medium_color: '#ffffff'
   text_light_color: '#ffffff'
@@ -85,12 +89,12 @@ font_settings:
     letter_spacing: -0.02
     line_height: 1.3
   h4:
-    small_size: 17
-    medium_size: 22
+    small_size: 18
+    medium_size: 20
     large_size: 22
-    weight: 700
+    weight: 400
     letter_spacing: 0
-    line_height: 1.6
+    line_height: 1
   h5:
     small_size: 17
     medium_size: 20
@@ -108,7 +112,7 @@ font_settings:
   p:
     small_size: 18
     medium_size: 20
-    large_size: 22 # TODO: https://github.com/Egeeio/gsd-cli/issues/13
+    large_size: 18 # TODO: https://github.com/Egeeio/gsd-cli/issues/13
     weight: 400
     letter_spacing: 0
     line_height: 1.5
