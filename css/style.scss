@@ -7,11 +7,6 @@
 @import "_mixins";
 @import "_plugins";
 
-
-
-// - - - - - - - - - - Variables
-
-
 // Colors
 
 $background-color: {{ site.data.settings.color_settings.background_color }};
@@ -135,10 +130,78 @@ $grid-spacing: {{ site.data.settings.post_settings.grid_spacing }}px;
 @import "_includes/_socials";
 @import "_includes/_gallery";
 @import "_includes/_syntax";
+@import "_includes/_contact-form";
+
+
 
 // - - - - - - - - - - Section styles
 
 @import "_includes/_listing";
 @import "_includes/_hero";
 
+// - - - - - - - - - - VARIABLES
+$black-bis:     hsl(0, 0%, 7%);
+$black-ter:     hsl(0, 0%, 14%);
+$grey-darker:	hsl(0, 0%, 21%);
+$grey-dark:     hsl(0, 0%, 29%);
+$grey-light:	hsl(0, 0%, 71%);
+$white-ter:     hsl(0, 0%, 96%);
 
+// - - - - - - - - - - HEADER OVERRIDES
+
+.header__title {
+    font-family: "Lato", sans-serif;
+}
+
+a.header__title.active-link {
+    color: $grey-dark;
+}
+
+a.menu__list__item__link {
+    color: $black-ter;
+}
+
+a.menu__list__item__link.active-link {
+    color: $black-ter;
+}
+
+a.menu__list__item__link.active-link:hover {
+    color: $grey-light;
+}
+
+a.menu__list__item__link:hover {
+    color: $grey-light;
+}
+
+// - - - - - - - - - - POST-CARD OVERRIDES
+
+p.post__subtitle {
+    font-family: "Lato", sans-serif;
+    color: $grey-light;
+}
+
+p.post__description {
+    color: $grey-darker;
+}
+
+div.post__content-wrap {
+    background-color: $white-ter;
+}
+
+// - - - - - - - - - - FOOTER OVERRIDES
+
+footer.footer {
+    background-color: #F4F4F4;
+}
+
+p.footer__text {
+    color: $black-ter;
+}
+
+div.footer__copyright {
+    color: $grey-light;
+}
+
+div.footer__copyright a {
+    color: $grey-light;
+}
