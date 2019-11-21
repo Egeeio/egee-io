@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Egee.io
-  favicon_image: /images/favicon.ico
+  favicon_image: /images/favicon.png
 
 header_settings:
   logo_image: 
@@ -8,56 +8,54 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'About'
-      url: '/about'
-    - title: 'Community'
-      url: '/community'
-    - title: 'Games'
-      url: '/games'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'Game Servers'
+      url: '/project/game-servers'
 
 footer_settings:
-  footer_tagline: Be different. Play together.
+  footer_tagline: Be Different. Play Together.
 
 hero_settings:
-  overlay_opacity: 0.8
+  overlay_opacity: 0.6
 
 post_settings:
   grid_spacing: 10
 
 contact_settings:
-  form_action: 'https://formspree.io/'
+  form_action: ''
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Send Message'
 
 social_settings:
   discord_url: 'https://discord.gg/EMbcgR8'
-  youtube_url: 'https://www.youtube.com/c/Egeeirl'
   github_url: 'https://github.com/Egeeio'
+  youtube_url: 'https://www.youtube.com/c/Egeeirl'
 
 color_settings:
-  background_color: '#121212'
-  background_alt_color: '#dbdbdb'
-  text_dark_color: '#ffffff'
-  text_medium_color: '#ffffff'
-  text_light_color: '#ffffff'
-  accent_color: '#9e4e19'
-  border_color: '#dddddd'
-  hero_background_color: '#14191E'
+  background_color: '#ffffff'
+  background_alt_color: '#F5F5F5'
+  text_dark_color: '#2A2F36'
+  text_medium_color: '#6C7A89'
+  text_light_color: '#ABB7B7'
+  accent_color: '#A8C0D3'
+  border_color: '#A8C0D3'
+  hero_background_color: '#132930'
   hero_text_color: '#ffffff'
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700" rel="stylesheet">'
+  font_embed: '<https://fonts.googleapis.com/css?family=Lato:400,600|Montserrat:400,600&display=swap" rel="stylesheet">'
   title_font: '"Lato", sans-serif'
-  body_font: '"Lato", sans-serif'
+  body_font: '"Montserrat", sans-serif'
   regular_weight: 400
   bold_weight: 600
   site_title:
     small_size: 25
     medium_size: 30
     large_size: 35
-    weight: 700
+    weight: 600
     letter_spacing: -0.02
   menu:
     small_size: 30
@@ -87,12 +85,12 @@ font_settings:
     letter_spacing: -0.02
     line_height: 1.3
   h4:
-    small_size: 18
-    medium_size: 20
+    small_size: 17
+    medium_size: 22
     large_size: 22
-    weight: 400
+    weight: 700
     letter_spacing: 0
-    line_height: 1
+    line_height: 1.6
   h5:
     small_size: 17
     medium_size: 20
@@ -110,10 +108,10 @@ font_settings:
   p:
     small_size: 18
     medium_size: 20
-    large_size: 18 # TODO: https://github.com/Egeeio/gsd-cli/issues/13
+    large_size: 22
     weight: 400
     letter_spacing: 0
-    line_height: 1.5
+    line_height: 1.6
   blockquote:
     small_size: 25
     medium_size: 35
