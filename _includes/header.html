@@ -3,11 +3,11 @@
 	<div class="wrap">
 
 		{% if site.data.settings.header_settings.logo_image %}
-		<a href="/" class="header__logo">
-			<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
+		<a href="{{ site.baseurl }}/" class="header__logo">
+			<img src="{{ site.data.settings.header_settings.logo_image | relative_url }}" class="header__logo__img">
 		</a>
 		{% else %}
-		<a href="/" class="header__title">
+		<a href="{{ site.baseurl }}/" class="header__title">
 			{{ site.data.settings.basic_settings.site_title }}
 		</a>
 		{% endif %}
@@ -20,7 +20,7 @@
 				<ul class="menu__list">
 					{% for item in site.data.settings.menu_settings.menu_items %}
 					<li class="menu__list__item">
-						<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
+						<a href="{{ item.url | relative_url }}" class="menu__list__item__link">{{ item.title }}</a>
 					</li>
 					{% endfor %}
 				</ul>

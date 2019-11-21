@@ -2,10 +2,11 @@
 
 	<div class="wrap">
 
-		<h4 class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</h4>
+		<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p>
 
 		<div class="footer__copyright">
 			<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
+			<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
 		</div>
 
 		{% include socials.html %}

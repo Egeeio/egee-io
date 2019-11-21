@@ -162,6 +162,76 @@
 			}
 		}
 	}
+
+	sup a.footnote {
+		display: inline-block;
+		margin-left: 5px;
+		min-width: 16px;
+		height: 16px;
+		border-radius: 100%;
+		border-bottom: none;
+		padding: 1px 3px;
+		background: $background-alt-color;
+		font-size: 10px;
+		text-align: center;
+		color: $text-light-color;
+
+		&:hover {
+			background: $text-light-color;
+			color: $background-color;
+		}
+	}
+
+	.footnotes {
+		margin-top: 40px;
+
+		@include mq(tabletp) {
+			margin-top: 60px;
+		}
+
+		@include mq(laptop) {
+			margin-top: 80px;
+		}
+
+		ol {
+			list-style: none;
+			counter-reset: footnotes;
+
+			li {
+				margin-top: 5px;
+				font-size: 13px;
+				counter-increment: footnotes;
+
+				&:before {
+					content: counter(footnotes);
+				    box-sizing: border-box;
+					display: inline-block;
+					margin-right: 3px;
+					width: 20px;
+					height: 20px;
+					border-radius: 100%;
+					border-bottom: none;
+					padding: 2px 3px;
+					background: $background-alt-color;
+					font-size: 11px;
+					font-weight: $bold-weight;
+					text-align: center;
+					color: $text-light-color;
+				}
+				
+				p {
+					display: inline;
+					max-width: 100%;
+					font-size: 13px;
+
+					a.reversefootnote {
+						border-bottom: 0;
+						vertical-align: sub;
+					}
+				}
+			}
+		}
+	}
 }
 
 .image-wrap,

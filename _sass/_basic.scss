@@ -81,7 +81,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-	margin-top: 15px;
+	margin-top: 25px;
 	font-size: $h4-small;
 	font-weight: $h4-weight;
 	line-height: $h4-lineheight;
@@ -383,5 +383,74 @@ section {
 
 	@include mq(laptop) {
 		max-width: 1100px;
+	}
+}
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Buy CTA
+
+.buy-cta {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.buy-cta__link {
+	display: block;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	background: #dc5b5d;
+
+	@include mq(tabletp) {
+		width: 60px;
+		height: 60px;
+	}
+
+	svg {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 20px;
+		height: 20px;
+		@include translate(-50%,-50%);
+		fill: #fff;
+
+		@include mq(tabletp) {
+			width: 30px;
+			height: 30px;
+		}
+	}
+
+	&:hover {
+
+		.buy-cta__text {
+			@include translate(0,0);
+			opacity: 1;
+		}
+	}
+}
+
+.buy-cta__text {
+	position: absolute;
+	top: 0;
+	right: 40px;
+	background: #dc5b5d;
+	padding: 14px 10px 13px 17px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 1;
+	white-space: nowrap;
+
+	@include transition(all 0.15s ease-in-out);
+	@include translate(0,20px);
+	opacity: 0;
+
+	@include mq(tabletp) {
+		right: 60px;
+		padding: 22px 14px 23px 25px;
+		font-size: 15px;
+		@include translate(0,30px);
 	}
 }
