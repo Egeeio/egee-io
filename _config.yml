@@ -1,9 +1,15 @@
-site: Egee.io Website
+site: Egee.io
+
+url: https://egee.io
+baseurl: 
 
 collections:
   pages:
     output: true
     permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
   projects:
     output: true
     permalink: /project/:slug
