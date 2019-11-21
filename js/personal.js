@@ -1,6 +1,6 @@
 //
 //
-// Egee.io JS
+// Personal JS
 //
 //
 
@@ -90,37 +90,25 @@
 			// Get the link target
 			var thisTarget = $(this).attr('href');
 
-			// If link is external
-			if ( thisTarget.indexOf('http') >= 0 ) {
-
-				// Go to the external link
-				window.open(thisTarget, '_blank');
-
-			}
-
-			// If we don't want to use ajax
-			else if ( $(this).hasClass('js-no-ajax') ) {
+			// If we don't want to use ajax, or the link is an anchor/mailto/tel
+			if ( $(this).hasClass('js-no-ajax') || /^#/.test(thisTarget) || thisTarget.indexOf("mailto:") >= 0 || thisTarget.indexOf("tel:") >= 0 ) {
 
 				// Use the given link
 				window.location = thisTarget;
-			}
-
-			// if it's a contact modal
-			else if ( $(this).hasClass('js-contact') ) {
-
-				// Open contact modal
-				$('.modal--contact').addClass('modal--on');
-			}
-
-			else if ( $(this).hasClass('js-signup') ) {
-				// Open signup modal
-				$('.modal--signup').addClass('modal--on');
 			}
 
 			// If link is handled by some JS action – e.g. fluidbox
 			else if ( $(this).is('.gallery__item__link') ) {
 				
 				// Let JS handle it
+			}
+
+			// If link is external
+			else if ( thisTarget.indexOf('http') >= 0 ) {
+
+				// Go to the external link
+				window.open(thisTarget, '_blank');
+
 			}
 
 			// If link is internal
@@ -136,20 +124,6 @@
 		});
 
 	}
-
-
-
-	// Modals
-
-	$(document).on('click', '.js-contact', function (event){
-		event.preventDefault();
-		$('.modal--contact').addClass('modal--on');
-	});
-
-	$(document).on('click', '.js-signup', function (event){
-		event.preventDefault();
-		$('.modal--signup').addClass('modal--on');
-	});
 
 
 
