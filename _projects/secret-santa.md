@@ -1,9 +1,9 @@
 ---
 title: 'Secret Santa!'
-subtitle: 'Yeet fuckin Yeet'
+subtitle: "It's that time again"
 date: 2019-11-21 00:00:00
-description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/yeetings.png'
+description: December is here and that means it's time for the annual Egee.io secret santa gift exchange!
+featured_image: '/images/front/yeetings.png'
 ---
 
 ## Omfg. It's that time again 🎅
