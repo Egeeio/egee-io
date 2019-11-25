@@ -46,7 +46,7 @@ Currently, I run Egee.io at a *deficit*. Simply put, **it costs me** more money 
 
 That being said, YouTube isn't a great platform for monitization due to adblockers and etc. Patreon is a huge up-hill battle unless you can network with larger channels, and affiliate marketing doesn't *really* make sense for videos.
 
-If you want to support the website & community, please visit the website and bookmark & use our [affiliate links](https://amzn.to/2XITKQJ)!
+If you want to support the website & community, please continue to visit the website and bookmark & use our [affiliate links](https://amzn.to/2XITKQJ)!
 
 Running a website and a handful of game servers ain't cheap and every bit of support helps!
 
