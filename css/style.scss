@@ -212,6 +212,12 @@ div.post__content-wrap {
     border-bottom: 2px solid $purple;
 }
 
+code {
+    background-color: $white-ter;
+    border-radius: 6px;
+    padding: 2.5px;
+}
+
 // - - - - - - - - - - FOOTER OVERRIDES
 
 footer.footer {
