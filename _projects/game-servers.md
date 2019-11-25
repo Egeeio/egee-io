@@ -10,7 +10,7 @@ featured_image: '/images/front/servers.jpg'
 
 Like any self-respecting gaming community, Egee.io hosts several dedicated game servers.
 
-All of our servers run in [Linode](https://promo.linode.com/egee/), a VPS (virtual private server) provider and most of them have 99% up time. Each server is managed through our purpose-built server manager tool [gsd-cli](/project/gsd-cli).
+All of our servers run in [Linode](https://promo.linode.com/egee/), a VPS (virtual private server) provider and a couple of them have 99% up time. Each server is managed through our purpose-built server manager tool [gsd-cli](/project/gsd-cli).
 
 **All servers have the following rules:**
 
@@ -28,11 +28,11 @@ If you are having trouble finding or connecting to a server, message an admin on
 
 ### 24/7 Servers
 
-- Minecraft `minecraft.egee.io`
-- Rust `rust.egee.io:28015`
+- Minecraft: `minecraft.egee.io`
+- Rust:      `rust.egee.io:28015`
 
 ### Event Servers
 
-- GarrysMod `gmod.egee.io`
-- SCP `scp.egee.io`
-- TF2 `198.58.107.100`
+- GarrysMod: `gmod.egee.io`
+- SCP:       `scp.egee.io`
+- TF2:       `198.58.107.100`

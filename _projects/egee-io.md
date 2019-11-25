@@ -1,8 +1,8 @@
 ---
-title: 'What even is Egee.io'
-subtitle: "What is this Egee.io thing all about?"
 date: 2019-11-21 00:00:04
-description: Egee.io is a diverse community of content creators & gamers. We host in-game events and attend cons. You know, groovy stuff like that.
+title: 'What even is Egee.io?'
+subtitle: "What is this Egee.io thing all about"
+description: Egee.io is a diverse community of content creators & gamers. We attend local gaming conventions & host game servers.
 featured_image: '/images/front/egeeio.png'
 ---
 
