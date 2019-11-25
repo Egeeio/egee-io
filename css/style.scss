@@ -147,6 +147,11 @@ $grey-dark:     hsl(0, 0%, 29%);
 $grey-light:	hsl(0, 0%, 71%);
 $white-ter:     hsl(0, 0%, 96%);
 
+$turquoise:     hsl(171, 100%, 41%);
+$blue:          hsl(217, 71%, 53%);
+$cyan:          hsl(204, 86%, 53%);
+$purple:        #6262BF;
+
 // - - - - - - - - - - HEADER OVERRIDES
 
 .header__title {
@@ -166,11 +171,19 @@ a.menu__list__item__link.active-link {
 }
 
 a.menu__list__item__link.active-link:hover {
-    color: $grey-light;
+    color: $purple;
 }
 
 a.menu__list__item__link:hover {
-    color: $grey-light;
+    color: $purple;
+}
+
+blockquote {
+    border-left: 2.5px solid $purple;
+}
+
+blockquote p {
+    font-size: 26px;
 }
 
 // - - - - - - - - - - POST-CARD OVERRIDES
@@ -186,6 +199,17 @@ p.post__description {
 
 div.post__content-wrap {
     background-color: $white-ter;
+}
+
+// - - - - - - - - - - POST OVERRIDES
+.single-post p a {
+    border-bottom: 0px;
+    font-weight: 400;
+    color: $purple;
+}
+
+.single-post p a:hover {
+    border-bottom: 2px solid $purple;
 }
 
 // - - - - - - - - - - FOOTER OVERRIDES
