@@ -12,7 +12,7 @@ A super convenient [CLI](https://www.w3schools.com/whatis/whatis_cli.asp) tool f
 
 [gsd-cli](https://github.com/Egeeio/gsd-cli) is dependent [systemd](https://www.linode.com/docs/quick-answers/linux-essentials/what-is-systemd/) and makes use of many Linux-specific commands. And while it *should* work on Windows via the [WSL](https://docs.microsoft.com/en-us/windows/wsl/faq), gsd-cli is only officially supported on Linux at this time.
 
-### Usage
+## Usage
 
 The target deployment environment for dedicated servers installed with gsd-cli is LXD containers or Cloud server hosts, such as AWS EC2 instances or Linodes.
 
@@ -25,3 +25,5 @@ Usage examples:
 `gsd-cli install minecraft` - will install a Spigot Minecraft server.
 
 `gsd-cli update gmod` - will update a Garry's Mod server installed with gsd-cli.
+
+<!-- add a fancy gif of the cli in action -->
