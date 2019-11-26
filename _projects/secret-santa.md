@@ -23,7 +23,7 @@ A "Secret Santa" is a person who gives someone a gift anonymously. In the Egee.i
 
 ### Who can participate
 
-Anyone with the **Heroes** role. Folks without the Heroes role are not eligible for participation at this time, though that may change as things evolve! 😄
+Anyone with the **Heroes** role in [Discord](https://discord.gg/EMbcgR8). Folks without the Heroes role are not eligible for participation at this time, though that may change as things evolve! 😄
 
 ### OMGZ UR TRYING TO GET MY PERSONAL INFORMATIONS
 
