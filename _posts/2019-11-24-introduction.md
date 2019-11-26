@@ -2,13 +2,13 @@
 date: 2019-11-24 00:00:00
 title: 'Introducing the Egee.io Blog'
 subtitle: "It's finally here!"
-description: 'Introducing: The long awaited official Egee.io Blog!'
+description: 'Introducing: The long-awaited official Egee.io Blog!'
 featured_image: '/images/blog/posts/introduction/00.png'
 ---
 
 ## It's About Time 🎉
 
-I've you've poked around our Discord server, you'll probably know that I've been talking about the Egee.io website for looong time. Well folks, the new site is finally here! 🥳
+If you've lurked around our Discord server, you'll probably know that I've been talking about the Egee.io website for looong time. Well folks, the new site is finally here! 🥳
 
 But most importantly, there's an official blog now, too!
 
@@ -34,7 +34,7 @@ Making videos for the [Distro Delves](https://www.youtube.com/playlist?list=PLTG
 
 I've waffled about whether the website should be a "landing site" for the community and whether it should have a blog attached to it at all.
 
-I have also spent waay too much time considering what language & framework the website should be written in. This indirectly caused a half-dozen rewrites which basically produced nothing.
+I have also spent way too much time considering what language & framework the website should be written in. This indirectly caused a half-dozen rewrites which basically produced nothing.
 
 I forced myself to just _finish_ the website by the end of November 2019. And I'm happy with the site but there are *always* improvements to be made. 🛠️
 
@@ -44,11 +44,9 @@ The current iteration of the website is built with [Jekyll](https://jekyllrb.com
 
 Currently, I run Egee.io at a *deficit*. Simply put, **it costs me** more money to operate our game servers & website than I receive from ads, donations, and partnerships.
 
-That being said, YouTube isn't a great platform for monetization due to adblockers and etc. Patreon is a huge up-hill battle unless you can network with larger channels, and affiliate marketing doesn't *really* make sense for videos.
+If you want to support us with *minimal effort*, consider using our affiliate links for things like the latest deals on [Computers & Accessories](https://amzn.to/2saJBAu) over on Amazon. Using our affiliate links is a super easy way of supporting the community!
 
-If you want to support the website & community, please continue to visit the website and bookmark & use our [affiliate links](https://amzn.to/2XITKQJ)!
-
-Running a website and a handful of game servers ain't cheap and every bit of support helps!
+If you want to support us directly, consider checking out our [Patreon](https://www.patreon.com/egeeirl)! Becoming a Patron is a bit more of a commitment but we offer really cool perks, rewards, and goals!
 
 ## Thank You 🚀
 
