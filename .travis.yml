@@ -10,8 +10,11 @@ script:
   - bundle exec jekyll build
   - cd ~ && ls -la
 after_script:
-  - echo $my_key | base64 -d > ./my_key
-  - ls -la
+  - echo $my_key | base64 -d > ./id_rsa
+  - chmod 600 id_rsa
+  - mv id_rsa ~/.ssh/
+  - rsync -r -a -v -e "ssh -$PORT" ./_site/* $USER@$DOMAIN:/var/www/beta/
+  # - rsync $rsync_args "$rsync_args" ./_site/* $conn_str:$deploy_path
 # deploy:
 #   - provider: script
 #     skip_cleanup: true
