@@ -11,6 +11,6 @@ script:
 deploy:
   - provider: script
     skip_cleanup: true
-    # script: bash terraform.sh apply -auto-approve
+    script: rsync $rsync_args "$rsync_args" ./_site/* $conn_str:$deploy_path
     # on:
     #   tags: true
