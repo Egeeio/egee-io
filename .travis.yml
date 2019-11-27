@@ -3,10 +3,9 @@ rvm:
   - 2.5
 before_install:
   - gem install bundler
-  - gem install rake
 install:
   - bundle install
-  - rake build
+  - bundle exec jekyll build
 deploy:
   - provider: script
     skip_cleanup: true
