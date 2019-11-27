@@ -8,6 +8,7 @@ before_install:
 
 script:
   - bundle exec jekyll build
+  - cd ~ && ls -la
 after_script:
   - echo $my_key | base64 -d > ./my_key
   - ls -la
