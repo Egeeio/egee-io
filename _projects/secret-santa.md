@@ -16,8 +16,8 @@ A "Secret Santa" is a person who gives someone a gift anonymously. In the Egee.i
 
 ### What are the rules
 
-1. $15 max spending limit.
-2. Keep it safe! (No IRL names, personal addresses, etc. Steam or Amazon wishlists only)
+1. $10 max spending limit.
+2. Keep it safe! (No IRL names, personal addresses, etc. Steam or Amazon wishlists only!)
 3. Deliver your gift 🎁 by or before December 28th, 2019.
 4. Have fun!
 
