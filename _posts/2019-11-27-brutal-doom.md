@@ -26,7 +26,7 @@ I wrote an [article](https://medium.com/@egee_irl/how-to-install-brutal-doom-v21
 
 I think the biggest reason why Freedoom isn't more popular in the Doom modding community is that the artwork (sprites, weapons, etc) are terrible. Thankfully, the Brutal Doom mod fixes this and you encounter regular Doom enemies in the Freedoom levels!
 
-## Support The Channel 🚀
+## Support The Series 🚀
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F3RKPJ0ywXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
