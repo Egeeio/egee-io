@@ -2,7 +2,7 @@
 date: 2019-11-29 00:00:00
 title: 'Announcement: New 7 Days To Die Series'
 subtitle: "Escape To Dishong Tower"
-description: 'A somewhat random series of assorted videos strung together through slaying demons.'
+description: 'Doing our best to survive in a tower full of dead things.'
 featured_image: '/images/blog/posts/ep00-alt.jpg'
 ---
 
