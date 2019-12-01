@@ -34,10 +34,9 @@ There's single-player challenges & scenarios as well as multi-player modes remin
 
 > OpenClonk feels & plays like something you'd find on the Steam Store.
 
-
 Absolutely. If nothing else, OpenClonk is a curious game because of how well polished it is for being a truly Open Source game.
 
-Let's be real here - many Open Source games lack that **special something** found in commercial games; you *know* its an Open Source game just from the art style or controls.
+Let's be real here - many Open Source games lack that *special something* found in commercial games; you *know* its an Open Source game just from the art style or controls.
 
 OpenClonk doesn't feel like a "free" or "cheap" game at all. It feels and plays like something you'd find on the Steam Store.
 
