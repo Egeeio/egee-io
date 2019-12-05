@@ -24,6 +24,7 @@ post_settings:
 
 social_settings:
   discord_url: 'https://discord.gg/EMbcgR8'
+  reddit_url: 'https://www.reddit.com/r/egeeio/'
   github_url: 'https://github.com/Egeeio'
 
 color_settings:

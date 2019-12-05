@@ -18,10 +18,12 @@ If you'd like to learn more about the website, check out [this post](/blog/intro
 
 [![Discord](https://discordapp.com/api/guilds/183740337976508416/widget.png?style=shield)](https://discord.gg/EMbcgR8)
 
-The favored community haunt is our very own Discord server! Everyone is [invited](https://discord.gg/EMbcgR8) & welcome to join. Just make sure to read and follow the community rules! Here's an abridged summary of them:
+The favorite community haunt is our Discord server! Everyone is [invited](https://discord.gg/EMbcgR8) & welcome to join. Just make sure to read and follow the community rules! Here's an abridged summary of them:
 
 - Use common sense; think before you post.
 - No hate speech, bigotry, or deliberate trolling.
 - Don't shame people based on their platform choice.
 - Try to keep conversations in their respective channels.
 - Keep discussions & posts reasonably appropriate for all age groups.
+
+Feel free to checkout our [sub](https://www.reddit.com/r/egeeio/) over on Reddit, too.
