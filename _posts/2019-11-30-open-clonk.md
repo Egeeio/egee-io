@@ -10,7 +10,7 @@ featured_image: '/images/blog/posts/clonk.jpg'
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/STSL2nowKts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In this article, I'll be taking a quick look at a Free & Open Source game called [OpenClonk](https://www.openclonk.org/). I actually reviewed this last year on the Egee Tech channel but I'm re-uploading that video to the Egee Gaming channel.
+Let's take a quick look at a Free & Open Source game called [OpenClonk](https://www.openclonk.org/). I actually reviewed this last year on the Egee Tech channel but I'm re-uploading that video to the Egee Gaming channel.
 
 This review is *abridged* because writing a game review is actually pretty time consuming and I've already reviewed OpenClonk in the video. My feelings about the game haven't changed so I'll just be summarizing them here.
 
