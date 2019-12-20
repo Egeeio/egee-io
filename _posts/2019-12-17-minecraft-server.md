@@ -1,5 +1,5 @@
 ---
-date: 2019-12-10 00:00:01
+date: 2019-12-17 00:00:01
 title: "Minecraft 1.15 Server Kick-Off!"
 subtitle: "The Egee.io Minecraft server updates to 1.15 with upgraded hardware"
 description: "Updating the Minecraft server to 1.15 with a new world & some much needed new hardware."
