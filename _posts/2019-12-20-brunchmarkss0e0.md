@@ -18,6 +18,8 @@ Brunchmarks is the spiritual successor to *that* video and others like it!
 
 ## Pilot Episode
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TsE0iKudc58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 I'm calling the video **Episode 0** because it's not meant to be a pilot episode. I'm still tweaking the format but the final outline will *probably* be about the same.
 
 I haven't decided on what the *actual* pilot episode will be but I'm considering re-making that KDE vs XFCE video because a new XFCE version was released since I produced that video and people ask about it in the comments section all the time.
