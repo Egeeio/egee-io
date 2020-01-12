@@ -10,7 +10,7 @@ featured_image: "/images/blog/posts/delves.jpg"
 
 It's time to officially kick off season 2 of Distro Delves!
 
-I started the Distro Delves series last year in 2019 as a very expiremental Linux *anti-review* series that focused on reviews as episodes in a series.
+I started the Distro Delves series last year in 2019 as a very experimental Linux *anti-review* series that focused on reviews as episodes in a series.
 
 I'm calling it an **anti-review** because the _vast_ majority of Linux distro reviews on YouTube are exceptionally shallow and basically just click around on things on the desktop.
 
@@ -41,7 +41,7 @@ The benchmarking portion was replaced with basically the same thing minus the FP
 
 ## What Got Added?
 
-In the season 1 [finale video](https://www.youtube.com/watch?v=-6kQRU_EhuA) I said I'd remove the benchmarks completely but I reconsidered that. 
+In the season 1 [finale video](https://www.youtube.com/watch?v=-6kQRU_EhuA), I said I'd remove the benchmarks completely but I reconsidered that. 
 
 Instead, I'm just going to feature some gameplay footage and ignore the FPS entire so folks can see how (and if) games run.
 
