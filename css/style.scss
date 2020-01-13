@@ -218,6 +218,16 @@ code {
     padding: 2.5px;
 }
 
+li a {
+    color: $purple;
+    font-weight: 400;
+}
+
+li a:hover {
+    color: $purple;
+    border-bottom: 2px solid $purple;
+}
+
 // - - - - - - - - - - FOOTER OVERRIDES
 
 footer.footer {
