@@ -8,6 +8,8 @@ featured_image: "/images/blog/posts/delves.jpg"
 
 ## Distro Delves!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_9RTo7eK9ag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 It's time to officially kick off season 2 of Distro Delves!
 
 I started the Distro Delves series last year in 2019 as a very experimental Linux *anti-review* series that focused on reviews as episodes in a series.
