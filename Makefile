@@ -1,6 +1,6 @@
 build:
 	pypugjs ./src/*.pug ./public/*.html
-	sass --sourcemap=none ./src/style/style.sass:public/style/style.css
+	sass --sourcemap=none ./src/assets/style/site.sass:public/assets/style/site.css
 	cp -r ./src/assets ./public/
 
 serve:
