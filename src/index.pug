@@ -6,9 +6,37 @@ html(lang="en")
     link(rel="stylesheet" href="./assets/style/site.css")
 
   nav(class="navbar" role="navigation" aria-label="main navigation")
+    div(class="container")
+      div(class="navbar-brand")
+        a(class="navbar-item" href="https://egee.io")
+          img(src="./favicon.png")
+      div(class="navbar-end")
+        div(class="navbar-item")
+          a(href="") Blog
+        div(class="navbar-item")
+          a(href="") Game Servers
 
   body
-    section(class="hero-body")
+    section(class="hero is-primary is-large")
+      div(class="hero-body")
+        div(class="container")
+          h1(class="title") Hiya an welcome to Egee.io
+          h2(class="subtitle") You will like it hear :)
+    section(class="section")
       div(class="container")
-        h1(class="title") Hiya &amp; welcome to Egee.io
-        h2(class="subtitle") You will like it hear
+        div(class="tile is-ancestor")
+          div(class="tile is-4 is-vertical is-parent")
+            div(class="tile is-child box")
+              p(class="title") Uhh Rust?
+              p Not sure about this one
+            div(class="tile is-child box")
+              p(class="title") SCP
+              p Maybe we will play SCP again
+          div(class="tile is-parent")
+            div(class="tile is-child box")
+              p(class="title") Minecraft
+              p Minecraft is big and deserves its own box!
+
+footer(class="footer")
+  div(class="content has-text-centered")
+    p © 2020 Egee.io
