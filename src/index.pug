@@ -1,5 +1,10 @@
 html(lang="en")
   head
+    script(async src="https://www.googletagmanager.com/gtag/js?id=UA-73702747-6")
+    script= "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '73702747-6');"
+
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
     title Egee.io | Be Different; Play Together
     link(rel="icon" type="image/png" href="./favicon.png")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css")
@@ -62,7 +67,7 @@ footer(class="footer footer-fixed")
     nav(class="level")
       div(class="level-left")
         div(class="level-item")
-          p Powered by PugJS, styled with Bulma.io, and built with ❤ in the Pacific Northwest.
+          p Powered by PugJS, styled with Bulma.io, and built with ❤️ in the Pacific Northwest.
       div(class="level-right")
         div(class="level-item")
           a(href="https://discord.gg/EMbcgR8" style="color: black;")
