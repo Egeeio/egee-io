@@ -4,6 +4,7 @@
   "description": "The egee.io website",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/.bin/http-server ./public",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "./node_modules/.bin/http-server ./public",
     "build": "pug ./src --out ./public && sass --sourcemap=none ./src/assets/style/site.sass:public/assets/style/site.css && cp -r ./src/assets ./public/"
