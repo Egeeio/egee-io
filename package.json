@@ -4,10 +4,10 @@
   "description": "The egee.io website",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/http-server ./public",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "./node_modules/.bin/http-server ./public",
-    "build": "pug ./src --out ./public && sass --sourcemap=none ./src/assets/style/site.sass:public/assets/style/site.css && cp -r ./src/assets ./public/"
+    "build": "./node_modules/.bin/pug ./src --out ./public && sass --no-source-map ./src/site.sass:public/site.css --style compressed",
+    "start": "npm run build && npm run serve"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
   "homepage": "https://github.com/Egeeio/egeeio-website#readme",
   "dependencies": {
     "http-server": "^0.12.3",
-    "pug": "^3.0.0"
+    "pug-cli": "^1.0.0-alpha6"
   }
 }
