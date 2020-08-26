@@ -1,8 +1,5 @@
 {
   "name": "egeeio-website",
-  "version": "1.0.0",
-  "description": "The egee.io website",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "./node_modules/.bin/http-server ./public",
@@ -18,8 +15,8 @@
   "bugs": {
     "url": "https://github.com/Egeeio/egeeio-website/issues"
   },
-  "homepage": "https://github.com/Egeeio/egeeio-website#readme",
-  "dependencies": {
+  "homepage": "https://egee.io",
+  "dev-dependencies": {
     "http-server": "^0.12.3",
     "pug-cli": "^1.0.0-alpha6"
   }
