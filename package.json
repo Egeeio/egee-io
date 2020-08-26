@@ -12,9 +12,6 @@
   },
   "author": "egee",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Egeeio/egeeio-website/issues"
-  },
   "homepage": "https://egee.io",
   "dev-dependencies": {
     "http-server": "^0.12.3",
