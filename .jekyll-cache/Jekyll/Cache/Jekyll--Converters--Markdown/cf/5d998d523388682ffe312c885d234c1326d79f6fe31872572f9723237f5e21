@@ -1,0 +1,23 @@
+I"<p>We host and manage our own dedicated game servers. Most are integrated into our Discord.</p>
+
+<p>Our core game servers are:</p>
+
+<ul>
+  <li><a href="/minecraft">Minecraft</a></li>
+  <li><a href="/gmod">Garry’s Mod</a></li>
+  <li><a href="/rust">Rust</a></li>
+</ul>
+
+<p>All of our core game servers have 99% uptime and are indexed in a central server browser or use DNS for joining.</p>
+
+<p>For example, to join our Minecraft server, connect to: <code class="language-plaintext highlighter-rouge">minecraft.egee.io</code></p>
+
+<p>We also occasionally host short-lived servers for games with new releases or renewed interest due to patches, mods, etc, such as:</p>
+
+<ul>
+  <li>Terraria</li>
+  <li>Starbound</li>
+  <li>7 Days to Die</li>
+  <li>SCP: Secret Laboratory</li>
+</ul>
+:ET
