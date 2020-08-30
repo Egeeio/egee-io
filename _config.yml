@@ -1,0 +1,22 @@
+# Setup
+title:               Egee.io |
+tagline:             'Be Different. Play Together.'
+description:         'Egee.io is a community for everyone to be different and play together!'
+url:                 https://egee.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Egee
+  url:               https://twitter.com/egee_irl
+  email:             brian@egee.io
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
