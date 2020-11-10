@@ -1,5 +1,4 @@
-# Setup
-title:               Egee.io |
+title:               Egee.io
 tagline:             'Be Different. Play Together.'
 description:         'Egee.io is a community for everyone to be different and play together!'
 url:                 https://egee.io
@@ -9,9 +8,8 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Egee
-  url:               https://twitter.com/egee_irl
-  email:             brian@egee.io
+  name:           egee
+  url:            https://egee.xyz
 
 # Gems
 plugins:

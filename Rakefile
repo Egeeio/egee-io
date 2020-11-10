@@ -1,7 +1,7 @@
 require 'rake/clean'
 
 task :serve do
-  sh 'bundle exec jekyll serve'
+  sh 'bundle exec jekyll serve --livereload'
 end
 
 task :build do
