@@ -7,3 +7,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-admin'
 end
+
+gem "rake", "~> 13.0"

@@ -59,6 +59,7 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rake (13.0.1)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -91,6 +92,7 @@ DEPENDENCIES
   jekyll-admin
   jekyll-paginate
   jekyll-sitemap
+  rake (~> 13.0)
 
 BUNDLED WITH
    2.1.4
