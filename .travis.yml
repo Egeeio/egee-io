@@ -1,0 +1,12 @@
+language: ruby
+install: bundle install
+script: rake build
+deploy:
+  provider: s3
+  access_key_id: "${ACCESS}"
+  secret_access_key: "${KEY}"
+  bucket: "egee.io"
+  region: us-west-2
+  acl: public_read
+  local_dir: _site
+  skip_cleanup: true
