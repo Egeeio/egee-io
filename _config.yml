@@ -1,17 +1,16 @@
-title:               Egee.io
-tagline:             'Be Different. Play Together.'
-description:         'Egee.io is a community for everyone to be different and play together!'
-url:                 https://egee.io
-baseurl:             ''
-paginate:            5
-permalink:           pretty
+title:        Egee.io
+tagline:      'Be Different. Play Together.'
+description:  'The VH1 of Discord Servers'
+url:          https://egee.io
+permalink:    pretty
+baseurl:      ''
+paginate:     5
 
-# About/contact
 author:
-  name:           egee
-  url:            https://egee.xyz
+  name: egee
+  url:  https://egee.xyz
 
-# Gems
+
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -25,6 +24,3 @@ exclude:
 - .jekyll-cache
 - .gitignore
 - .editorconfig
-
-# Custom vars
-# prod:                       false

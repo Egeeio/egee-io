@@ -4,18 +4,16 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
 
-{% if site.related_posts.size >= 1 %}
 <div class="related">
-  <h2>Related posts</h2>
+  <h2>Related Posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
         <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
+          <a href="{{ post.url }}">
             {{ post.title }}
             <small>{{ post.date | date_to_string }}</small>
           </a>
@@ -24,4 +22,3 @@ layout: default
     {% endfor %}
   </ul>
 </div>
-{% endif %}
