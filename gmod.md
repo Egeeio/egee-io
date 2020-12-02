@@ -3,7 +3,7 @@ title: Garry's Mod
 layout: page
 ---
 
-Our Garry's Mod server is a purpose-built event server to accomodate spontaneous random events!
+Our Garry's Mod server is a purpose-built event server to accomodate spontaneous & random events!
 
 Since it's an event server, we use a Steam Workshop Collection and the server is usually configured to play a game mode instead of default sandbox mode.
 
