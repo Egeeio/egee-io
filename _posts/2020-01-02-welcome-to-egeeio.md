@@ -13,6 +13,8 @@ We have a Discord server with active members from all over the world. We host ou
 Every member of the Egee.io, whether on Discord or playing on our game servers, is expected to follow the [Code of Conduct](/codeofconduct) and following rules:
 
 * Respect preferences & pronouns.
+* Keep criticism constructive.
+* Assume the best in others.
 * No offensive speech, bigotry, or trolling.
 * No obsene or NSFW/NSFL language or posts.
 * Do not discuss or post illegal topics (including piracy).
@@ -35,8 +37,9 @@ In addition to the Discord [TOS](https://discord.com/terms) and [guidelines](htt
 
 * @ roles with care.
 * Report issues to admins (demigod role).
-* No media posts in #general
+* Avoid divisive or controversial topics in public channels.
 * #general is rated PG. Assume other channels are PG-13.
+* Absolutely no OS/Linux evangelism.
 * Keep conversation topics in their respective channels.
 
 Click [here](https://discord.gg/EMbcgR8) or on the widget below to join!
