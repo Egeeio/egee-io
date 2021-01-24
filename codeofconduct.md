@@ -3,20 +3,27 @@ title: Code of Conduct
 layout: page
 ---
 
-Whether chatting in Discord or playing on the Minecraft server, everyone should read and agree to the Egee.io Code of Conduct:
+The Discord server is like a nexus for the community. We host game servers, virtual events, and occasionally attend local conventions together!
 
-* The Discord server is diverse with lots of different channels for interests and discussions. It's normal for conversations to take minutes or hours between responses.
+We're an inclusive community server and welcome everyone!
 
-* Members are located in many countries across many timezones. Avoid asking people to respond to messages or mentioning (@) them in general.
+In addition to the Discord [TOS](https://discord.com/terms) and [guidelines](https://discord.com/guidelines), we have the following community rules:
 
-* Members can assign roles to themselves based on their interests. Not everybody wants to partake in conversations about Linux or Furries; try to keep conversations to their respective channels.
+* Respect preferences & pronouns.
+* No offensive speech, bigotry, or trolling.
+* No obsene or NSFW/NSFL posts.
+* Do not derail topics or filibuster.
+* Do not discuss or post illegal topics (including piracy).
 
-* Being a community project, we love hearing ideas and feedback from the community. Don't be shy about ideas you may have to make the community better!
+And some Discord-specific rules:
 
-* If you or someone you know is in trouble, or you are concerned for their health or safety, please message Discord support. We do not have the resources to help people outside of the community boundaries. It’s important to pursue help from accredited professionals.
+* @ roles with care.
+* Report issues to admins (demigod role).
+* No media posts in #general
+* #general is rated PG. Assume other channels are PG-13.
+* Keep conversation topics in their respective channels.
+  * (not everyone is a furry, not everyone knows Linux, etc)
 
-* We have a lot of patience for our members and giving the opportunity to understand and follow the rules & guidelines. However, when action must be taken, it usually results in a permanent ban from the community.
+Click [here](https://discord.gg/EMbcgR8) or on the widget at the bottom to join!
 
-* We expect everyone to exercise restraint and grace when discussing topics they are passionate about or object to.
-
-Our Code of Conduct is heavily inspired by the [Godot Code of Conduct](https://godotengine.org/code-of-conduct) and the [GNU Kind Communication](https://www.gnu.org/philosophy/kind-communication.en.html) guidelines.
+<iframe src="https://discordapp.com/widget?id=183740337976508416&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
