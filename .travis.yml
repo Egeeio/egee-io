@@ -1,5 +1,5 @@
 language: ruby
-install: bundle install
+cache: bundler
 script: rake build
 deploy:
   provider: s3
