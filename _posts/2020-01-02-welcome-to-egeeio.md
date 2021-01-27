@@ -6,7 +6,7 @@ layout: post
 
 Launched in 2016, our community is dedicated to fostering a creative & open space for everyone to express and be themselves!
 
-We have a [Discord](/discord) server with active members from all over the world. We host our own dedicated game servers and organize regular activities such as game nights, holiday events, and movie nights!
+We have a [Discord](https://discord.gg/EMbcgR8) server with active members from all over the world. We host our own dedicated game servers and organize regular activities such as game nights, holiday events, and movie nights!
 
 The Discord server and all of our game servers have the same set of simple rules:
 
