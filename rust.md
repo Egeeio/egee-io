@@ -7,7 +7,7 @@ The Rust server is a 24/7 small-group friendly server hosted on the West Coast o
 
 The Rust server follows the same rules as Egee.io, plus these additional guidelines:
 
-1) No racism, sexism, homophobia, or other language intended to insult someone based on any qualities outside of their game-play. Players who violate this rule will recieve one warning, after which they will be permanently banned from playing on any Egee.io servers.
+1) No racism, sexism, homophobia, or other language intended to insult someone based on any qualities outside of their game-play. Players who violate this rule will receive one warning, after which they will be permanently banned from playing on any Egee.io servers.
 
 2) This is n00b friendly. Don't be a jerk.
 
