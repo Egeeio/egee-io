@@ -20,6 +20,6 @@ deploy-s3:
   script:
     - apt-get update
     - apt-get install --no-install-recommends -y awscli
-    - aws s3 cp src/_site/ s3://egee.xyz --recursive --acl=public-read
+    - aws s3 cp src/_site/ s3://egee.io --recursive --acl=public-read
   only:
     - master
