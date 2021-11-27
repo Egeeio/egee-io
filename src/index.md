@@ -1,8 +1,9 @@
 ---
-title: Welcome to the Community!
-sitemap: false
-layout: post
+layout: default
+title: Home
 ---
+
+# Welcome to Egee.io!
 
 Launched in 2016, our community is dedicated to fostering a creative & open space for everyone to express and be themselves!
 
@@ -16,3 +17,24 @@ The Discord server and all of our game servers have the same set of simple rules
 * Do not demand items, kill logs, etc from admins.
 
 Much of Egee.io is Open Source! You can find the source code for this website, our bots, and parts of the infrastructure on [Github](https://github.com/Egeeio)!
+
+# Our Public Servers
+
+We host and manage our own dedicated game servers. Most are integrated into our Discord.
+
+Our core game servers are:
+
+* [Minecraft](/minecraft)
+* [Rust](/rust)
+
+All of our core game servers have 99% uptime and are indexed in a central server browser or use DNS for joining.
+
+For example, to join our Minecraft server, connect to: `minecraft.egee.io`
+
+We also occasionally host short-lived servers for games with new releases or renewed interest due to patches, mods, etc, such as:
+
+* [Garry's Mod](/gmod)
+* 7 Days to Die
+* Starbound
+* Terraria
+* SCP: Secret Laboratory

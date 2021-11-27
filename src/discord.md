@@ -1,11 +1,11 @@
 ---
-title: Code of Conduct
+title: Discord Server
 layout: page
 ---
 
 The Discord server is like a nexus for the community. We host game servers, virtual events, and occasionally attend local conventions together!
 
-We're an inclusive community server and welcome everyone!
+We're an inclusive community variety server and welcome everyone!
 
 In addition to the Discord [TOS](https://discord.com/terms) and [guidelines](https://discord.com/guidelines), we have the following community rules:
 
@@ -18,11 +18,10 @@ In addition to the Discord [TOS](https://discord.com/terms) and [guidelines](htt
 And some Discord-specific rules:
 
 * @ roles with care.
-* Report issues to admins (demigod role).
-* No media posts in #general
+* Report issues to admins (_demigod role_).
+* Avoid media posts in #general.
 * #general is rated PG. Assume other channels are PG-13.
 * Keep conversation topics in their respective channels.
-  * (not everyone is a furry, not everyone knows Linux, etc)
 
 Click [here](https://discord.gg/EMbcgR8) or on the widget at the bottom to join!
 
