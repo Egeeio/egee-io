@@ -1,19 +1,16 @@
 title:        Egee.io
 tagline:      'Be Different. Play Together.'
-description:  'The VH1 of Discord Servers'
 url:          https://egee.io
 permalink:    pretty
 baseurl:      ''
-paginate:     5
+datadomain: egee.io
 
 author:
   name: egee
   url:  https://egee.io
 
-
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
 
 exclude:
 - README.md
