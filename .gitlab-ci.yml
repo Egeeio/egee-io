@@ -10,7 +10,7 @@ build-job:
     JEKYLL_ENV: "production"
   script:
     - cd src
-    - bundle config set path 'vendor' # Install dependencies into src/vendor/ruby
+    - bundle config set path 'vendor'
     - bundle install -j $(nproc)
     - rake build
 
