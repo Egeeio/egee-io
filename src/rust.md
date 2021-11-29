@@ -19,6 +19,6 @@ Since our Rust server is public, it is listed in the community server browser!
 
 You can also join from the Rust console by running: `client.connect rust.egee.io:28015`.
 
-The admins of the Rust server are:
+The admin(s) of the Rust server are:
 * penguinluff
-* Gordo
+
