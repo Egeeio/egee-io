@@ -20,7 +20,7 @@ A "Secret Santa" is a person who gives someone a gift anonymously. In the Egee.i
 
 ### Who can participate
 
-For the second year running, the Egee.io Secret Santa gift exchange is open to every member of our Discord community regardless of longevity of membership, or the roles that you hold! The only restriction is that you must have been a member prior to December 1st, 2020!
+For the second year running, the Egee.io Secret Santa gift exchange is open to every member of our Discord community regardless of longevity of membership, or the roles that you hold! The only restriction is that you must have been a member prior to December 1st, 2021!
 
 ### OMGZ UR TRYING TO GET MY PERSONAL INFORMATIONS
 
