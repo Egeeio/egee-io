@@ -3,17 +3,18 @@ title: Minecraft
 layout: page
 ---
 
-The Egee.io Minecraft server is our oldest game server! It launched in 2016 as a private co-op/event server. It was made public and has maintained near 24/7 uptime ever since!
+<img src="/public/minecraft_spawn.jpeg"/>
+
+The Egee.io Minecraft server launched in 2016 as a co-op/event server for [Egee's YouTube channel](https://www.youtube.com/ogegee). It's now a whitelist server with plugins that is available for all Egee.ioers to enjoy.
 
 The Minecraft server follows the same rules as the rest of Egee.io, and includes these special rules:
 
-* Do not pester the admins to release you from spawn - **read the book!**
 * Do not deliberately glitch, exploit, or try to lag/crash the server
 * No stealing, griefing, or cheating (X-Ray, etc)
 
-Since the Minecraft server is public, it is super easy to join!
+The Minecraft server used to be public but now it's a whitelisted server so you'll need to ask an admin to add you. Just join the [Egee.io Discord](https://egee.io/discord) and ask in the **#minecraft channel**!
 
-Just enter: `minecraft.egee.io` into the "_Server Address_" when adding a new server.
+To join our server, add or direct connect to: `minecraft.egee.io`.
 
 The current roster of Minecraft admins are:
 
