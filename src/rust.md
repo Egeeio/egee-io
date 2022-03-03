@@ -21,8 +21,6 @@ The Rust server follows the same rules as the rest of Egee.io, plus these additi
 
 **3.** No griefing. Griefing includes *(but is not limited to)* intentionally despawning loot from raided bases, locking someone out of a base that you do not intend to occupy, and trapping a base or a sleeper. We reserve the right to make judgement calls about griefing on a case-to-case basis.
 
-**4.** You may have up to 4 players on your team. Teams can have friendly interactions with other groups, but cannot roam or raid together. Teams can do large and small oil rig, cargo ship, and venom/bradley events with other teams.
-
 The admin(s) of the Rust server are:
 * penguinluff
 
