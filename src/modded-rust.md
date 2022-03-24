@@ -5,15 +5,15 @@ layout: page
 
 <img src="/public/rust_rules.jpeg"/>
 
-The Rust server is a 24/7 small-group friendly server hosted on the West Coast of the US.
+The Modded Rust server is a 24/7 small-group friendly server hosted on the West Coast of the US.
 
-Our Rust server is public so you can find it listed in the modded server browser! You can also join from the Rust console by running: `client.connect rust.egee.io:28015`
+Our Modded Rust server is public so you can find it listed in the modded server browser! You can also join from the Rust console by running: `client.connect modded-rust.egee.io:28015`
 
 <img src="/public/rust_server.webp"/>
 
 ### Mods
 
-The Rust server will feel mostly Vanilla, with a few QoL mods. You can find a full list of the Egee.io Modded Rust plug-ins and what they do for you <a href="INSERT LINK">here</a href>.
+The Modded Rust server will feel mostly Vanilla, with a few QoL mods. You can find a full list of the Egee.io Modded Rust plugins and what they do for you [here](https://egee.io/modded-rust/plugins)>.
 
 ### Rules
 
