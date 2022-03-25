@@ -5,7 +5,7 @@ layout: page
 
 <img src="/public/rust_rules.jpeg"/>
 
-The Modded Rust server is equipped with several administrative and Quality of Life plugins. Please see the full list of plugins (and how to use them) below.
+The Modded Rust server is equipped with several Administrative and Quality of Life plugins. Please see the full list of plugins _(and how to use them)_ below.
 
 ### Administrative
 
@@ -22,7 +22,7 @@ The Modded Rust server is equipped with several administrative and Quality of Li
 
 **2.** [Auto Turret Auth](https://umod.org/plugins/auto-turret-authorization)
 
-**3.** [No Fuel Requirements](https://umod.org/plugins/no-fuel-requirements) _Applies to Lanterns, Tunacan Lamps, Snowblowers, & Fog Machines_
+**3.** [No Fuel Requirements](https://umod.org/plugins/no-fuel-requirements) _(Applies to Lanterns, Tunacan Lamps, Snowblowers, & Fog Machines)_
 
 **4.** [Vehicle Radios](https://umod.org/plugins/car-radio)
 
@@ -32,7 +32,7 @@ The Modded Rust server is equipped with several administrative and Quality of Li
 
 **7.** [SAM Site Auth](https://umod.org/plugins/sam-site-authorization)
 
-**8.** [Expanded Storage Monitor](https://umod.org/plugins/storage-monitor-control) _Applies to Mailboxes, Small/Large Furnaces, Wooden Boxes_
+**8.** [Expanded Storage Monitor](https://umod.org/plugins/storage-monitor-control) _(Applies to Mailboxes, Small/Large Furnaces, Wooden Boxes)_
 
 **9.** [Sort Button](https://umod.org/plugins/sort-button)
 
@@ -40,7 +40,7 @@ The Modded Rust server is equipped with several administrative and Quality of Li
 
 **11.** [Vehicle Fuel Gauge](https://umod.org/plugins/fuel-gauge)
 
-**12.** [Dance](https://umod.org/plugins/dance)
+**12.** [Dance](https://umod.org/plugins/dance) _(/dance 1, /dance 2, /dance3)_
 
 **13.** [Cupboard List](https://umod.org/plugins/cupboard-list)
 
