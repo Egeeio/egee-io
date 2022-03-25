@@ -13,7 +13,7 @@ Our Modded Rust server is public so you can find it listed in the modded server 
 
 ### Mods
 
-The Modded Rust server will feel mostly Vanilla, with a few QoL mods. You can find a full list of the Egee.io Modded Rust plugins and what they do for you [here](https://egee.io/modded-rust/plugins)>.
+The Modded Rust server will feel mostly Vanilla, with a few QoL mods. You can find a full list of the Egee.io Modded Rust plugins and what they do for you [here](https://egee.io/plugins).
 
 ### Rules
 
