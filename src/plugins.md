@@ -3,7 +3,7 @@ title: Modded Rust Plugins
 layout: page
 ---
 
-![Horse Double Riding](src/public/HorseDoubleRiding.jpg)
+![Horse Double Riding](/src/public/HorseDoubleRiding.jpg)
 
 The Modded Rust server is equipped with several Administrative and Quality of Life plugins. Please see the full list of plugins _(and how to use them)_ below.
 
