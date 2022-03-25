@@ -38,7 +38,7 @@ The Modded Rust server is equipped with several Administrative and Quality of Li
 
 **9.** [Sort Button](https://umod.org/plugins/sort-button)
 
-**10.** [No Deployable Penalty](https://umod.org/plugins/no-deployable-penalty) _(Small/Large Wooden Box, Fog Machine, Snow Machine, Barbeque, Fridge, Large/Small Candles, Chairs, Mixing Table, Table, Fireplace **[this list is subject to change/be added to]**)_
+**10.** [No Deployable Penalty](https://umod.org/plugins/no-deployable-penalty) _(Applies to Small/Large Wooden Box, Fog Machine, Snow Machine, Barbeque, Fridge, Large/Small Candles, Chairs, Mixing Table, Table, Fireplace **[this list is subject to change/be added to]**)_
 
 **11.** [Vehicle Fuel Gauge](https://umod.org/plugins/fuel-gauge)
 
