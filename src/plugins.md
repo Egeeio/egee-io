@@ -15,6 +15,8 @@ The Modded Rust server is equipped with several Administrative and Quality of Li
 
 **3.** [Tell My Vote](https://umod.org/plugins/tell-my-vote)
 
+**4.** [Wipe Dates](https://umod.org/plugins/wipe-dates)
+
 
 ### Quality of Life
 
@@ -32,11 +34,11 @@ The Modded Rust server is equipped with several Administrative and Quality of Li
 
 **7.** [SAM Site Auth](https://umod.org/plugins/sam-site-authorization)
 
-**8.** [Expanded Storage Monitor](https://umod.org/plugins/storage-monitor-control) _(Applies to Mailboxes, Small/Large Furnaces, Wooden Boxes)_
+**8.** [Expanded Storage Monitor](https://umod.org/plugins/storage-monitor-control) _(Applies to Mailboxes, Small/Large Furnaces, Troughs)_
 
 **9.** [Sort Button](https://umod.org/plugins/sort-button)
 
-**10.** [No Deployable Penalty](https://umod.org/plugins/no-deployable-penalty)
+**10.** [No Deployable Penalty](https://umod.org/plugins/no-deployable-penalty) _Small/Large Wooden Box, Fog Machine, Snow Machine, Barbeque, Fridge, Large/Small Candles, Chairs, Mixing Table, Table, Fireplace (this list is subject to change/be added to)_
 
 **11.** [Vehicle Fuel Gauge](https://umod.org/plugins/fuel-gauge)
 
@@ -45,5 +47,7 @@ The Modded Rust server is equipped with several Administrative and Quality of Li
 **13.** [Cupboard List](https://umod.org/plugins/cupboard-list)
 
 **14.** [Runaway Boats](https://umod.org/plugins/runaway-boats)
+
+**15.** [Minicopter DC Protect](https://umod.org/plugins/mini-copter-dc-protect)
 
 
