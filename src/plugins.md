@@ -24,7 +24,7 @@ The Modded Rust server is equipped with several Administrative and Quality of Li
 
 **2.** [Auto Turret Auth](https://umod.org/plugins/auto-turret-authorization)
 
-**3.** [No Fuel Requirements](https://umod.org/plugins/no-fuel-requirements) _(Applies to Lanterns, Tunacan Lamps, Snowblowers, & Fog Machines)_
+**3.** [No Fuel Requirements](https://umod.org/plugins/no-fuel-requirements) _(Applies to Lanterns, Tuna Can Lamps, Snow Machines, & Fog Machines)_
 
 **4.** [Vehicle Radios](https://umod.org/plugins/car-radio)
 
@@ -34,11 +34,11 @@ The Modded Rust server is equipped with several Administrative and Quality of Li
 
 **7.** [SAM Site Auth](https://umod.org/plugins/sam-site-authorization)
 
-**8.** [Expanded Storage Monitor](https://umod.org/plugins/storage-monitor-control) _(Applies to Mailboxes, Small/Large Furnaces, Troughs)_
+**8.** [Expanded Storage Monitor](https://umod.org/plugins/storage-monitor-control) _(Applies to Mailboxes, Small/Large Furnaces, and Troughs)_
 
 **9.** [Sort Button](https://umod.org/plugins/sort-button)
 
-**10.** [No Deployable Penalty](https://umod.org/plugins/no-deployable-penalty) _Small/Large Wooden Box, Fog Machine, Snow Machine, Barbeque, Fridge, Large/Small Candles, Chairs, Mixing Table, Table, Fireplace (this list is subject to change/be added to)_
+**10.** [No Deployable Penalty](https://umod.org/plugins/no-deployable-penalty) _(Small/Large Wooden Box, Fog Machine, Snow Machine, Barbeque, Fridge, Large/Small Candles, Chairs, Mixing Table, Table, Fireplace **[this list is subject to change/be added to]**)_
 
 **11.** [Vehicle Fuel Gauge](https://umod.org/plugins/fuel-gauge)
 
