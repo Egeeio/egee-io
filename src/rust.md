@@ -3,13 +3,13 @@ title: Rust
 layout: page
 ---
 
-![Vanilla Rust Banner](/src/public/rust_rules.jpeg)
+![Vanilla Rust Banner](/public/rust_rules.jpeg)
 
 The Rust server is a 24/7 small-group friendly server hosted on the West Coast of the US.
 
 Our Rust server is public so you can find it listed in the community server browser! You can also join from the Rust console by running: `client.connect rust.egee.io:28015`
 
-![Server Name](/src/public/Roundedbannervanillarust.png)
+![Server Name](/public/Roundedbannervanillarust.png)
 
 ### Rules
 
