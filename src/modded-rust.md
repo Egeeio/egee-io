@@ -3,7 +3,7 @@ title: Modded Rust
 layout: page
 ---
 
-![Storage Monitors](/src/public/storagemonitorsrust1.jpg)
+![Storage Monitors](/src/public/RoundedCutehouse.png)
 
 The Modded Rust server is a 24/7 small-group friendly server hosted on the West Coast of the US.
 
