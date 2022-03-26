@@ -3,7 +3,7 @@ title: Rust
 layout: page
 ---
 
-<img src="/public/rust_rules.jpeg"/>
+![Vanilla Rust Banner](/src/public/rust_rules.jpeg)
 
 The Rust server is a 24/7 small-group friendly server hosted on the West Coast of the US.
 
