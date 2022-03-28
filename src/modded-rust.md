@@ -9,7 +9,7 @@ The Modded Rust server is a 24/7 small-group friendly server hosted on the West 
 
 Our Modded Rust server is public so you can find it listed in the modded server browser! You can also join from the Rust console by running: `client.connect modded-rust.egee.io:28015`
 
-<img src="/public/rust_server.webp"/>
+![Modded Server Name](/public/ModdedServerName.png)
 
 ### Mods
 
