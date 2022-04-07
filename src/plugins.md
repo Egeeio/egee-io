@@ -17,6 +17,10 @@ The Modded Rust server is equipped with several Administrative and Quality of Li
 
 **4.** [Wipe Dates](https://umod.org/plugins/wipe-dates)
 
+**5.** [Blueprint Manager](https://umod.org/plugins/blueprint-manager)
+
+**6.** [Permissions Manager](https://codefling.com/plugins/permissions-manager)
+
 
 ### Quality of Life
 
@@ -49,5 +53,9 @@ The Modded Rust server is equipped with several Administrative and Quality of Li
 **14.** [Runaway Boats](https://umod.org/plugins/runaway-boats)
 
 **15.** [Minicopter DC Protect](https://umod.org/plugins/mini-copter-dc-protect)
+
+**16.** [Extended Crafting & Deployment](https://docs.google.com/document/d/1nYBP99-3uVHXonAtZkFGhH2w2kAR-0Zby_L1Im2mOhU/edit?usp=sharing)
+
+**17.** [Realistic Torches](https://umod.org/plugins/realistic-torches)
 
 
