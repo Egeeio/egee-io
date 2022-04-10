@@ -1,25 +1,24 @@
-image: ruby:latest
 cache:
   paths:
     - src/vendor/ruby
     - src/_site
 
 build-job:
+  image: ruby:3.0
   stage: build
   variables:
     JEKYLL_ENV: "production"
-  script:
+  before_script:
     - cd src
-    - bundle config set path 'vendor'
+    - bundle config set path 'vendor' # Install dependencies into src/vendor/ruby
     - bundle install -j $(nproc)
+  script:
     - rake build
 
-# Maybe there's a better container for this job
 deploy-s3:
+  image: amazon/aws-cli:2.5
   stage: deploy
   script:
-    - apt-get update
-    - apt-get install --no-install-recommends -y awscli
     - aws s3 cp src/_site/ s3://egee.io --recursive --acl=public-read
   only:
     - master
