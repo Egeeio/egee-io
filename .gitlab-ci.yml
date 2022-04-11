@@ -18,7 +18,15 @@ build-job:
 deploy-s3:
   image: amazon/aws-cli:2.5
   stage: deploy
-  script:
-    - aws s3 cp src/_site/ s3://egee.io --recursive --acl=public-read
+  before_script:
+    - aws s3 rm s3://egee.xyz --recursive
+  script: |
+    aws s3 cp \
+      src/_site/ \
+      s3://egee.io --recursive --acl=public-read
+  after_script: |
+    aws cloudfront create-invalidation \
+      --distribution-id $DISTRIBUTION_ID \
+      --paths '/*'
   only:
     - master
