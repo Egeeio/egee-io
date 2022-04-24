@@ -19,7 +19,7 @@ deploy-s3:
   image: amazon/aws-cli:2.5
   stage: deploy
   before_script:
-    - aws s3 rm s3://egee.xyz --recursive
+    - aws s3 rm s3://egee.io --recursive
   script: |
     aws s3 cp \
       src/_site/ \
