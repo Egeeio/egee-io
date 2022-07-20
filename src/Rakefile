@@ -9,6 +9,7 @@ task :build do
   puts "Cleaning & Building..."
   system "bundle exec jekyll clean"
 
+  ENV['JEKYLL_ENV'] = 'production'
   system "bundle exec jekyll build"
   puts "Build complete! - ./src/_site"
 end
